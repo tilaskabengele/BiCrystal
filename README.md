@@ -127,7 +127,7 @@ After that, you will be required to pick a zeroeth atom from the top and bottom 
    
        xcrysden --pwi graphite28.scf.in
        
-   ![moire28](https://github.com/tilaskabengele/BiCrystal/issues/2#issue-661672229.PNG)
+   ![moire28](https:///user-images.githubusercontent.com/BiCrystal/issues/2#issue-661672229.PNG)
    
    
    
