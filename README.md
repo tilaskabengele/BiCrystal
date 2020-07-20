@@ -129,7 +129,23 @@ After that, you will be required to pick a zeroeth atom from the top and bottom 
        
   ![ccmoire28](https://user-images.githubusercontent.com/62076249/87929694-377e1300-ca5d-11ea-80e3-76417f34a5e4.PNG)
    
-   
+Looking from the top view, we can see that for this rotation, a Moire pattern was created. Really neat! This was not apparent from the simple 3D plot because BiCrystal plots cartesian coordinates of the atoms where the top and bottom layer do not necessarily align. Before writing the QUANTUM ESPRESSO file, `BiCrystal` removes symmetrically equivalent atoms and maps back those atoms that fell outside the unit cell due to rotation. 
+
+The **examples/** folder has over 30 examples of Moire patterns graphite, Molebdenum Disulfide and blue Phosphorene generated from `bicrystal`. Below are some examples.
+
+**Graphite 364-atom unit cell**
+
+![cc364](https://user-images.githubusercontent.com/62076249/87933970-98f5b000-ca64-11ea-906b-15a1036989a1.PNG)
+
+**Blue Phosphorene 172-atom unit cell**
+
+![bluep172](https://user-images.githubusercontent.com/62076249/87934152-e245ff80-ca64-11ea-8f36-b69b5799e3fa.PNG)
+
+**Molybdenun Disulfide 546-atom unit cell**
+
+![mos546](https://user-images.githubusercontent.com/62076249/87934312-2fc26c80-ca65-11ea-97a2-c9cdb3068a9d.PNG)
+
+
    
    
    
