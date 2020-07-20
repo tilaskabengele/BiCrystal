@@ -96,9 +96,16 @@ After that, you will be required to pick a zeroeth atom from the top and bottom 
     Atom No. 3   c   [0. 0. 0.]
     Atom No. 4   c   [0.33333 0.66667 0.005  ]
     
- For a good symmetrical structure, always pick atoms such that the zeroeth TOP and BOTTOM atoms align. In this example, that would be Atom No. 1 and Atom No. 3. After picking your zeroeth atoms, a window with a simple 3D will then open. 
+ For a good symmetrical structure, always pick atoms such that the zeroeth TOP and BOTTOM atoms align. In this example, that would be Atom No. 1 and Atom No. 3. After picking your zeroeth atoms, a window with a simple 3D will then open.
  
+    Select zeroeth TOP atom
+    Enter Atom No. 1
+
+    Select zeroeth BOTTOM atom
+    Enter Atom No. 3
+
  
+ ![cc28](https://user-images.githubusercontent.com/62076249/87927879-48795500-ca5a-11ea-98c1-b2949bb672e3.PNG)
  
  
 
