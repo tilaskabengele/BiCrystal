@@ -24,27 +24,12 @@ https://github.com/tilaskabengele/BiCrystal/
 **Contact**: Tilas Kabengele tilas.kabengele@dal.ca
 
 # Packages
-`BiCrystal` is a python-based program that uses the following standard packages:
+`BiCrystal` is a python-based program that uses the Scipy packages. Additionally, the Crystal package, which is not part of the standard Python packages, should be installed. i.e Install via:
+
+     pip install crystals
+or
+
+    conda install crystals
  
-    import sys, csv, os
-    import os.path
-    import pandas
-    from operator import add
-    from crystals import Crystal, Atom, Element, distance_fractional, distance_cartesian
-    from shapely.geometry import Point, MultiPoint,  Polygon
-    from scipy.spatial import distance
-    from scipy.spatial.distance import cdist, pdist
-    from shapely.ops import nearest_points
-    from sklearn.neighbors import NearestNeighbors
-    from sklearn import neighbors
-    from sklearn.neighbors import KNeighborsRegressor
-    import numpy as np
-    import decimal
-    from mpl_toolkits.mplot3d import Axes3D
-    import matplotlib.pyplot as plt
-    from matplotlib import colors as mcolors
-    from matplotlib.collections import PolyCollection
-    from mpl_toolkits.mplot3d.art3d import Poly3DCollection
-    from matplotlib import path
-    from datetime import date, datetime
+    
 
