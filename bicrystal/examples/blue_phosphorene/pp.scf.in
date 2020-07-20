@@ -1,0 +1,42 @@
+&control
+ title='crystal',
+ prefix='crystal',
+ pseudo_dir='/home/tkabs/pseudos/B86bPBE/',
+ calculation='relax',
+ etot_conv_thr=1.0D-5,
+ forc_conv_thr=1.0D-4,
+/
+&system
+ ibrav=0,
+ nat=     4,
+ ntyp=  1,
+ ecutwfc=80.0,
+ ecutrho=800.0,
+ xdm=.true.,
+ xdm_a1=0.6512,
+ xdm_a2=1.4633,
+/
+&electrons
+ conv_thr = 1d-8,
+/
+&ions
+/
+&cell
+/
+ATOMIC_SPECIES
+P    30.973761 p.UPF
+
+ATOMIC_POSITIONS crystal
+P    0.00000     0.00000     0.46
+P    0.33333     0.66667     0.5
+P    0.00000     0.00000     0.59299
+P    0.66667     0.33333     0.63299
+
+K_POINTS automatic
+8 8 1 1 1 1
+
+CELL_PARAMETERS bohr
+    6.2928  0.0000  0.0000
+   -3.1464  5.4497  0.0000
+    0.0000  0.0000  80.000
+

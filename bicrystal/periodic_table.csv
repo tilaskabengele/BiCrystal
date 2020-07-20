@@ -1,0 +1,1748 @@
+number,name,symbol,name_symbol,pronunciation,appearance,atomic_number,group_block,period,element_category,atomic_weight,electron_configuration,per_shell,color,phase,melting_point,boiling_point,density_at_stp,when_liquid_at_mp,when_liquid_at_bp,triple_point,critical_point,heat_of_fusion,heat_of_vaporization,molar_heat_capacity,p_(pa),oxidation_states,electronegativity,ionization_energies,covalent_radius,van_der_waals_radius,crystal_structure,speed_of_sound,thermal_conductivity,magnetic_ordering,cas_number,discovery,named_by,iso,at_t_(k),naming,first_isolation,density_near_rt,atomic_radius,speed_of_sound_thin_rod,thermal_expansion,electrical_resistivity,youngs_modulus,shear_modulus,bulk_modulus,mohs_hardness,brinell_hardness,poisson_ratio,vickers_hardness,allotropes,density_when_liquid_at_mp,sublimation_point,recognized_as_an_element_by,heat_of_vaporisation,ionisation_energies,prediction,discovery_and_first_isolation,alternative_name,band_gap,recognised_as_an_element_by,curie_point,recognized_as_a_unique_metal_by,recognized_as_a_distinct_element_by,thermal_diffusivity,tensile_strength,molar_volume,proposed_formal_name,alternative_names
+1,hydrogen,h,"hydrogen, h","/?ha?dr?d??n/, hy-dr?-j?n",colorless gas,1,"group 1, s-block",1,diatomic nonmetal,1.008,1s1,1,colorless,gas,13.99,20.271,0.08988,0.07,0.07099,13.8033,32.938,(h2) 0.117 kj/mol,(h2) 0.904 kj/mol,(h2) 28.836 j/(mol·k),"vapor pressure, p (pa), 1, 10, 100, 1 k, 10 k, 100 k, at t (k), 15, 20","?1, +1 (an amphoteric oxide)",pauling scale: 2.20,1st: 1312.0 kj/mol,31±5 pm,120,hexagonal,1310,0.1805,diamagnetic,1333-74-0,henry cavendish (1766),antoine lavoisier (1783),"iso, na, half-life, dm, de (mev), dp, 1h, 99.98%, 1h is stable with 0 neutrons, 2h, 0.02%, 2h is stable with 1 neutron, 3h, trace, 12.32 y, ??, 0.01861, 3he",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2,helium,he,"helium, he","/?hi?li?m/, hee-lee-?m","colorless gas, exhibiting a red-orange glow when placed in a high-voltage electric field",2,"group 18 (noble gases), s-block",1,noble gas,4.0026022,1s2,2,,gas,0.95,4.222,0.1786,0.145,0.125,2.177,5.1953,0.0138,0.0829,20.78,"vapor pressure (defined by its-90), p (pa), 1, 10, 100, 1 k, 10 k, 100 k, at t (k), 1.23, 1.67, 2.48, 4.21",0,pauling scale: no data,"1st: 2372.3 kj/mol, 2nd: 5250.5 kj/mol",28,140,hexagonal close-packed (hcp),972,0.1513,diamagnetic,7440-59-7,"pierre janssen, norman lockyer (1868)",,"iso, na, half-life, dm, de (mev), dp, 3he, 0.0002%, 3he is stable with 1 neutron, 4he, 99.9998%, 4he is stable with 2 neutrons",,"after helios, greek god of the sun","william ramsay, per teodor cleve, abraham langlet (1895)",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+3,lithium,li,"lithium, li","/?l??i?m/, li-thee-?m",silvery-white,3,"group 1 (alkali metals), s-block",2,alkali metal,6.94,[he] 2s1,2,,solid,453.65,1603,,0.512,,,3220,3,136,24.86,"vapor pressure, p (pa), 1, 10, 100, 1 k, 10 k, 100 k, at t (k), 797, 885, 995, 1144, 1337, 1610",+1 (a strongly basic oxide),pauling scale: 0.98,"1st: 520.2 kj/mol, 2nd: 7298.1 kj/mol, 3rd: 11815.0 kj/mol",128±7 pm,182,body-centered cubic (bcc),,84.8,paramagnetic,7439-93-2,johan august arfwedson (1817),,"iso, na, half-life, dm, de (mev), dp, 6li, 5%, 6li is stable with 3 neutrons, 7li, 95%, 7li is stable with 4 neutrons",797,,william thomas brande (1821),0.534,empirical: 152 pm,6000,46,92.8,4.9,4.2,11,0.6,5,,,,,,,,,,,,,,,,,,,,,
+4,beryllium,be,"beryllium, be","/b??r?li?m/, b?-ril-ee-?m",white-gray metallic,4,"group 2 (alkaline earth metals), s-block",2,alkaline earth metal,9.01218315,[he] 2s2,2,,solid,1560,2742,,1.69,,,5205,12.2,292,16.443,"vapor pressure, p (pa), 1, 10, 100, 1 k, 10 k, 100 k, at t (k), 1462, 1608, 1791, 2023, 2327, 2742","+2, +1 (an amphoteric oxide)",pauling scale: 1.57,"1st: 899.5 kj/mol, 2nd: 1757.1 kj/mol, 3rd: 14,848.7 kj/mol, (more)",96±3 pm,153,hexagonal close-packed (hcp),,200,diamagnetic,7440-41-7,louis nicolas vauquelin (1797),,"iso, na, half-life, dm, de (mev), dp, 7be, trace, 53.12 d, ?, 0.862, 7li, ?, 0.477, –, 9be, 100%, 9be is stable with 5 neutrons, 10be, trace, 1.36×106 y, ??, 0.556, 10b",1462,,friedrich wöhler & antoine bussy (1828),1.85,empirical: 112 pm,12890,11.3,36,287,132,130,5.5,590–1320 mpa,0.032,1670,,,,,,,,,,,,,,,,,,,
+5,boron,b,"boron, b",/?b??r?n/,black-brown,5,"group 13, p-block",2,metalloid,10.81,[he] 2s2 2p1,2,,solid,2349,4200,,,,,,50.2,508,11.087,"vapor pressure, p (pa), 1, 10, 100, 1 k, 10 k, 100 k, at t (k), 2348, 2562, 2822, 3141, 3545, 4072",3,pauling scale: 2.04,"1st: 800.6 kj/mol, 2nd: 2427.1 kj/mol, 3rd: 3659.7 kj/mol, (more)",84±3 pm,192,rhombohedral,,27.4,diamagnetic,7440-42-8,joseph louis gay-lussac and louis jacques thénard (30 june 1808),,"iso, na, half-life, dm, de (mev), dp, 10b, 20%, 10b is stable with 5 neutrons, 11b, 80%, 11b is stable with 6 neutrons",2348,,humphry davy (9 july 1808),,empirical: 90 pm,16200,? form: 5–7 μm/(m·k) (at 25 °c),~106 ?·m (at 20 °c),,,,~9.5,,,,"?-, ?-rhombohedral, ?-tetragonal (and more)",2.08,,,,,,,,,,,,,,,,,
+6,carbon,c,"carbon, c","/?k??rb?n/, kar-b?n","graphite: black, diamond: clear",6,"group 14 (carbon group), p-block",2,"polyatomic nonmetal, sometimes considered a metalloid",12.011,[he] 2s2 2p2,2,,solid,,,,,,4600,,graphite: 117 kj/mol,,"graphite: 8.517 j/(mol·k), diamond: 6.155 j/(mol·k)",,"+4, +3, +2, +1, 0, ?1, ?2, ?3, ?4 (a mildly acidic oxide)",pauling scale: 2.55,"1st: 1086.5 kj/mol, 2nd: 2352.6 kj/mol, 3rd: 4620.5 kj/mol, (more)","sp3: 77 pm, sp2: 73 pm, sp: 69 pm",170,diamond: face-centered diamond-cubic,,"graphite: 119–165 w/(m·k), diamond: 900–2300 w/(m·k)",diamagnetic,7440-44-0,egyptians and sumerians (3750 bce),,"iso, na, half-life, dm, de (mev), dp, 11c, syn, 20 min, ?+, 0.96, 11b, 12c, 98.9%, 12c is stable with 6 neutrons, 13c, 1.1%, 13c is stable with 7 neutrons, 14c, trace, 5730 y, ??, 0.156, 14n",,,,"amorphous: 1.8–2.1 g/cm3, graphite: 2.267 g/cm3, diamond: 3.515 g/cm3",,"diamond: 18,350 m/s (at 20 °c)",diamond: 0.8 μm/(m·k) (at 25 °c),graphite: 7.837 μ?·m,diamond: 1050 gpa,diamond: 478 gpa,diamond: 442 gpa,"graphite: 1–2, diamond: 10",,diamond: 0.1,,"graphite, diamond",,3915,antoine lavoisier (1789),,,,,,,,,,,,,,,
+7,nitrogen,n,"nitrogen, n","/?na?tr?d??n/, ny-tr?-j?n","colorless gas, liquid or solid",7,"group 15 (pnictogens), p-block",2,diatomic nonmetal,14.007,[he] 2s2 2p3,2,,gas,63.15,77.355,1.251,,0.808,63.151,126.192,(n2) 0.72 kj/mol,,(n2) 29.124 j/(mol·k),"vapour pressure, p (pa), 1, 10, 100, 1 k, 10 k, 100 k, at t (k), 37, 41, 46, 53, 62, 77",5,pauling scale: 3.04,,71±1 pm,155,hexagonal,353,25.83×10?3 w/(m·k),diamagnetic,7727-37-9,daniel rutherford (1772),jean-antoine chaptal (1790),"iso, na, half-life, dm, de (mev), dp, 13n, syn, 9.965 min, ?, 2.220, 13c, 14n, 99.6%, 14n is stable with 7 neutrons, 15n, 0.4%, 15n is stable with 8 neutrons",37,,,,,,,,,,,,,,,,,,,(n2) 5.56 kj/mol,"1st: 1402.3 kj/mol, 2nd: 2856 kj/mol, 3rd: 4578.1 kj/mol, (more)",,,,,,,,,,,,,
+8,oxygen,o,"oxygen, o","/??ks?d??n/, ok-si-j?n","gas: colorless, liquid: pale blue",8,"group 16 (chalcogens), p-block",2,diatomic nonmetal,15.999,[he] 2s2 2p4,2,,gas,54.36,90.188,1.429,,1.141,54.361,154.581,(o2) 0.444 kj/mol,(o2) 6.82 kj/mol,(o2) 29.378 j/(mol·k),"vapor pressure, p (pa), 1, 10, 100, 1 k, 10 k, 100 k, at t (k), 61, 73, 90",2,pauling scale: 3.44,"1st: 1313.9 kj/mol, 2nd: 3388.3 kj/mol, 3rd: 5300.5 kj/mol, (more)",66±2 pm,152,cubic,330,26.58×10?3  w/(m·k),paramagnetic,7782-44-7,carl wilhelm scheele (1772),antoine lavoisier (1777),"iso, na, half-life, dm, de (mev), dp, 16o, 99.76%, 16o is stable with 8 neutrons, 17o, 0.04%, 17o is stable with 9 neutrons, 18o, 0.20%, 18o is stable with 10 neutrons",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+9,fluorine,f,"fluorine, f","/?fl??ri?n/, /?fl??r?n/, /?fl??ri?n/
+floor-een, floor-in, flohr-een","gas: very pale yellow
+liquid: bright yellow
+solid: alpha is opaque, beta is transparent",9,"group 17 (halogens), p-block",2,diatomic nonmetal,18.99840316,[he] 2s2 2p5,2,,gas,53.48,85.03,1.696,,1.505,53.48,144.41,,6.51,"cp: 31 j/(mol·k) (at 21.1 °c), cv: 23 j/(mol·k) (at 21.1 °c)","vapor pressure, p (pa), 1, 10, 100, 1 k, 10 k, 100 k, at t (k), 38, 44, 50, 58, 69, 85",?1 (oxidizes oxygen),pauling scale: 3.98,"1st: 1681 kj/mol, 2nd: 3374 kj/mol, 3rd: 6147 kj/mol, (more)",64,135,cubic,,0.02591,diamagnetic (?1.2×10?4),7782-41-4,andré-marie ampère (1810),humphry davy,"iso, na, half-life, dm, de (mev), dp, 18f, trace, 109.77 min, ?+ (96.9%), 0.634, 18o, ? (3.1%), 1.656, 18o, 19f, 100%, 19f is stable with 10 neutrons",38,"after the mineral fluorite, itself named after latin fluo (to flow, in smelting)","henri moissan (june 26, 1886)",,,,,,,,,,,,,"alpha, beta",,,,,,,,,,,,,,,,,,
+10,neon,ne,"neon, ne",/?ni??n/,colorless gas exhibiting an orange-red glow when placed in a high voltage electric field,10,"group 18 (noble gases), p-block",2,noble gas,20.17976,[he] 2s2 2p6,2,,gas,24.56,27.104,0.9002,,1.207,24.556,44.4918,0.335,1.71,20.79,"vapor pressure, p (pa), 1, 10, 100, 1 k, 10 k, 100 k, at t (k), 12, 13, 15, 18, 21, 27",0,,"1st: 2080.7 kj/mol, 2nd: 3952.3 kj/mol, 3rd: 6122 kj/mol, (more)",58,154,face-centered cubic (fcc),435,49.1×10?3 w/(m·k),diamagnetic,7440-01-9,,,"iso, na, half-life, dm, de (mev), dp, 20ne, 90.48%, 20ne is stable with 10 neutrons, 21ne, 0.27%, 21ne is stable with 11 neutrons, 22ne, 9.25%, 22ne is stable with 12 neutrons",12,,,,,,,,,,654,,,,,,,,,,,william ramsay (1897),william ramsay & morris travers (1898),,,,,,,,,,,
+11,sodium,na,"sodium, na","/?so?di?m/, soh-dee-?m",silvery white metallic,11,"group 1 (alkali metals), s-block",3,alkali metal,22.98976928,[ne] 3s1,2,,solid,370.944,1156.09,,0.927,,,2573,2.6,97.42,28.23,"vapor pressure, p (pa), 1, 10, 100, 1 k, 10 k, 100 k, at t (k), 554, 617, 697, 802, 946, 1153","+1, ?1 (a strongly basic oxide)",pauling scale: 0.93,"1st: 495.8 kj/mol, 2nd: 4562 kj/mol, 3rd: 6910.3 kj/mol, (more)",166±9 pm,227,body-centered cubic (bcc),,142,paramagnetic,7440-23-5,,,"iso, na, half-life, dm, de (mev), dp, 22na, trace, 2.602 y, ?+??, 0.5454, 22ne*, 1.27453(2), 22ne, ???, –, 22ne*, 1.27453(2), 22ne, ?+, 1.8200, 22ne, 23na, 100%, 23na is stable with 12 neutrons",554,,,0.968,empirical: 186 pm,3200,71,47.7,10,3.3,6.3,0.5,0.69,,,,,,,,,,humphry davy (1807),,,,,,,,,,,
+12,magnesium,mg,"magnesium, mg","/mæ??ni?zi?m/, mag-nee-zee-?m",shiny grey solid,12,"group 2 (alkaline earth metals), s-block",3,alkaline earth metal,24.305,[ne] 3s2,2,,solid,923,1363,,1.584,,,,8.48,128,24.869,"vapor pressure, p (pa), 1, 10, 100, 1 k, 10 k, 100 k, at t (k), 701, 773, 861, 971, 1132, 1361","+2, +1 (a strongly basic oxide)",pauling scale: 1.31,"1st: 737.7 kj/mol, 2nd: 1450.7 kj/mol, 3rd: 7732.7 kj/mol, (more)",141±7 pm,173,hexagonal close-packed (hcp),,156,paramagnetic,7439-95-4,joseph black (1755),,"iso, na, half-life, dm, de (mev), dp, 24mg, 79.0%, 24mg is stable with 12 neutrons, 25mg, 10.0%, 25mg is stable with 13 neutrons, 26mg, 11.0%, 26mg is stable with 14 neutrons",701,"after magnesia, greece",humphry davy (1808),1.738,empirical: 160 pm,4940,24.8,43.9,45,17,45,1–2.5,44–260 mpa,0.29,,,,,,,,,,,,,,,,,,,,
+13,aluminum,al,"aluminium, al","uk i/?ælj??m?ni?m/, al-ew-min-ee-?m, us i/??lju?m?n?m/, ?-lew-mi-n?m",silvery gray metallic,13,"group 13, p-block",3,"post-transition metal, sometimes considered a metalloid",26.98153857,[ne] 3s2 3p1,2,,solid,933.47,2743,,2.375,,,,10.71,284,24.2,"vapor pressure, p (pa), 1, 10, 100, 1 k, 10 k, 100 k, at t (k), 1482, 1632, 1817, 2054, 2364, 2790","+3, +2, +1, ?1, ?2 (an amphoteric oxide)",pauling scale: 1.61,"1st: 577.5 kj/mol, 2nd: 1816.7 kj/mol, 3rd: 2744.8 kj/mol, (more)",121±4 pm,184,face-centered cubic (fcc),,237,paramagnetic,7429-90-5,,humphry davy (1807),"iso, na, half-life, dm, de (mev), dp, 26al, trace, 7.17×105 y, ?+, 1.17, 26mg, ?, –, 26mg, ?, 1.8086, –, 27al, 100%, 27al is stable with 14 neutrons",1482,,hans christian ørsted (1825),2.7,empirical: 143 pm,(rolled) 5000 m/s (at r.t.),23.1,28.2,70,26,76,2.75,160–550 mpa,0.35,160–350 mpa,,,,,,,antoine lavoisier (1787),,aluminum (us),,,,,,,,,,
+14,silicon,si,"silicon, si","/?s?l?k?n/ or /?s?l?k?n/, sil-?-k?n or sil-?-kon","crystalline, reflective with bluish-tinged faces",14,"group 14 (carbon group), p-block",3,metalloid,28.085,[ne] 3s2 3p2,2,,solid,1687,3538,,2.57,,,,50.21,383,19.789,"vapor pressure, p (pa), 1, 10, 100, 1 k, 10 k, 100 k, at t (k), 1908, 2102, 2339, 2636, 3021, 3537",4,pauling scale: 1.90,"1st: 786.5 kj/mol, 2nd: 1577.1 kj/mol, 3rd: 3231.6 kj/mol, (more)",111,210,face-centered diamond-cubic,,149,diamagnetic,7440-21-3,,thomas thomson (1817),"iso, na, half-life, dm, de (mev), dp, 28si, 92.2%, 28si is stable with 14 neutrons, 29si, 4.7%, 29si is stable with 15 neutrons, 30si, 3.1%, 30si is stable with 16 neutrons, 31si, trace, 2.62 h, ??, 1.495, 31p, 32si, trace, 153 y, ??, 13.020, 32p",1908,"after latin 'silex' or 'silicis', meaning flint",,2.329,empirical: 111 pm,8433,2.6,2.3×103 ?·m (at 20 °c),130–188 gpa,51–80 gpa,97.6,7,,0.064–0.28,,,,,,,,antoine lavoisier (1787),jöns jacob berzelius (1823),,1.12,,,,,,,,,
+15,phosphorus,p,"phosphorus, p","/?f?sf?r?s/, fos-f?r-?s","colourless, waxy white, yellow, scarlet, red, violet, black",15,"group 15 (pnictogens), p-block",3,polyatomic nonmetal,30.973762,[ne] 3s2 3p3,2,,solid,,,,,,,,white: 0.66 kj/mol,,white: 23.824 j/(mol·k),"vapour pressure (red, b.p. 431 °c)
+
+
+
+p (pa)
+1
+10
+100
+1 k
+10 k
+100 k
+
+
+at t (k)
+455
+489
+529
+576
+635
+704",5,pauling scale: 2.19,,107±3 pm,180,body-centred cubic (bcc),,"white: 0.236 w/(m·k), black: 12.1 w/(m·k)","white, red, violet, black: diamagnetic","white: 12185-10-3, red: 7723-14-0",hennig brand (1669),,"iso, na, half-life, dm, de (mev), dp, 31p, 100%, 31p is stable with 16 neutrons, 32p, trace, 14.28 d, ??, 1.709, 32s, 33p, trace, 25.3 d, ??, 0.249, 33s",455,,,"white: 1.823 g·cm?3, red: ? 2.2–2.34 g·cm?3, violet: 2.36 g·cm?3, black: 2.69 g/cm3",,,,,,,"white: 5 gpa, red: 11 gpa",,,,,,,,,white: 51.9 kj/mol,"1st: 1011.8 kj/mol, 2nd: 1907 kj/mol, 3rd: 2914.1 kj/mol, (more)",,,,,antoine lavoisier (1777),,,,,,,,
+16,sulfur,s,"sulfur, s","/?s?lf?r/, sul-f?r",lemon yellow sintered microcrystals,16,"group 16 (chalcogens), p-block",3,polyatomic nonmetal,32.06,[ne] 3s2 3p4,2,,solid,388.36,717.8,,1.819,,,1314,mono: 1.727 kj/mol,mono: 45 kj/mol,22.75,"vapor pressure, p (pa), 1, 10, 100, 1 k, 10 k, 100 k, at t (k), 375, 408, 449, 508, 591, 717",6,pauling scale: 2.58,"1st: 999.6 kj/mol, 2nd: 2252 kj/mol, 3rd: 3357 kj/mol, (more)",105±3 pm,180,orthorhombic,,0.205,diamagnetic,7704-34-9,chinese (before 2000 bce),,"iso, na, half-life, dm, de (mev), dp, 32s, 94.99%, 32s is stable with 16 neutrons, 33s, 0.75%, 33s is stable with 17 neutrons, 34s, 4.25%, 34s is stable with 18 neutrons, 35s, trace, 87.32 d, ??, 0.167, 35cl, 36s, 0.01%, 36s is stable with 20 neutrons",375,,,"alpha: 2.07 g/cm3, beta: 1.96 g/cm3, gamma: 1.92 g/cm3",,,,2×1015  ?·m (at 20 °c) (amorphous),,,7.7,2,,,,,,,antoine lavoisier (1777),,,,,sulphur,,,,,,,,,,
+17,chlorine,cl,"chlorine, cl","/?kl??ri?n/ or /?kl??r?n/, klohr-een or klohr-?n",pale yellow-green gas,17,"group 17 (halogens), p-block",3,diatomic nonmetal,35.45,[ne] 3s2 3p5,2,,gas,171.6,239.11,3.2,,1.5625,,416.9,(cl2) 6.406 kj/mol,,"(cl2), 33.949 j/(mol·k)","vapour pressure, p (pa), 1, 10, 100, 1 k, 10 k, 100 k, at t (k), 128, 139, 153, 170, 197, 239",7,pauling scale: 3.16,,102±4 pm,175,orthorhombic,206,8.9×10?3 w/(m·k),diamagnetic,7782-50-5,,,"iso, na, half-life, dm, de (mev), dp, 35cl, 76%, 35cl is stable with 18 neutrons, 36cl, trace, 3.01×105 y, ??, 0.709, 36ar, ?, –, 36s, 37cl, 24%, 37cl is stable with 20 neutrons",128,,,,,,,>10 ?·m (at 20 °c),,,,,,,,,,,humphry davy (1808),(cl2) 20.41 kj/mol,"1st: 1251.2 kj/mol, 2nd: 2298 kj/mol, 3rd: 3822 kj/mol, (more)",,carl wilhelm scheele (1774),,,,,,,,,,,
+18,argon,ar,"argon, ar","/???r??n/, ar-gon",colorless gas exhibiting a lilac/violet glow when placed in a high voltage electric field,18,"group 18 (noble gases), p-block",3,noble gas,39.9481,[ne] 3s2 3p6,2,,gas,83.81,87.302,1.784,,1.3954,83.8058,150.687,1.18,6.53,20.85,"vapor pressure, p (pa), 1, 10, 100, 1 k, 10 k, 100 k, at t (k), 47, 53, 61, 71, 87",0,pauling scale: no data,"1st: 1520.6 kj/mol, 2nd: 2665.8 kj/mol, 3rd: 3931 kj/mol, (more)",106±10 pm,188,face-centered cubic (fcc),323,17.72×10?3  w/(m·k),diamagnetic,7440-37-1,,,"iso, na, half-life, dm, de (mev), dp, 36ar, 0.334%, 36ar is stable with 18 neutrons, 37ar, syn, 35 d, ?, 0.813, 37cl, 38ar, 0.063%, 38ar is stable with 20 neutrons, 39ar, trace, 269 y, ??, 0.565, 39k, 40ar, 99.604%, 40ar is stable with 22 neutrons, 41ar, syn, 109.34 min, ??, 2.49, 41k, 42ar, syn, 32.9 y, ??, 0.600, 42k",,,,,,,,,,,,,,,,,,,,,,,lord rayleigh and william ramsay (1894),,,,,,,,,,,
+19,potassium,k,"potassium, k","/po??tæsi?m/, po-tas-ee-?m",silvery gray,19,"group 1 (alkali metals), s-block",4,alkali metal,39.09831,[ar] 4s1,2,,solid,336.7,1032,,0.828,,,2223,2.33,76.9,29.6,,"+1, ?1 (a strongly basic oxide)",pauling scale: 0.82,"1st: 418.8 kj/mol, 2nd: 3052 kj/mol, 3rd: 4420 kj/mol, (more)",203±12 pm,275,body-centered cubic (bcc),,102.5,paramagnetic,7440-09-7,,,"iso, na, half-life, dm, de (mev), dp, 39k, 93.258%, 39k is stable with 20 neutrons, 40k, 0.012%, 1.248(3)×109 y, ??, 1.311, 40ca, ?, 1.505, 40ar, ?+, 1.505, 40ar, 41k, 6.730%, 41k is stable with 22 neutrons",,,,0.862,empirical: 227 pm,2000,83.3,72,3.53,1.3,3.1,0.4,0.363,,,,,,,,,,humphry davy (1807),,,,,,,,,,,
+20,calcium,ca,"calcium, ca","/?kælsi?m/, kal-see-?m","dull gray, silver; with a pale yellow tint",20,"group 2 (alkaline earth metals), s-block",4,alkaline earth metal,40.0784,[ar] 4s2,2,,solid,1115,1757,,1.378,,,,8.54,154.7,25.929,"vapor pressure, p (pa), 1, 10, 100, 1 k, 10 k, 100 k, at t (k), 864, 956, 1071, 1227, 1443, 1755","+2, +1 (a strongly basic oxide)",pauling scale: 1.00,"1st: 589.8 kj/mol, 2nd: 1145.4 kj/mol, 3rd: 4912.4 kj/mol, (more)",176±10 pm,231,face-centered cubic (fcc),,201,diamagnetic,7440-70-2,,,"iso
+na
+half-life
+dm
+de (mev)
+dp
+
+
+40ca
+96.941%
+40ca is stable with 20 neutrons
+
+
+41ca
+trace
+1.03×105 y
+?
+–
+41k
+
+
+42ca
+0.647%
+42ca is stable with 22 neutrons
+
+
+43ca
+0.135%
+43ca is stable with 23 neutrons
+
+
+44ca
+2.086%
+44ca is stable with 24 neutrons
+
+
+45ca
+syn
+162.7 d
+??
+0.258
+45sc
+
+
+46ca
+0.004%
+46ca is stable with 26 neutrons
+
+
+47ca
+syn
+4.536 d
+??
+0.694, 1.99
+47sc
+
+
+?
+1.297
+–
+
+
+48ca
+0.187%
+4.3×1019 y
+????
+4.274
+48ti",864,,,1.55,empirical: 197 pm,3810,22.3,33.6,20,7.4,17,1.75,170–416 mpa,0.31,,,,,,,,,humphry davy (1808),,,,,,,,,,,
+21,scandium,sc,"scandium, sc","/?skændi?m/, skan-dee-?m",silvery white,21,"group 3, d-block",4,transition metal,44.9559085,[ar] 3d1 4s2,2,,solid,1814,3109,,2.8,,,,14.1,332.7,25.52,"vapor pressure, p (pa), 1, 10, 100, 1 k, 10 k, 100 k, at t (k), 1645, 1804, (2006), (2266), (2613), (3101)",3,pauling scale: 1.36,"1st: 633.1 kj/mol, 2nd: 1235.0 kj/mol, 3rd: 2388.6 kj/mol, (more)",170±7 pm,211,hexagonal close-packed (hcp),,15.8,paramagnetic,7440-20-2,,,"iso
+na
+half-life
+dm
+de (mev)
+dp
+
+
+44m2sc
+syn
+58.61 h
+it
+0.2709
+44sc
+
+
+?
+1.0, 1.1, 1.1
+44sc
+
+
+?
+–
+44ca
+
+
+45sc
+100%
+45sc is stable with 24 neutrons
+
+
+46sc
+syn
+83.79 d
+??
+0.3569
+46ti
+
+
+?
+0.889, 1.120
+–
+
+
+47sc
+syn
+3.3492 d
+??
+0.44, 0.60
+47ti
+
+
+?
+0.159
+–
+
+
+48sc
+syn
+43.67 h
+??
+0.661
+48ti
+
+
+?
+0.9, 1.3, 1.0
+–",1645,after scandinavia,,2.985,empirical: 162 pm,,"?, poly: 10.2 μm/(m·k) (at r.t.)","?, poly: 562 n?·m (at r.t., calculated)",74.4,29.1,56.6,,736–1200 mpa,0.279,,,,,,,,dmitri mendeleev (1871),lars fredrik nilson (1879),,,,,,,,,,,
+22,titanium,ti,"titanium, ti","/ta??te?ni?m/, ty-tay-nee-?m",silvery grey-white metallic,22,"group 4, d-block",4,transition metal,47.8671,[ar] 3d2 4s2,2,,solid,1941,3560,,4.11,,,,14.15,425,25.06,"vapor pressure, p (pa), 1, 10, 100, 1 k, 10 k, 100 k, at t (k), 1982, 2171, (2403), 2692, 3064, 3558",4,pauling scale: 1.54,"1st: 658.8 kj/mol, 2nd: 1309.8 kj/mol, 3rd: 2652.5 kj/mol, (more)",160±8 pm,,hexagonal close-packed (hcp),,21.9,paramagnetic,7440-32-6,william gregor (1791),martin heinrich klaproth (1795),"iso
+na
+half-life
+dm
+de (mev)
+dp
+
+
+44ti
+syn
+63 y
+?
+–
+44sc
+
+
+?
+0.07d, 0.08d
+–
+
+
+46ti
+8.25%
+46ti is stable with 24 neutrons
+
+
+47ti
+7.44%
+47ti is stable with 25 neutrons
+
+
+48ti
+73.72%
+48ti is stable with 26 neutrons
+
+
+49ti
+5.41%
+49ti is stable with 27 neutrons
+
+
+50ti
+5.18%
+50ti is stable with 28 neutrons",1982,,jöns jakob berzelius (1825),4.506,empirical: 147 pm,5090,8.6,420,116,44,110,6,716–2770 mpa,0.32,830–3420 mpa,,,,,,,,,,,,,,,,,,,
+23,vanadium,v,"vanadium, v","/v??ne?di?m/, v?-nay-dee-?m",blue-silver-grey metal,23,"group 5, d-block",4,transition metal,50.94151,[ar] 3d3 4s2,2,,solid,2183,3680,,5.5,,,,21.5,444,24.89,"vapor pressure, p (pa), 1, 10, 100, 1 k, 10 k, 100 k, at t (k), 2101, 2289, 2523, 2814, 3187, 3679",5,pauling scale: 1.63,"1st: 650.9 kj/mol, 2nd: 1414 kj/mol, 3rd: 2830 kj/mol, (more)",153±8 pm,,body-centered cubic (bcc),,30.7,paramagnetic,7440-62-2,andrés manuel del río (1801),nils gabriel sefström (1830),"iso, na, half-life, dm, de (mev), dp, 48v, syn, 15.9735 d, ?+, 4.0123, 48ti, 49v, syn, 330 d, ?, 0.6019, 49ti, 50v, 0.25%, 1.5×1017 y, ?, 2.2083, 50ti, ??, 1.0369, 50cr, 51v, 99.75%, 51v is stable with 28 neutrons",2101,,nils gabriel sefström (1830),6,empirical: 134 pm,4560,8.4,197,128,47,160,6.7,600–742 mpa,0.37,628–640 mpa,,,,,,,,,,,,,,,,,,,
+24,chromium,cr,"chromium, cr","/?kro?mi?m/, kroh-mee-?m",silvery metallic,24,"group 6, d-block",4,transition metal,51.99616,[ar] 3d5 4s1,2,,solid,2180,2944,,6.3,,,,21,347,23.35,"vapor pressure, p (pa), 1, 10, 100, 1 k, 10 k, 100 k, at t (k), 1656, 1807, 1991, 2223, 2530, 2942",6,pauling scale: 1.66,"1st: 652.9 kj/mol, 2nd: 1590.6 kj/mol, 3rd: 2987 kj/mol, (more)",139±5 pm,,body-centered cubic (bcc),,93.9,antiferromagnetic (rather: sdw),7440-47-3,,,"iso, na, half-life, dm, de (mev), dp, 50cr, 4.345%, 50cr is stable with 26 neutrons, 51cr, syn, 27.7025 d, ?, –, 51v, ?, 0.320, –, 52cr, 83.789%, 52cr is stable with 28 neutrons, 53cr, 9.501%, 53cr is stable with 29 neutrons, 54cr, 2.365%, 54cr is stable with 30 neutrons",1656,,,7.19,empirical: 128 pm,5940,4.9,125,279,115,160,,687–6500 mpa,0.21,1060,,,,,,,,"louis nicolas vauquelin (1797, 1798)",,,,,,,,,,,
+25,manganese,mn,"manganese, mn","/?mæ???ni?z/, mang-g?-neez",silvery metallic,25,"group 7, d-block",4,transition metal,54.9380443,[ar] 3d5 4s2,2,,solid,1519,2334,,5.95,,,,12.91,221,26.32,"vapor pressure, p (pa), 1, 10, 100, 1 k, 10 k, 100 k, at t (k), 1228, 1347, 1493, 1691, 1955, 2333",7,pauling scale: 1.55,"1st: 717.3 kj/mol, 2nd: 1509.0 kj/mol, 3rd: 3248 kj/mol, (more)","low spin: 139±5 pm, high spin: 161±8 pm",,body-centered cubic (bcc),,7.81,paramagnetic,7439-96-5,torbern olof bergman (1770),,"iso
+na
+half-life
+dm
+de (mev)
+dp
+
+
+52mn
+syn
+5.591 d
+?
+–
+52cr
+
+
+?+
+0.575
+52cr
+
+
+?
+0.7, 0.9, 1.4
+–
+
+
+53mn
+trace
+3.74×106 y
+?
+–
+53cr
+
+
+54mn
+syn
+312.3 d
+?
+1.377
+54cr
+
+
+?
+0.834
+–
+
+
+55mn
+100%
+55mn is stable with 30 neutrons",1228,,johann gottlieb gahn (1774),7.21,empirical: 127 pm,5150,21.7,1.44,198,,120,6,196,,,,,,,,,,,,,,,,,,,,,
+26,iron,fe,"iron, fe","/?a?.?rn/, eye-urn",lustrous metallic with a grayish tinge,26,"group 8, d-block",4,transition metal,55.8452,[ar] 3d6 4s2,2,,solid,1811,3134,,6.98,,,,13.81,340,25.1,"vapor pressure, p (pa), 1, 10, 100, 1 k, 10 k, 100 k, at t (k), 1728, 1890, 2091, 2346, 2679, 3132","?4, ?2, ?1, +1, +2, +3, +4, +5, +6 (an amphoteric oxide)",pauling scale: 1.83,"1st: 762.5 kj/mol, 2nd: 1561.9 kj/mol, 3rd: 2957 kj/mol, (more)","low spin: 132±3 pm, high spin: 152±6 pm",,"face-centered cubic (fcc), between 1185–1667 k",,80.4,ferromagnetic,7439-89-6,before 5000 bc,,"iso, na, half-life, dm, de (mev), dp, 54fe, 5.85%, 54fe is stable with 28 neutrons, 55fe, syn, 2.73 y, ?, 0.231, 55mn, 56fe, 91.75%, 56fe is stable with 30 neutrons, 57fe, 2.12%, 57fe is stable with 31 neutrons, 58fe, 0.28%, 58fe is stable with 32 neutrons, 59fe, syn, 44.503 d, ??, 1.565, 59co, 60fe, syn, 2.6×106 y, ??, 3.978, 60co",1728,,,7.874,empirical: 126 pm,5120,11.8,96.1,211,82,170,4,200–1180 mpa,0.29,608,,,,,,,,,,,,1043,,,,,,,
+27,cobalt,co,"cobalt, co","/?ko?b?lt/, koh-bahlt",hard lustrous bluish gray metal,27,"group 9, d-block",4,transition metal,58.9331944,[ar] 3d7 4s2,2,metallic gray,solid,1768,3200,,8.86,,,,16.06,377,24.81,"vapor pressure, p (pa), 1, 10, 100, 1 k, 10 k, 100 k, at t (k), 1790, 1960, 2165, 2423, 2755, 3198","?3, ?1, +1, +2, +3, +4, +5 (an amphoteric oxide)",pauling scale: 1.88,"1st: 760.4 kj/mol, 2nd: 1648 kj/mol, 3rd: 3232 kj/mol, (more)","low spin: 126±3 pm, high spin: 150±7 pm",,hexagonal close-packed (hcp),,100,ferromagnetic,7440-48-4,georg brandt (1732),,"iso
+na
+half-life
+dm
+de (mev)
+dp
+
+
+56co
+syn
+77.27 d
+?
+4.566
+56fe
+
+
+57co
+syn
+271.79 d
+?
+0.836
+57fe
+
+
+58co
+syn
+70.86 d
+?
+2.307
+58fe
+
+
+59co
+100%
+59co is stable with 32 neutrons
+
+
+60co
+syn
+5.2714 y
+??, ?
+2.824
+60ni",1790,,,8.9,empirical: 125 pm,4720,13,62.4,209,75,180,5,470–3000 mpa,0.31,1043,,,,,,,,,,,,,,,,,,,
+28,nickel,ni,"nickel, ni","/?n?k?l/, nik-?l","lustrous, metallic, and silver with a gold tinge",28,"group 10, d-block",4,transition metal,58.69344,"[ar] 3d8 4s2 or, [ar] 3d9 4s1",2,,solid,1728,3003,,7.81,,,,17.48,379,26.07,"vapor pressure, p (pa), 1, 10, 100, 1 k, 10 k, 100 k, at t (k), 1783, 1950, 2154, 2410, 2741, 3184",4,pauling scale: 1.91,"1st: 737.1 kj/mol, 2nd: 1753.0 kj/mol, 3rd: 3395 kj/mol, (more)",124±4 pm,163,face-centered cubic (fcc),,90.9,ferromagnetic,7440-02-0,,,"iso, na, half-life, dm, de (mev), dp, 58ni, 68.077%, 58ni is stable with 30 neutrons, 59ni, trace, 7.6×104 y, ?, 0.0506, 59co, 60ni, 26.223%, 60ni is stable with 32 neutrons, 61ni, 1.140%, 61ni is stable with 33 neutrons, 62ni, 3.635%, 62ni is stable with 34 neutrons, 63ni, syn, 100.1 y, ??, 0.0669, 63cu, 64ni, 0.926%, 64ni is stable with 36 neutrons",1783,,,8.908,empirical: 124 pm,4900,13.4,69.3,200,76,180,4,667–1600 mpa,0.31,638,,,,,,,,axel fredrik cronstedt (1751),,,,,,,,,,,
+29,copper,cu,"copper, cu","/?k?p?r/, kop-?r",red-orange metallic luster,29,"group 11, d-block",4,transition metal,63.5463,[ar] 3d10 4s1,2,,solid,1357.77,2835,,8.02,,,,13.26,300.4,24.44,"vapor pressure, p (pa), 1, 10, 100, 1 k, 10 k, 100 k, at t (k), 1509, 1661, 1850, 2089, 2404, 2834","?2, +1, +2, +3, +4 (a mildly basic oxide)",pauling scale: 1.90,"1st: 745.5 kj/mol, 2nd: 1957.9 kj/mol, 3rd: 3555 kj/mol, (more)",132±4 pm,140,face-centered cubic (fcc),,401,diamagnetic,7440-50-8,middle east (9000 bce),,"iso, na, half-life, dm, de (mev), dp, 63cu, 69.15%, 63cu is stable with 34 neutrons, 64cu, syn, 12.700 h, ?, –, 64ni, ??, –, 64zn, 65cu, 30.85%, 65cu is stable with 36 neutrons, 67cu, syn, 61.83 h, ??, –, 67zn",1509,"after cyprus, principal mining place in roman era (cyprium)",,8.96,empirical: 128 pm,"(annealed), 3810 m/s (at r.t.)",16.5,16.78,110–128 gpa,48,140,3,235–878 mpa,0.34,343–369 mpa,,,,,,,,,,,,,,,,,,,
+30,zinc,zn,"zinc, zn","/?z??k/, zingk",silver-gray,30,"group 12, d-block",4,"transition metal, alternatively considered a post-transition metal",65.382,[ar] 3d10 4s2,2,,solid,692.68,1180,,6.57,,,,7.32,115,25.47,"vapor pressure, p (pa), 1, 10, 100, 1 k, 10 k, 100 k, at t (k), 610, 670, 750, 852, 990, 1179",-2,pauling scale: 1.65,"1st: 906.4 kj/mol, 2nd: 1733.3 kj/mol, 3rd: 3833 kj/mol, (more)",122±4 pm,139,hexagonal close-packed (hcp),,116,diamagnetic,7440-66-6,indian metallurgists (before 1000 bce),,"iso, na, half-life, dm, de (mev), dp, 64zn, 49.2%, 64zn is stable with 34 neutrons, 65zn, syn, 243.8 d, ?, 1.3519, 65cu, ?, 1.1155, –, 66zn, 27.7%, 66zn is stable with 36 neutrons, 67zn, 4.0%, 67zn is stable with 37 neutrons, 68zn, 18.5%, 68zn is stable with 38 neutrons, 69zn, syn, 56 min, ??, 0.906, 69ga, 69mzn, syn, 13.76 h, ??, 0.906, 69ga, 70zn, 0.6%, 70zn is stable with 40 neutrons, 71zn, syn, 2.4 min, ??, 2.82, 71ga, 71mzn, syn, 3.97 d, ??, 2.82, 71ga, 72zn, syn, 46.5 h, ??, 0.458, 72ga",610,,andreas sigismund marggraf (1746),7.14,empirical: 134 pm,3850,30.2,59,108,43,70,2.5,327–412 mpa,0.25,,,,,,,,,,,,,,rasaratna samuccaya (800),,,,,,
+31,gallium,ga,"gallium, ga","/??æli?m/, gal-ee-?m",silvery blue,31,"group 13, p-block",4,post-transition metal,69.7231,[ar] 3d10 4s2 4p1,2,,solid,302.9146,2673,,6.095,,,,5.59,256,25.86,"vapor pressure, p (pa), 1, 10, 100, 1 k, 10 k, 100 k, at t (k), 1310, 1448, 1620, 1838, 2125, 2518",3,pauling scale: 1.81,"1st: 578.8 kj/mol, 2nd: 1979.3 kj/mol, 3rd: 2963 kj/mol, (more)",122±3 pm,187,orthorhombic,,40.6,diamagnetic,7440-55-3,,,"iso, na, half-life, dm, de (mev), dp, 66ga, syn, 9.5 h, ?+, 4.153, 66zn, 67ga, syn, 3.261 d, ?, 1.001, 67zn, 68ga, syn, 1.13 h, ?+, 1.899, 68zn, 69ga, 60.11%, 69ga is stable with 38 neutrons, 70ga, syn, 21.1 min, ??, 1.653, 70ge, ?, 0.655, 70zn, 71ga, 39.89%, 71ga is stable with 40 neutrons, 72ga, syn, 14.10 h, ??, 3.997, 72ge, 73ga, syn, 4.9 h, ??, 1.598, 73ge",1310,"after gallia (latin for: france), homeland of the discoverer",,5.91,empirical: 135 pm,2740,18,270,9.8,,,1.5,56.8–68.7 mpa,0.47,,,,,,,,dmitri mendeleev (1871),lecoq de boisbaudran (1875),,,,,,,,,,,
+32,germanium,ge,"germanium, ge","/d??r?me?ni?m/, j?r-may-nee-?m",grayish-white,32,"group 14 (carbon group), p-block",4,metalloid,72.6308,[ar] 3d10 4s2 4p2,2,,solid,1211.4,3106,,5.6,,,,36.94,334,23.222,"vapor pressure, p (pa), 1, 10, 100, 1 k, 10 k, 100 k, at t (k), 1644, 1814, 2023, 2287, 2633, 3104",4,pauling scale: 2.01,"1st: 762 kj/mol, 2nd: 1537.5 kj/mol, 3rd: 3302.1 kj/mol",122,211,face-centered diamond-cubic,,60.2,diamagnetic,7440-56-4,clemens winkler (1886),,"iso, na, half-life, dm, de (mev), dp, 68ge, syn, 270.8 d, ?, –, 68ga, 70ge, 20.52%, 70ge is stable with 38 neutrons, 71ge, syn, 11.26 d, ?, –, 71ga, 72ge, 27.45%, 72ge is stable with 40 neutrons, 73ge, 7.76%, 73ge is stable with 41 neutrons, 74ge, 36.52%, 74ge is stable with 42 neutrons, 76ge, 7.75%, 1.78×1021 y, ????, 2.039, 76se",1644,"after germany, homeland of the discoverer",,5.323,empirical: 122 pm,5400,6,1,103,41,75,6,,0.26,,,,,,,,dmitri mendeleev (1871),,,0.67,,,,,,,,,
+33,arsenic,as,"arsenic, as","/???rs?n?k/, also /??r?s?n?k/ when attributive
+ar-s?-nik, ar-sen-ik",metallic grey,33,"group 15 (pnictogens), p-block",4,metalloid,74.9215956,[ar] 3d10 4s2 4p3,2,,solid,,,,5.22,,1090,1673,grey: 24.44 kj/mol,34.76,24.64,"vapor pressure, p (pa), 1, 10, 100, 1 k, 10 k, 100 k, at t (k), 553, 596, 646, 706, 781, 874",5,pauling scale: 2.18,"1st: 947.0 kj/mol, 2nd: 1798 kj/mol, 3rd: 2735 kj/mol, (more)",119±4 pm,185,rhombohedral,,50.2,diamagnetic,7440-38-2,early bronze age (2500 bc),,"iso
+na
+half-life
+dm
+de (mev)
+dp
+
+
+73as
+syn
+80.3 d
+?
+–
+73ge
+
+
+?
+0.05d, 0.01d, e
+–
+
+
+74as
+syn
+17.78 d
+?
+–
+74ge
+
+
+?+
+0.941
+74ge
+
+
+?
+0.595, 0.634
+–
+
+
+??
+1.35, 0.717
+74se
+
+
+75as
+100%
+75as is stable with 42 neutrons",553,,albertus magnus (1250),5.727,empirical: 119 pm,,5.6,333,8,,22,3.5,1440,,,"grey (most common), yellow, black",,887,,,,,,,,,,,,,,,,
+34,selenium,se,"selenium, se","/s??li?ni?m/, si-lee-nee-?m","black, red, and gray (not pictured) allotropes",34,"group 16 (chalcogens), p-block",4,"polyatomic nonmetal, sometimes considered a metalloid",78.9718,[ar] 3d10 4s2 4p4,2,,solid,494,958,,3.99,,,1766,gray: 6.69 kj/mol,95.48,25.363,"vapor pressure, p (pa), 1, 10, 100, 1 k, 10 k, 100 k, at t (k), 500, 552, 617, 704, 813, 958",6,pauling scale: 2.55,"1st: 941.0 kj/mol, 2nd: 2045 kj/mol, 3rd: 2973.7 kj/mol",120±4 pm,190,hexagonal,,amorphous: 0.519 w/(m·k),diamagnetic,7782-49-2,,,"iso
+na
+half-life
+dm
+de (mev)
+dp
+
+
+72se
+syn
+8.4 d
+?
+–
+72as
+
+
+?
+0.046
+–
+
+
+74se
+0.86%
+74se is stable with 40 neutrons
+
+
+75se
+syn
+119.779 d
+?
+–
+75as
+
+
+?
+0.264, 0.136,
+0.279
+–
+
+
+76se
+9.23%
+76se is stable with 42 neutrons
+
+
+77se
+7.60%
+77se is stable with 43 neutrons
+
+
+78se
+23.69%
+78se is stable with 44 neutrons
+
+
+79se
+trace
+3.27×105 y
+??
+0.151
+79br
+
+
+80se
+49.80%
+80se is stable with 46 neutrons
+
+
+82se
+8.82%
+1.08×1020 y
+????
+2.995
+82kr",500,"after selene, greek goddess of the moon",,"gray: 4.81 g/cm3, alpha: 4.39 g/cm3, vitreous: 4.28 g/cm3",empirical: 120 pm,3350,amorphous: 37 μm/(m·k) (at 25 °c),,10,3.7,8.3,2,736,0.33,,,,,,,,,jöns jakob berzelius and johann gottlieb gahn (1817),,,,,,,,,,,
+35,bromine,br,"bromine, br","/?bro?mi?n/ or /?bro?m?n/, broh-meen or broh-min",reddish-brown,35,"group 17 (halogens), p-block",4,diatomic nonmetal,79.904,[ar] 3d10 4s2 4p5,2,,liquid,265.8,332,,,,265.9,588,(br2) 10.571 kj/mol,,(br2) 75.69 j/(mol·k),"vapour pressure, p (pa), 1, 10, 100, 1 k, 10 k, 100 k, at t (k), 185, 201, 220, 244, 276, 332",7,pauling scale: 2.96,,120±3 pm,185,orthorhombic,206,0.122,diamagnetic,7726-95-6,,,"iso, na, half-life, dm, de (mev), dp, 79br, 51%, 79br is stable with 44 neutrons, 81br, 49%, 81br is stable with 46 neutrons",185,,,"br2, liquid: 3.1028 g/cm3",empirical: 120 pm,,,7.8×1010 ?·m (at 20 °c),,,,,,,,,,,,(br2) 29.96 kj/mol,"1st: 1139.9 kj/mol, 2nd: 2103 kj/mol, 3rd: 3470 kj/mol",,antoine jérôme balard and carl jacob löwig (1825),,,,,,,,,,,
+36,krypton,kr,"krypton, kr","/?kr?pt?n/, krip-ton","colorless gas, exhibiting a whitish glow in a high electric field",36,"group 18 (noble gases), p-block",4,noble gas,83.7982,[ar] 3d10 4s2 4p6,2,,gas,115.78,119.93,3.749,,2.413,115.775,209.48,1.64,9.08,20.95,"vapor pressure, p (pa), 1, 10, 100, 1 k, 10 k, 100 k, at t (k), 59, 65, 74, 84, 99, 120",2,pauling scale: 3.00,"1st: 1350.8 kj/mol, 2nd: 2350.4 kj/mol, 3rd: 3565 kj/mol",116±4 pm,202,face-centered cubic (fcc),"(gas, 23 °c) 220 m·s?1
+(liquid) 1120 m/s",9.43×10?3  w/(m·k),diamagnetic,7439-90-9,,,"iso
+na
+half-life
+dm
+de (mev)
+dp
+
+
+78kr
+0.36%
+78kr is stable with 42 neutrons
+
+
+79kr
+syn
+35.04 h
+?
+–
+79br
+
+
+?+
+0.604
+79br
+
+
+?
+0.26, 0.39, 0.60
+–
+
+
+80kr
+2.29%
+80kr is stable with 44 neutrons
+
+
+81kr
+trace
+2.29×105 y
+?
+–
+81br
+
+
+?
+0.281
+–
+
+
+82kr
+11.59%
+82kr is stable with 46 neutrons
+
+
+83kr
+11.50%
+83kr is stable with 47 neutrons
+
+
+84kr
+56.99%
+84kr is stable with 48 neutrons
+
+
+85kr
+syn
+10.756 y
+??
+0.687
+85rb
+
+
+86kr
+17.28%
+86kr is stable with 50 neutrons",59,,,,,,,,,,,,,,,,,,,,,,william ramsay and morris travers (1898),,,,,,,,,,,
+37,rubidium,rb,"rubidium, rb","/r??b?di?m/, roo-bid-ee-?m",grey white,37,"group 1 (alkali metals), s-block",5,alkali metal,85.46783,[kr] 5s1,2,,solid,312.45,961,,1.46,,312.41,2093,2.19,69,31.06,"vapor pressure, p (pa), 1, 10, 100, 1 k, 10 k, 100 k, at t (k), 434, 486, 552, 641, 769, 958","+1, ?1 (a strongly basic oxide)",pauling scale: 0.82,"1st: 403 kj/mol, 2nd: 2632.1 kj/mol, 3rd: 3859.4 kj/mol",220±9 pm,303,body-centered cubic (bcc),,58.2,paramagnetic,7440-17-7,robert bunsen and gustav kirchhoff (1861),,"iso
+na
+half-life
+dm
+de (mev)
+dp
+
+
+83rb
+syn
+86.2 d
+?
+–
+83kr
+
+
+?
+0.52, 0.53,
+0.55
+–
+
+
+84rb
+syn
+32.9 d
+?
+–
+84kr
+
+
+?+
+1.66, 0.78
+84kr
+
+
+?
+0.881
+–
+
+
+??
+0.892
+84sr
+
+
+85rb
+72.17%
+85rb is stable with 48 neutrons
+
+
+86rb
+syn
+18.65 d
+??
+1.775
+86sr
+
+
+?
+1.0767
+–
+
+
+87rb
+27.83%
+4.9×1010 y
+??
+0.283
+87sr",434,,george de hevesy,1.532,empirical: 248 pm,1300,90,128,2.4,,2.5,0.3,0.216,,,,,,,,,,,,,,,,,,,,,
+38,strontium,sr,"strontium, sr","/?str?n???m/ or /?str?nti?m/, stron-sh(ee)-?m or stron-tee-?m",silvery white metallic; with a pale yellow tint,38,"group 2 (alkaline earth metals), s-block",5,alkaline earth metal,87.621,[kr] 5s2,2,,solid,1050,1650,,2.375,,,,7.43,141,26.4,"vapor pressure, p (pa), 1, 10, 100, 1 k, 10 k, 100 k, at t (k), 796, 882, 990, 1139, 1345, 1646",2,pauling scale: 0.95,"1st: 549.5 kj/mol, 2nd: 1064.2 kj/mol, 3rd: 4138 kj/mol",195±10 pm,249,face-centered cubic (fcc),,35.4,paramagnetic,7440-24-6,william cruickshank (1787),,"iso
+na
+half-life
+dm
+de (mev)
+dp
+
+
+82sr
+syn
+25.36 d
+?
+–
+82rb
+
+
+83sr
+syn
+1.35 d
+?
+–
+83rb
+
+
+?+
+1.23
+83rb
+
+
+?
+0.76, 0.36
+–
+
+
+84sr
+0.56%
+84sr is stable with 46 neutrons
+
+
+85sr
+syn
+64.84 d
+?
+–
+85rb
+
+
+?
+0.514d
+–
+
+
+86sr
+9.86%
+86sr is stable with 48 neutrons
+
+
+87sr
+7.00%
+87sr is stable with 49 neutrons
+
+
+88sr
+82.58%
+88sr is stable with 50 neutrons
+
+
+89sr
+syn
+50.52 d
+?
+1.49
+89rb
+
+
+??
+0.909d
+89y
+
+
+90sr
+trace
+28.90 y
+??
+0.546
+90y",796,"after the mineral strontianite, itself named after strontian, scotland",humphry davy (1808),2.64,empirical: 215 pm,,22.5,132,15.7,6.03,,1.5,,0.28,,,,,,,,,,,,,,,,,,,,
+39,yttrium,y,"yttrium, y","/??tri?m/, it-ree-?m",silvery white,39,"group 3, d-block",5,transition metal,88.905842,[kr] 4d1 5s2,2,,solid,1799,3203,,4.24,,,,11.42,363,26.53,"vapor pressure, p (pa), 1, 10, 100, 1 k, 10 k, 100 k, at t (k), 1883, 2075, (2320), (2627), (3036), (3607)",3,pauling scale: 1.22,"1st: 600 kj/mol, 2nd: 1180 kj/mol, 3rd: 1980 kj/mol",190±7 pm,,hexagonal close-packed (hcp),,17.2,paramagnetic,7440-65-5,johan gadolin (1794),,"iso
+na
+half-life
+dm
+de (mev)
+dp
+
+
+87y
+syn
+3.35 d
+?
+–
+87sr
+
+
+?
+0.48, 0.38d
+–
+
+
+88y
+syn
+106.6 d
+?
+–
+88sr
+
+
+?
+1.83, 0.89
+–
+
+
+89y
+100%
+89y is stable with 50 neutrons
+
+
+90y
+syn
+2.67 d
+??
+2.28
+90zr
+
+
+?
+2.18
+–
+
+
+91y
+syn
+58.5 d
+??
+1.54
+91zr
+
+
+?
+1.20
+–",1883,"after ytterby, sweden and its mineral ytterbite (gadolinite)",carl gustav mosander (1840),4.472,empirical: 180 pm,3300,"?, poly: 10.6 μm/(m·k) (at r.t.)","?, poly: 596 n?·m (at r.t.)",63.5,25.6,41.2,,200–589 mpa,0.243,,,,,,,,,,,,,,,,,,,,
+40,zirconium,zr,"zirconium, zr","/z?r?ko?ni?m/, z?r-koh-ni-?m",silvery white,40,"group 4, d-block",5,transition metal,91.2242,[kr] 4d2 5s2,2,,solid,2128,4650,,5.8,,,,14,591,25.36,"vapor pressure, p (pa), 1, 10, 100, 1 k, 10 k, 100 k, at t (k), 2639, 2891, 3197, 3575, 4053, 4678",4,pauling scale: 1.33,"1st: 640.1 kj/mol, 2nd: 1270 kj/mol, 3rd: 2218 kj/mol",175±7 pm,,hexagonal close-packed (hcp),,22.6,paramagnetic,7440-67-7,martin heinrich klaproth (1789),,"iso, na, half-life, dm, de (mev), dp, 88zr, syn, 83.4 d, ?, –, 88y, ?, 0.392d, –, 89zr, syn, 78.4 h, ?, –, 89y, ?+, 0.902, 89y, ?, 0.909d, –, 90zr, 51.45%, 90zr is stable with 50 neutrons, 91zr, 11.22%, 91zr is stable with 51 neutrons, 92zr, 17.15%, 92zr is stable with 52 neutrons, 93zr, trace, 1.53×106 y, ??, 0.060, 93nb, 94zr, 17.38%, 94zr is stable with 54 neutrons, 96zr, 2.80%, 2.0×1019 y, ????, 3.348, 96mo",2639,"after zircon, zargun ????? meaning ""gold-colored"".",jöns jakob berzelius (1824),6.52,empirical: 160 pm,3800,5.7,421,88,33,91.1,5,638–1880 mpa,0.34,820–1800 mpa,,,,,,,,,,,,,,,,,,,
+41,niobium,nb,"niobium, nb","/na??o?bi?m/, ny-oh-bee-?m","gray metallic, bluish when oxidized",41,"group 5, d-block",5,transition metal,92.906372,[kr] 4d4 5s1,2,,solid,2750,5017,,,,,,30,689.9,24.6,"vapor pressure, p (pa), 1, 10, 100, 1 k, 10 k, 100 k, at t (k), 2942, 3207, 3524, 3910, 4393, 5013",5,pauling scale: 1.6,"1st: 652.1 kj/mol, 2nd: 1380 kj/mol, 3rd: 2416 kj/mol",164±6 pm,,body-centered cubic (bcc),,53.7,paramagnetic,7440-03-1,charles hatchett (1801),,"iso
+na
+half-life
+dm
+de (mev)
+dp
+
+
+90nb
+syn
+14.6 h
+?+
+–
+90zr
+
+
+91nb
+syn
+680 y
+?
+–
+91zr
+
+
+91mnb
+syn
+60.86 d
+it
+0.104e
+91nb
+
+
+92m1nb
+syn
+10.15 d
+?
+–
+92zr
+
+
+?
+0.934
+–
+
+
+92nb
+trace
+3.47×107 y
+?
+–
+92zr
+
+
+?
+0.561, 0.934
+–
+
+
+93nb
+100%
+93nb is stable with 52 neutrons
+
+
+93mnb
+syn
+16.13 y
+it
+0.031e
+93nb
+
+
+94nb
+trace
+20300 y
+??
+0.471
+94mo
+
+
+?
+0.702, 0.871
+–
+
+
+95nb
+syn
+34.991 d
+??
+0.159
+95mo
+
+
+?
+0.765
+–
+
+
+95mnb
+syn
+3.61 d
+it
+0.235
+95nb
+
+
+96nb
+syn
+23.4 h
+??
+–
+96mo",2942,"after niobe in greek mythology, daughter of tantalus (tantalum)",christian wilhelm blomstrand (1864),8.57,empirical: 146 pm,3480,7.3,152,105,38,170,6,735–2450 mpa,0.4,870–1320 mpa,,,,,,,,,columbium,,,,,heinrich rose (1844),,,,,
+42,molybdenum,mo,"molybdenum, mo","/?m?l?b?di?n?m/ or /m??l?bd?n?m/, mol-ib-dee-n?m or m?-lib-di-n?m",gray metallic,42,"group 6, d-block",5,transition metal,95.951,[kr] 4d5 5s1,2,,solid,2896,4912,,9.33,,,,37.48,598,24.06,"vapor pressure, p (pa), 1, 10, 100, 1 k, 10 k, 100 k, at t (k), 2742, 2994, 3312, 3707, 4212, 4879",6,pauling scale: 2.16,"1st: 684.3 kj/mol, 2nd: 1560 kj/mol, 3rd: 2618 kj/mol",154±5 pm,,body-centered cubic (bcc),,138,paramagnetic,7439-98-7,carl wilhelm scheele (1778),,"iso
+na
+half-life
+dm
+de (mev)
+dp
+
+
+92mo
+14.65%
+92mo is stable with 50 neutrons
+
+
+93mo
+syn
+4×103 y
+?
+–
+93nb
+
+
+94mo
+9.19%
+94mo is stable with 52 neutrons
+
+
+95mo
+15.87%
+95mo is stable with 53 neutrons
+
+
+96mo
+16.67%
+96mo is stable with 54 neutrons
+
+
+97mo
+9.58%
+97mo is stable with 55 neutrons
+
+
+98mo
+24.29%
+98mo is stable with 56 neutrons
+
+
+99mo
+syn
+65.94 h
+??
+0.436, 1.214
+99mtc
+
+
+?
+0.74, 0.36,
+0.14
+–
+
+
+100mo
+9.74%
+7.8×1018 y
+????
+3.04
+100ru",2742,,peter jacob hjelm (1781),10.28,empirical: 139 pm,5400,4.8,53.4,329,126,230,5.5,1370–2500 mpa,0.31,1400–2740 mpa,,,,,,,,,,,,,,,54.3,,,,
+43,technetium,tc,"technetium, tc","/t?k?ni??i?m/, tek-nee-shee-?m",shiny gray metal,43,"group 7, d-block",5,transition metal,98,[kr] 4d5 5s2,2,,solid,2430,4538,,,,,,33.29,585.2,24.27,"vapor pressure (extrapolated), p (pa), 1, 10, 100, 1 k, 10 k, 100 k, at t (k), 2727, 2998, 3324, 3726, 4234, 4894",7,pauling scale: 1.9,"1st: 702 kj/mol, 2nd: 1470 kj/mol, 3rd: 2850 kj/mol",147±7 pm,,hexagonal close-packed (hcp),,50.6,paramagnetic,7440-26-8,,,"iso
+na
+half-life
+dm
+de (mev)
+dp
+
+
+95mtc
+syn
+61 d
+?
+–
+95mo
+
+
+?
+0.204, 0.582,
+0.835
+–
+
+
+it
+0.0389, e
+95tc
+
+
+96tc
+syn
+4.3 d
+?
+–
+96mo
+
+
+?
+0.778, 0.849,
+0.812
+–
+
+
+97tc
+syn
+2.6×106 y
+?
+–
+97mo
+
+
+97mtc
+syn
+91 d
+it
+0.965, e
+97tc
+
+
+98tc
+syn
+4.2×106 y
+??
+0.4
+98ru
+
+
+?
+0.745, 0.652
+–
+
+
+99tc
+trace
+2.111×105 y
+??
+0.294
+99ru
+
+
+99mtc
+syn
+6.01 h
+it
+0.142, 0.002
+99tc
+
+
+?
+0.140
+–",2727,,,11,empirical: 136 pm,16200,7.1,200,,,,,,,,,,,,,,dmitri mendeleev (1871),emilio segrè and carlo perrier (1937),,,,,,,,,,,
+44,ruthenium,ru,"ruthenium, ru","/ru???i?ni?m/, roo-thee-nee-?m",silvery white metallic,44,"group 8, d-block",5,transition metal,101.072,[kr] 4d7 5s1,2,,,2607,4423,,10.65,,,,38.59,619,24.06,"vapor pressure, p (pa), 1, 10, 100, 1 k, 10 k, 100 k, at t (k), 2588, 2811, 3087, 3424, 3845, 4388",-4,pauling scale: 2.2,"1st: 710.2 kj/mol, 2nd: 1620 kj/mol, 3rd: 2747 kj/mol",146±7 pm,,hexagonal close-packed (hcp),,117,paramagnetic,7440-18-8,,,"iso
+na
+half-life
+dm
+de (mev)
+dp
+
+
+96ru
+5.54%
+96ru is stable with 52 neutrons
+
+
+97ru
+syn
+2.9 d
+?
+–
+97tc
+
+
+?
+0.215, 0.324
+–
+
+
+98ru
+1.87%
+98ru is stable with 54 neutrons
+
+
+99ru
+12.76%
+99ru is stable with 55 neutrons
+
+
+100ru
+12.60%
+100ru is stable with 56 neutrons
+
+
+101ru
+17.06%
+101ru is stable with 57 neutrons
+
+
+102ru
+31.55%
+102ru is stable with 58 neutrons
+
+
+103ru
+syn
+39.26 d
+??
+0.226
+103rh
+
+
+?
+0.497
+–
+
+
+104ru
+18.62%
+104ru is stable with 60 neutrons
+
+
+106ru
+syn
+373.59 d
+??
+0.039
+106rh",2588,after ruthenia (latin for: medieval kyivska rus' region),,12.45,empirical: 134 pm,5970,6.4,71,447,173,220,6.5,2160,0.3,,,,,,,,,karl ernst claus (1844),,,,,,,,,,,
+45,rhodium,rh,"rhodium, rh","/?ro?di?m/, roh-dee-?m",silvery white metallic,45,"group 9, d-block",5,transition metal,102.905502,[kr] 4d8 5s1,2,,solid,2237,3968,,10.7,,,,26.59,493,24.98,"vapor pressure, p (pa), 1, 10, 100, 1 k, 10 k, 100 k, at t (k), 2288, 2496, 2749, 3063, 3405, 3997",6,pauling scale: 2.28,"1st: 719.7 kj/mol, 2nd: 1740 kj/mol, 3rd: 2997 kj/mol",142±7 pm,,face-centered cubic (fcc),,150,paramagnetic,7440-16-6,,,"iso
+na
+half-life
+dm
+de (mev)
+dp
+
+
+99rh
+syn
+16.1 d
+?
+–
+99ru
+
+
+?
+0.089, 0.353,
+0.528
+–
+
+
+101mrh
+syn
+4.34 d
+?
+–
+101ru
+
+
+it
+0.157
+101rh
+
+
+?
+0.306, 0.545
+–
+
+
+101rh
+syn
+3.3 y
+?
+–
+101ru
+
+
+?
+0.127, 0.198,
+0.325
+–
+
+
+102mrh
+syn
+3.7 y
+?
+–
+102ru
+
+
+?
+0.475, 0.631,
+0.697, 1.046
+–
+
+
+102rh
+syn
+207 d
+?
+–
+102ru
+
+
+?+
+0.826, 1.301
+102ru
+
+
+??
+1.151
+102pd
+
+
+?
+0.475, 0.628
+–
+
+
+103rh
+100%
+103rh is stable with 58 neutrons
+
+
+105rh
+syn
+35.36 h
+??
+0.247, 0.260,
+0.566
+105pd
+
+
+?
+0.306, 0.318
+–",2288,,,12.41,empirical: 134 pm,4700,8.2,43.3,380,150,275,6,980–1350 mpa,0.26,1100–8000 mpa,,,,,,,,william hyde wollaston (1804),,,,,,,,,,,
+46,palladium,pd,"palladium, pd","/p??le?di?m/, p?-lay-dee-?m",silvery white,46,"group 10, d-block",5,transition metal,106.421,[kr] 4d10,2,,solid,1828.05,3236,,10.38,,,,16.74,358,25.98,"vapor pressure, p (pa), 1, 10, 100, 1 k, 10 k, 100 k, at t (k), 1721, 1897, 2117, 2395, 2753, 3234",0,pauling scale: 2.20,"1st: 804.4 kj/mol, 2nd: 1870 kj/mol, 3rd: 3177 kj/mol",139±6 pm,163,face-centered cubic (fcc),,71.8,paramagnetic,7440-05-3,,,"iso
+na
+half-life
+dm
+de (mev)
+dp
+
+
+100pd
+syn
+3.63 d
+?
+–
+100rh
+
+
+?
+0.084, 0.074,
+0.126
+–
+
+
+102pd
+1.02%
+102pd is stable with 56 neutrons
+
+
+103pd
+syn
+16.991 d
+?
+–
+103rh
+
+
+104pd
+11.14%
+104pd is stable with 58 neutrons
+
+
+105pd
+22.33%
+105pd is stable with 59 neutrons
+
+
+106pd
+27.33%
+106pd is stable with 60 neutrons
+
+
+107pd
+trace
+6.5×106 y
+??
+0.033
+107ag
+
+
+108pd
+26.46%
+108pd is stable with 62 neutrons
+
+
+110pd
+11.72%
+110pd is stable with 64 neutrons",1721,"after asteroid pallas, itself named after pallas athena",,12.023,empirical: 137 pm,3070,11.8,105.4,121,44,180,4.75,320–610 mpa,0.39,400–600 mpa,,,,,,,,william hyde wollaston (1803),,,,,,,,,,,
+47,silver,ag,"silver, ag","/?s?lv?r/, sil-v?r",lustrous white metal,47,"group 11, d-block",5,transition metal,107.86822,[kr] 4d10 5s1,2,,solid,1234.93,2435,,9.32,,,,11.28,254,25.35,"vapor pressure, p (pa), 1, 10, 100, 1 k, 10 k, 100 k, at t (k), 1283, 1413, 1575, 1782, 2055, 2433","?2, ?1, 1, 2, 3, 4 (an amphoteric oxide)",pauling scale: 1.93,"1st: 731.0 kj/mol, 2nd: 2070 kj/mol, 3rd: 3361 kj/mol",145±5 pm,172,face-centered cubic (fcc),,429,diamagnetic,7440-22-4,before 5000 bc,,"iso
+na
+half-life
+dm
+de (mev)
+dp
+
+
+105ag
+syn
+41.2 d
+?
+–
+105pd
+
+
+?
+0.344, 0.280,
+0.644, 0.443
+–
+
+
+106mag
+syn
+8.28 d
+?
+–
+106pd
+
+
+?
+0.511, 0.717,
+1.045, 0.450
+–
+
+
+107ag
+51.839%
+107ag is stable with 60 neutrons
+
+
+108mag
+syn
+418 y
+?
+–
+108pd
+
+
+it
+0.109
+108ag
+
+
+?
+0.433, 0.614,
+0.722
+–
+
+
+109ag
+48.161%
+109ag is stable with 62 neutrons
+
+
+111ag
+syn
+7.45 d
+??
+1.036, 0.694
+111cd
+
+
+?
+0.342
+–",1283,,,10.49,empirical: 144 pm,2680,18.9,15.87,83,30,100,2.5,206–250 mpa,0.37,251,,,,,,,,,,,,,,,174,,,,
+48,cadmium,cd,"cadmium, cd","/?kædmi?m/, kad-mee-?m",silvery bluish-gray metallic,48,"group 12, d-block",5,"transition metal, alternatively considered a post-transition metal",112.4144,[kr] 4d10 5s2,2,,solid,594.22,1040,,7.996,,,,6.21,99.87,26.02,"vapor pressure, p (pa), 1, 10, 100, 1 k, 10 k, 100 k, at t (k), 530, 583, 654, 745, 867, 1040",2,pauling scale: 1.69,"1st: 867.8 kj/mol, 2nd: 1631.4 kj/mol, 3rd: 3616 kj/mol",144±9 pm,158,hexagonal close-packed (hcp),,96.6,diamagnetic,7440-43-9,,friedrich stromeyer (1817),"iso, na, half-life, dm, de (mev), dp, 106cd, 1.25%, 106cd is stable with 58 neutrons, 107cd, syn, 6.5 h, ?, 1.417, 107ag, 108cd, 0.89%, 108cd is stable with 60 neutrons, 109cd, syn, 462.6 d, ?, 0.214, 109ag, 110cd, 12.47%, 110cd is stable with 62 neutrons, 111cd, 12.80%, 111cd is stable with 63 neutrons, 112cd, 24.11%, 112cd is stable with 64 neutrons, 113cd, 12.23%, 7.7×1015 y, ??, 0.316, 113in, 113mcd, syn, 14.1 y, ??, 0.580, 113in, it, 0.264, 113cd, 114cd, 28.75%, 114cd is stable with 66 neutrons, 115cd, syn, 53.46 h, ??, 1.446, 115in, 116cd, 7.51%, 3.1×1019 y, ????, 2.809, 116sn",530,,,8.65,empirical: 151 pm,2310,30.8,72.7,50,19,42,2,203–220 mpa,0.3,,,,,,,,,karl samuel leberecht hermann and friedrich stromeyer (1817),,,,,,,,,,,
+49,indium,in,"indium, in","/??ndi?m/, in-dee-?m",silvery lustrous gray,49,"group 13, p-block",5,post-transition metal,114.8181,[kr] 4d10 5s2 5p1,2,,solid,429.7485,2345,,7.02,,429.7445,,3.281,231.8,26.74,"vapor pressure, p (pa), 1, 10, 100, 1 k, 10 k, 100 k, at t (k), 1196, 1325, 1485, 1690, 1962, 2340",3,pauling scale: 1.78,"1st: 558.3 kj/mol, 2nd: 1820.7 kj/mol, 3rd: 2704 kj/mol",142±5 pm,193,tetragonal,,81.8,diamagnetic,7440-74-6,ferdinand reich and hieronymous theodor richter (1863),,"iso, na, half-life, dm, de (mev), dp, 113in, 4.28%, 113in is stable with 64 neutrons, 115in, 95.72%, 4.41×1014 y, ??, 0.495, 115sn",1196,,hieronymous theodor richter (1864),7.31,empirical: 167 pm,1215,32.1,83.7,11,,,1.2,8.8–10.0 mpa,,,,,,,,,,,,,,,,,,,,,
+50,tin,sn,"tin, sn","/?t?n/, tin","silvery-white (beta, ?) or gray (alpha, ?)",50,"group 14 (carbon group), p-block",5,post-transition metal,118.7107,[kr] 4d10 5s2 5p2,2,,solid,505.08,2875,,6.99,,,,"white, ?: 7.03 kj/mol","white, ?: 296.1 kj/mol","white, ?: 27.112 j/(mol·k)","vapor pressure, p (pa), 1, 10, 100, 1 k, 10 k, 100 k, at t (k), 1497, 1657, 1855, 2107, 2438, 2893",4,pauling scale: 1.96,"1st: 708.6 kj/mol, 2nd: 1411.8 kj/mol, 3rd: 2943.0 kj/mol",139±4 pm,217,"face-centered diamond-cubic, gray (?)",,66.8,"gray: diamagnetic, white (?): paramagnetic",7440-31-5,around 3500 bc,,"iso, na, half-life, dm, de (mev), dp, 112sn, 0.97%, 112sn is stable with 62 neutrons, 114sn, 0.66%, 114sn is stable with 64 neutrons, 115sn, 0.34%, 115sn is stable with 65 neutrons, 116sn, 14.54%, 116sn is stable with 66 neutrons, 117sn, 7.68%, 117sn is stable with 67 neutrons, 118sn, 24.22%, 118sn is stable with 68 neutrons, 119sn, 8.59%, 119sn is stable with 69 neutrons, 120sn, 32.58%, 120sn is stable with 70 neutrons, 122sn, 4.63%, 122sn is stable with 72 neutrons, 124sn, 5.79%, 124sn is stable with 74 neutrons, 126sn, trace, 2.3×105 y, ??, 0.380 +, 126sb",1497,,,"white, ?: 7.265 g/cm3
+gray, ?: 5.769 g/cm3",empirical: 140 pm,2730,22,115,50,18,58,,50–440 mpa,0.36,,"alpha, ? (gray); beta, ? (white)",,,,,,,,,,,,,,,,,,
+51,antimony,sb,"antimony, sb","uk /?ænt?m?ni/, an-ti-m?-nee
+us /?ænt?mo?ni/, an-ti-moh-nee",silvery lustrous gray,51,"group 15 (pnictogens), p-block",5,metalloid,121.7601,[kr] 4d10 5s2 5p3,2,,solid,903.78,1908,,6.53,,,,19.79,193.43,25.23,"vapor pressure, p (pa), 1, 10, 100, 1 k, 10 k, 100 k, at t (k), 807, 876, 1011, 1219, 1491, 1858",5,pauling scale: 2.05,"1st: 834 kj/mol, 2nd: 1594.9 kj/mol, 3rd: 2440 kj/mol, (more)",139±5 pm,206,rhombohedral,,24.4,diamagnetic,7440-36-0,3000,,"iso, na, half-life, dm, de (mev), dp, 121sb, 57.21%, 121sb is stable with 70 neutrons, 123sb, 42.79%, 123sb is stable with 72 neutrons, 125sb, syn, 2.7582 y, ??, 0.767, 125te",807,,vannoccio biringuccio (1540),6.697,empirical: 140 pm,3420,11,417,55,20,42,3,294–384 mpa,,,,,,,,,,,,,,,,,,,,,
+52,tellurium,te,"tellurium, te","/t??l???ri?m/, te-lewr-ee-?m","silvery lustrous gray (crystalline),, brown-black powder (amorphous)",52,"group 16 (chalcogens), p-block",5,metalloid,127.603,[kr] 4d10 5s2 5p4,2,,solid,722.66,1261,,5.7,,,,17.49,114.1,25.73,"vapor pressure, p (pa), 1, 10, 100, 1 k, 10 k, 100 k, at t (k), (775), (888), 1042, 1266",6,pauling scale: 2.1,"1st: 869.3 kj/mol, 2nd: 1790 kj/mol, 3rd: 2698 kj/mol",138±4 pm,206,hexagonal,,1.97–3.38 w/(m·k),diamagnetic,13494-80-9,franz-joseph müller von reichenstein (1782),,"iso, na, half-life, dm, de (mev), dp, 120te, 0.09%, 120te is stable with 68 neutrons, 121te, syn, 16.78 d, ?, 1.040, 121sb, 122te, 2.55%, 122te is stable with 70 neutrons, 123te, 0.89%, 123te is stable with 71 neutrons, 124te, 4.74%, 124te is stable with 72 neutrons, 125te, 7.07%, 125te is stable with 73 neutrons, 126te, 18.84%, 126te is stable with 74 neutrons, 127te, syn, 9.35 h, ??, 0.698, 127i, 128te, 31.74%, 2.2×1024 y, ????, 0.867, 128xe, 129te, syn, 69.6 min, ??, 1.498, 129i, 130te, 34.08%, 7.9×1020 y, ????, 2.528, 130xe",,"after roman tellus, deity of the earth",martin heinrich klaproth,6.24,empirical: 140 pm,2610,18,,43,16,65,2.25,180–270 mpa,,,,,,,,,,,,,,,,,,,,,
+53,iodine,i,"iodine, i","/?a?.?da?n/, /?a?.?d?n/, or /?a?.?di?n/
+eye-?-dyn, eye-?-d?n, or eye-?-deen","lustrous metallic gray, violet as a gas",53,"group 17 (halogens), p-block",5,diatomic nonmetal,126.904473,[kr] 4d10 5s2 5p5,2,,solid,386.85,457.4,,,,386.65,819,(i2) 15.52 kj/mol,,(i2) 54.44 j/(mol·k),"vapour pressure (rhombic), p (pa), 1, 10, 100, 1 k, 10 k, 100 k, at t (k), 260, 282, 309, 342, 381, 457",7,pauling scale: 2.66,,139±3 pm,198,orthorhombic,,0.449,diamagnetic,7553-56-2,,,"iso
+na
+half-life
+dm
+de (mev)
+dp
+
+
+123i
+syn
+13 h
+?, ?
+0.16
+123te
+
+
+124i
+syn
+4.176 d
+?
+–
+124te
+
+
+125i
+syn
+59.40 d
+?
+–
+125te
+
+
+127i
+100%
+127i is stable with 74 neutrons
+
+
+129i
+trace
+1.57×107 y
+??
+0.194
+129xe
+
+
+131i
+syn
+8.02070 d
+??, ?
+0.971
+131xe
+
+
+135i
+syn
+6.57 h
+??
+–
+135xe",260,,,4.933,empirical: 140 pm,,,1.3×107 ?·m (at 0 °c),,,7.7,,,,,,,,,(i2) 41.57 kj/mol,"1st: 1008.4 kj/mol, 2nd: 1845.9 kj/mol, 3rd: 3180 kj/mol",,bernard courtois (1811),,,,,,,,,,,
+54,xenon,xe,"xenon, xe","/?z?n?n/ or /?zi?n?n/, zen-on or zee-non","colorless gas, exhibiting a blue glow when placed in a high voltage electric field",54,"group 18 (noble gases), p-block",5,noble gas,131.2936,[kr] 4d10 5s2 5p6,2,,gas,161.4,165.051,5.894,,2.942,161.405,289.733,2.27,12.64,21.01,"vapor pressure, p (pa), 1, 10, 100, 1 k, 10 k, 100 k, at t (k), 83, 92, 103, 117, 137, 165",0,pauling scale: 2.6,"1st: 1170.4 kj/mol, 2nd: 2046.4 kj/mol, 3rd: 3099.4 kj/mol",140±9 pm,216,face-centered cubic (fcc),"gas: 178 m·s?1, liquid: 1090 m/s",5.65×10?3 w/(m·k),diamagnetic,7440-63-3,,,"iso, na, half-life, dm, de (mev), dp, 124xe, 0.095%, 124xe is stable with 70 neutrons, 125xe, syn, 16.9 h, ?, 1.652, 125i, 126xe, 0.089%, 126xe is stable with 72 neutrons, 127xe, syn, 36.345 d, ?, 0.662, 127i, 128xe, 1.910%, 128xe is stable with 74 neutrons, 129xe, 26.401%, 129xe is stable with 75 neutrons, 130xe, 4.071%, 130xe is stable with 76 neutrons, 131xe, 21.232%, 131xe is stable with 77 neutrons, 132xe, 26.909%, 132xe is stable with 78 neutrons, 133xe, syn, 5.247 d, ??, 0.427, 133cs, 134xe, 10.436%, 134xe is stable with 80 neutrons, 135xe, syn, 9.14 h, ??, 1.16, 135cs, 136xe, 8.857%, 2.165×1021 y, ????, 2.45783, 136ba",83,,,,,,,,,,,,,,,,,,,,,,william ramsay and morris travers (1898),,,,,,,,,,,
+55,cesium,cs,"caesium, cs","/?si?zi?m/, see-zee-?m",pale gold,55,"group 1 (alkali metals), s-block",6,alkali metal,132.905452,[xe] 6s1,2,,solid,301.7,944,,1.843,,,1938,2.09,63.9,32.21,,"+1, ?1 (a strongly basic oxide)",pauling scale: 0.79,"1st: 375.7 kj/mol, 2nd: 2234.3 kj/mol, 3rd: 3400 kj/mol",244±11 pm,343,body-centred cubic (bcc),,35.9,paramagnetic,7440-46-2,robert bunsen and gustav kirchhoff (1860),,"iso, na, half-life, dm, de (mev), dp, 133cs, 100%, 133cs is stable with 78 neutrons, 134cs, syn, 2.0648 y, ?, 1.229, 134xe, ??, 2.059, 134ba, 135cs, trace, 2.3×106 y, ??, 0.269, 135ba, 137cs, syn, 30.17 y, ??, 1.174, 137ba",,"from latin caesius, sky blue, for its spectral colours",carl setterberg (1882),1.93,empirical: 265 pm,,97,205,1.7,,1.6,0.2,0.14,,,,,,,,,,,cesium,,,,,,,,,,
+56,barium,ba,"barium, ba","/?b?ri?m/, bair-ee-?m",silvery gray; with a pale yellow tint,56,"group 2 (alkaline earth metals), s-block",6,alkaline earth metals,137.3277,[xe] 6s2,2,,solid,1000,2118,,3.338,,,,7.12,142,28.07,"vapor pressure, p (pa), 1, 10, 100, 1 k, 10 k, 100 k, at t (k), 911, 1038, 1185, 1388, 1686, 2170","+2, +1 (a strongly basic oxide)",pauling scale: 0.89,"1st: 502.9 kj/mol, 2nd: 965.2 kj/mol, 3rd: 3600 kj/mol",215±11 pm,268,body-centered cubic (bcc),,18.4,paramagnetic,7440-39-3,carl wilhelm scheele (1772),,"iso, na, half-life, dm, de (mev), dp, 130ba, 0.11%, (0.5–2.7)×1021 y, ??, 2.620, 130xe, 132ba, 0.10%, 132ba is stable with 76 neutrons, 133ba, syn, 10.51 y, ?, 0.517, 133cs, 134ba, 2.42%, 134ba is stable with 78 neutrons, 135ba, 6.59%, 135ba is stable with 79 neutrons, 136ba, 7.85%, 136ba is stable with 80 neutrons, 137ba, 11.23%, 137ba is stable with 81 neutrons, 138ba, 71.70%, 138ba is stable with 82 neutrons",911,,humphry davy (1808),3.51,empirical: 222 pm,1620,20.6,332,13,4.9,9.6,1.25,,,,,,,,,,,,,,,,,,,,,,
+57,lanthanum,la,"lanthanum, la",/?læn??n?m/,silvery white,57,"group n/a, f-block",6,"lanthanide, sometimes considered a transition metal",138.905477,[xe] 5d1 6s2,2,,solid,1193,3737,,5.94,,,,6.2,400,27.11,"vapor pressure (extrapolated), p (pa), 1, 10, 100, 1 k, 10 k, 100 k, at t (k), 2005, 2208, 2458, 2772, 3178, 3726",3,pauling scale: 1.10,"1st: 538.1 kj/mol, 2nd: 1067 kj/mol, 3rd: 1850.3 kj/mol",207±8 pm,,double hexagonal close-packed (dhcp),,13.4,paramagnetic,7439-91-0,carl gustaf mosander (1838),,"iso, na, half-life, dm, de (mev), dp, 137la, syn, 6×104 y, ?, 0.600, 137ba, 138la, 0.089%, 1.05×1011 y, ?, 1.737, 138ba, ??, 1.044, 138ce, 139la, 99.911%, 139la is stable with 82 neutrons",2005,,,6.162,empirical: 187 pm,2475,"?, poly: 12.1 μm/(m·k) (at r.t.)","?, poly: 615 n?·m (at r.t.)",? form: 36.6 gpa,? form: 14.3 gpa,? form: 27.9 gpa,2.5,350–400 mpa,? form: 0.280,360–1750 mpa,,,,,,,,,,,,,,,,,,,
+58,cerium,ce,"cerium, ce",/?s??ri?m/,silvery white,58,"group n/a, f-block",6,lanthanide,140.1161,[xe] 4f1 5d1 6s2,2,,solid,1068,3716,,6.55,,,,5.46,,26.94,"vapour pressure, p (pa), 1, 10, 100, 1 k, 10 k, 100 k, at t (k), 1992, 2194, 2442, 2754, 3159, 3705",4,pauling scale: 1.12,,204±9 pm,,"face-centred cubic (fcc), ?-ce",,11.3,paramagnetic,7440-45-1,"martin heinrich klaproth, jöns jakob berzelius, wilhelm hisinger (1803)",,"iso, na, half-life, dm, de (mev), dp, 134ce, syn, 3.16 d, ?, 0.500, 134la, 136ce, 0.186%, 136ce is stable with 78 neutrons, 138ce, 0.251%, 138ce is stable with 80 neutrons, 139ce, syn, 137.640 d, ?, 0.278, 139la, 140ce, 88.449%, 140ce is stable with 82 neutrons, 141ce, syn, 32.501 d, ??, 0.581, 141pr, 142ce, 11.114%, 142ce is stable with 84 neutrons, 143ce, syn, 33.039 d, ??, 1.462, 143pr, 144ce, syn, 284.893 d, ??, 0.319, 144pr",1992,"after dwarf planet ceres, itself named after roman deity of agriculture ceres",carl gustaf mosander (1839),6.77,empirical: 181.8 pm,2100,"?, poly: 6.3 μm/(m·k) (at r.t.)","?, poly: 828 n?·m (at r.t.)",? form: 33.6 gpa,? form: 13.5 gpa,? form: 21.5 gpa,2.5,186–412 mpa,? form: 0.24,210–470 mpa,,,,,398,"1st: 534.4 kj/mol, 2nd: 1050 kj/mol, 3rd: 1949 kj/mol, (more)",,,,,,,,,,,,,
+59,praseodymium,pr,"praseodymium, pr","/pre?zi???d?mi?m/, pray-zee-?-dim-ee-?m",grayish white,59,"group n/a, f-block",6,lanthanide,140.907662,[xe] 4f3 6s2,2,,solid,1208,3403,,6.5,,,,6.89,331,27.2,"vapor pressure, p (pa), 1, 10, 100, 1 k, 10 k, 100 k, at t (k), 1771, 1973, (2227), (2571), (3054), (3779)",5,pauling scale: 1.13,"1st: 527 kj/mol, 2nd: 1020 kj/mol, 3rd: 2086 kj/mol",203±7 pm,,double hexagonal close-packed (dhcp),,12.5,paramagnetic,7440-10-0,carl auer von welsbach (1885),,"iso, na, half-life, dm, de (mev), dp, 141pr, 100%, 141pr is stable with 82 neutrons, 142pr, syn, 19.12 h, ??, 2.162, 142nd, ?, 0.745, 142ce, 143pr, syn, 13.57 d, ??, 0.934, 143nd",1771,,,6.77,empirical: 182 pm,2280,"?, poly: 6.7 μm/(m·k) (at r.t.)","?, poly: 0.700 μ?·m (at r.t.)",? form: 37.3 gpa,? form: 14.8 gpa,? form: 28.8 gpa,,250–640 mpa,? form: 0.281,250–745 mpa,,,,,,,,,,,,,,,,,,,
+60,neodymium,nd,"neodymium, nd","/?ni?.o??d?mi?m/, nee-o-dim-ee-?m",silvery white,60,"group n/a, f-block",6,lanthanide,144.2423,[xe] 4f4 6s2,2,,solid,1297,3347,,6.89,,,,7.14,289,27.45,"vapor pressure, p (pa), 1, 10, 100, 1 k, 10 k, 100 k, at t (k), 1595, 1774, 1998, (2296), (2715), (3336)","+4, +3, +2 (a mildly basic oxide)",pauling scale: 1.14,"1st: 533.1 kj/mol, 2nd: 1040 kj/mol, 3rd: 2130 kj/mol",201±6 pm,,double hexagonal close-packed (dhcp),,16.5,"paramagnetic, antiferromagnetic below 20 k",7440-00-8,carl auer von welsbach (1885),,"iso, na, half-life, dm, de (mev), dp, 142nd, 27.2%, 142nd is stable with 82 neutrons, 143nd, 12.2%, 143nd is stable with 83 neutrons, 144nd, 23.8%, 2.29×1015 y, ?, 1.905, 140ce, 145nd, 8.3%, 145nd is stable with 85 neutrons, 146nd, 17.2%, 146nd is stable with 86 neutrons, 148nd, 5.8%, 148nd is stable with 88 neutrons, 150nd, 5.6%, 6.7×1018 y, ????, 3.367, 150sm",1595,,,7.01,empirical: 181 pm,2330,"?, poly: 9.6 μm/(m·k) (at r.t.)","?, poly: 643 n?·m",? form: 41.4 gpa,? form: 16.3 gpa,? form: 31.8 gpa,,265–700 mpa,? form: 0.281,345–745 mpa,,,,,,,,,,,,,,,,,,,
+61,promethium,pm,"promethium, pm","/pro??mi??i?m/, pro-mee-thee-?m",metallic,61,"group n/a, f-block",6,lanthanide,145,[xe] 4f5 6s2,2,,solid,1315,3273,,,,,,7.13,289,,,3,pauling scale: 1.13 (?),"1st: 540 kj/mol, 2nd: 1050 kj/mol, 3rd: 2150 kj/mol",199,,double hexagonal close-packed (dhcp),,17.9,paramagnetic,7440-12-2,"chien shiung wu, emilio segrè, hans bethe (1942)",grace mary coryell (1945),"iso, na, half-life, dm, de (mev), dp, 145pm, syn, 17.7 y, ?, 0.163, 145nd, 146pm, syn, 5.53 y, ?, 1.472, 146nd, ??, 1.542, 146sm, 147pm, trace, 2.6234 y, ??, 0.224, 147sm",,,"charles d. coryell, jacob a. marinsky, lawrence e. glendenin, harold g. richter (1945)",7.26,empirical: 183 pm,,9,est. 0.75 μ?·m (at r.t.),? form: est. 46 gpa,? form: est. 18 gpa,? form: est. 33 gpa,,,? form: est. 0.28,,,,,,,,,,,,,,,,,,,,
+62,samarium,sm,"samarium, sm","/s??m??ri?m/, s?-mair-ee-?m",silvery white,62,"group n/a, f-block",6,lanthanide,150.362,[xe] 4f6 6s2,2,,solid,1345,2173,,7.16,,,,8.62,192,29.54,"vapor pressure, p (pa), 1, 10, 100, 1 k, 10 k, 100 k, at t (k), 1001, 1106, 1240, (1421), (1675), (2061)",4,pauling scale: 1.17,"1st: 544.5 kj/mol, 2nd: 1070 kj/mol, 3rd: 2260 kj/mol",198±8 pm,,rhombohedral,,13.3,paramagnetic,7440-19-9,,,"iso, na, half-life, dm, de (mev), dp, 144sm, 3.08%, 144sm is stable with 82 neutrons, 145sm, syn, 340 d, ?, –, 145pm, 146sm, syn, 6.8×107 y, ?, 2.529, 142nd, 147sm, 15.00%, 1.06×1011 y, ?, 2.310, 143nd, 148sm, 11.25%, 7×1015 y, ?, 1.986, 144nd, 149sm, 13.82%, 149sm is stable with 87 neutrons, 150sm, 7.37%, 150sm is stable with 88 neutrons, 151sm, syn, 90 y, ??, –, 151eu, 152sm, 26.74%, 152sm is stable with 90 neutrons, 153sm, syn, 46.284 h, ??, –, 153eu, 154sm, 22.74%, 154sm is stable with 92 neutrons",1001,after the mineral samarskite (itself named after vasili samarsky-bykhovets),,7.52,empirical: 180 pm,2130,"(r.t.) (?, poly) 12.7 μm/(m·k)","(r.t.) (?, poly) 0.940 μ?·m",? form: 49.7 gpa,? form: 19.5 gpa,? form: 37.8 gpa,,440–600 mpa,? form: 0.274,410–440 mpa,? form,,,,,,,lecoq de boisbaudran (1879),,,,,,,,,,,
+63,europium,eu,"europium, eu","/j??ro?pi?m/, ew-roh-pee-?m","silvery white, with a pale yellow tint; but rarely seen without oxide discoloration",63,"group n/a, f-block",6,lanthanide,151.9641,[xe] 4f7 6s2,2,,solid,1099,1802,,5.13,,,,9.21,176,27.66,"vapor pressure, p (pa), 1, 10, 100, 1 k, 10 k, 100 k, at t (k), 863, 957, 1072, 1234, 1452, 1796",3,pauling scale: 1.2,"1st: 547.1 kj/mol, 2nd: 1085 kj/mol, 3rd: 2404 kj/mol",198±6 pm,,body-centered cubic (bcc),,est. 13.9 w/(m·k),paramagnetic,7440-53-1,,,"iso, na, half-life, dm, de (mev), dp, 150eu, syn, 36.9 y, ?, 2.261, 150sm, 151eu, 47.8%, 5×1018 y, ?, 1.9644, 147pm, 152eu, syn, 13.54 y, ?, 1.874, 152sm, ??, 1.819, 152gd, 153eu, 52.2%, 153eu is stable with 90 neutrons, 154eu, syn, 8.59 y, ??, 1.969, 154gd, 155eu, syn, 4.76 y, ??, 0.253, 155gd",863,after europe,,5.264,empirical: 180 pm,,poly: 35.0 μm/(m·k) (at r.t.),poly: 0.900 μ?·m (at r.t.),18.2,7.9,8.3,,,0.152,165–200 mpa,,,,,,,,"eugène-anatole demarçay (1896, 1901)",,,,,,,,,,,
+64,gadolinium,gd,"gadolinium, gd","/??æd??l?ni?m/, gad-?-lin-ee-?m",silvery white,64,"group n/a, f-block",6,lanthanide,157.253,[xe] 4f7 5d1 6s2,2,,solid,1585,3273,,7.4,,,,10.05,301.3,37.03,"vapor pressure (calculated), p (pa), 1, 10, 100, 1 k, 10 k, 100 k, at t (k), 1836, 2028, 2267, 2573, 2976, 3535",1,pauling scale: 1.20,"1st: 593.4 kj/mol, 2nd: 1170 kj/mol, 3rd: 1990 kj/mol",196±6 pm,,hexagonal close-packed (hcp),,10.6,ferromagnetic-paramagnetic transition at 293.4 k,7440-54-2,jean charles galissard de marignac (1880),,"iso, na, half-life, dm, de (mev), dp, 148gd, syn, 75 y, ?, 3.271, 144sm, 150gd, syn, 1.8×106 y, ?, 2.808, 146sm, 152gd, 0.20%, 1.08×1014 y, ?, 2.205, 148sm, 154gd, 2.18%, 154gd is stable with 90 neutrons, 155gd, 14.80%, 155gd is stable with 91 neutrons, 156gd, 20.47%, 156gd is stable with 92 neutrons, 157gd, 15.65%, 157gd is stable with 93 neutrons, 158gd, 24.84%, 158gd is stable with 94 neutrons, 160gd, 21.86%, 160gd is stable with 96 neutrons",1836,after the mineral gadolinite (itself named after johan gadolin),lecoq de boisbaudran (1886),7.9,empirical: 180 pm,2680,? poly: 9.4 μm/(m·k) (at 100 °c),"?, poly: 1.310 μ?·m",? form: 54.8 gpa,? form: 21.8 gpa,? form: 37.9 gpa,,,? form: 0.259,510–950 mpa,,,,,,,,,,,,,,,,,,,
+65,terbium,tb,"terbium, tb","/?t??rbi?m/, tur-bee-?m",silvery white,65,"group n/a, f-block",6,lanthanide,158.925352,[xe] 4f9 6s2,2,,solid,1629,3396,,7.65,,,,10.15,391,28.91,"vapor pressure, p (pa), 1, 10, 100, 1 k, 10 k, 100 k, at t (k), 1789, 1979, (2201), (2505), (2913), (3491)",4,pauling scale: 1.2 (?),"1st: 565.8 kj/mol, 2nd: 1110 kj/mol, 3rd: 2114 kj/mol",194±5 pm,,hexagonal close-packed (hcp),,11.1,paramagnetic at 300 k,7440-27-9,,,"iso, na, half-life, dm, de (mev), dp, 157tb, syn, 71 y, ?, 0.060, 157gd, 158tb, syn, 180 y, ?, 1.220, 158gd, ??, 0.937, 158dy, 159tb, 100%, 159tb is stable with 94 neutrons",1789,"after ytterby (sweden), where it was mined",,8.23,empirical: 177 pm,2620,"at r.t. ?, poly: 10.3 μm/(m·k)","?, poly: 1.150 μ?·m (at r.t.)",? form: 55.7 gpa,? form: 22.1 gpa,? form: 38.7 gpa,,675–1200 mpa,? form: 0.261,450–865 mpa,,,,,,,,carl gustaf mosander (1842),,,,,,,,,,,
+66,dysprosium,dy,"dysprosium, dy","/d?s?pro?zi?m/, dis-proh-zee-?m",silvery white,66,"group n/a, f-block",6,lanthanide,162.5001,[xe] 4f10 6s2,2,,solid,1680,2840,,8.37,,,,11.06,280,27.7,"vapor pressure, p (pa), 1, 10, 100, 1 k, 10 k, 100 k, at t (k), 1378, 1523, (1704), (1954), (2304), (2831)",4,pauling scale: 1.22,"1st: 573.0 kj/mol, 2nd: 1130 kj/mol, 3rd: 2200 kj/mol",192±7 pm,,hexagonal close-packed (hcp),,10.7,paramagnetic at 300 k,7429-91-6,lecoq de boisbaudran (1886),,"iso, na, half-life, dm, de (mev), dp, 154dy, syn, 3.0×106 y, ?, 2.947, 150gd, 156dy, 0.056%, 156dy is stable with 90 neutrons, 158dy, 0.095%, 158dy is stable with 92 neutrons, 160dy, 2.329%, 160dy is stable with 94 neutrons, 161dy, 18.889%, 161dy is stable with 95 neutrons, 162dy, 25.475%, 162dy is stable with 96 neutrons, 163dy, 24.896%, 163dy is stable with 97 neutrons, 164dy, 28.260%, 164dy is stable with 98 neutrons",1378,,,8.54,empirical: 178 pm,2710,"?, poly: 9.9 μm/(m·k) (r.t.)","?, poly: 926 n?·m (r.t.)",? form: 61.4 gpa,? form: 24.7 gpa,? form: 40.5 gpa,,500–1050 mpa,? form: 0.247,410–550 mpa,,,,,,,,,,,,,,,,,,,
+67,holmium,ho,"holmium, ho","/?ho?lmi?m/, hohl-mee-?m",silvery white,67,"group n/a, f-block",6,lanthanide,164.930332,[xe] 4f11 6s2,2,,solid,1734,2873,,8.34,,,,17,251,27.15,"vapor pressure, p (pa), 1, 10, 100, 1 k, 10 k, 100 k, at t (k), 1432, 1584, (1775), (2040), (2410), (2964)",3,pauling scale: 1.23,"1st: 581.0 kj/mol, 2nd: 1140 kj/mol, 3rd: 2204 kj/mol",192±7 pm,,hexagonal close-packed (hcp),,16.2,paramagnetic,7440-60-0,marc delafontaine (1878),,"iso, na, half-life, dm, de (mev), dp, 163ho, syn, 4570 y, ?, 0.003, 163dy, 164ho, syn, 29 min, ?, 0.987, 164dy, 165ho, 100%, 165ho is stable with 98 neutrons, 166ho, syn, 26.763 h, ??, 1.855, 166er, 167ho, syn, 3.1 h, ??, 1.007, 167er",1432,,,8.79,empirical: 176 pm,2760,poly: 11.2 μm/(m·k) (at r.t.),poly: 814 n?·m (at r.t.),64.8,26.3,40.2,,500–1250 mpa,0.231,410–600 mpa,,,,,,,,,,,,,,,,,,,
+68,erbium,er,"erbium, er","/???rbi?m/, ur-bee-?m",silvery white,68,"group n/a, f-block",6,lanthanide,167.2593,[xe] 4f12 6s2,2,,solid,1802,3141,,8.86,,,,19.9,280,28.12,"vapor pressure, p (pa), 1, 10, 100, 1 k, 10 k, 100 k, at t (k), 1504, 1663, (1885), (2163), (2552), (3132)",3,pauling scale: 1.24,"1st: 589.3 kj/mol, 2nd: 1150 kj/mol, 3rd: 2194 kj/mol",189±6 pm,,hexagonal close-packed (hcp),,14.5,paramagnetic at 300 k,7440-52-0,carl gustaf mosander (1842),,"iso, na, half-life, dm, de (mev), dp, 160er, syn, 28.58 h, ?, 0.330, 160ho, 162er, 0.139%, 162er is stable with 94 neutrons, 164er, 1.601%, 164er is stable with 96 neutrons, 165er, syn, 10.36 h, ?, 0.376, 165ho, 166er, 33.503%, 166er is stable with 98 neutrons, 167er, 22.869%, 167er is stable with 99 neutrons, 168er, 26.978%, 168er is stable with 100 neutrons, 169er, syn, 9.4 d, ??, 0.351, 169tm, 170er, 14.910%, 170er is stable with 102 neutrons, 171er, syn, 7.516 h, ??, 1.490, 171tm, 172er, syn, 49.3 h, ??, 0.891, 172tm",1504,"after ytterby (sweden), where it was mined",,9.066,empirical: 176 pm,2830,poly: 12.2 μm/(m·k) (r.t.),poly: 0.860 μ?·m (r.t.),69.9,28.3,44.4,,600–1070 mpa,0.237,430–700 mpa,,,,,,,,,,,,,,,,,,,
+69,thulium,tm,"thulium, tm","/??ju?li?m/ or /??u?li?m/, thew-lee-?m or thoo-lee-?m",silvery gray,69,"group n/a, f-block",6,lanthanide,168.934222,[xe] 4f13 6s2,2,,solid,1818,2223,,8.56,,,,16.84,191,27.03,"vapor pressure, p (pa), 1, 10, 100, 1 k, 10 k, 100 k, at t (k), 1117, 1235, 1381, 1570, (1821), (2217)",2,pauling scale: 1.25,"1st: 596.7 kj/mol, 2nd: 1160 kj/mol, 3rd: 2285 kj/mol",190±10 pm,,hexagonal close-packed (hcp),,16.9,paramagnetic (at 300 k),7440-30-4,,,"iso, na, half-life, dm, de (mev), dp, 167tm, syn, 9.25 d, ?, 0.748, 167er, 168tm, syn, 93.1 d, ?, 1.679, 168er, 169tm, 100%, 169tm is stable with 100 neutrons, 170tm, syn, 128.6 d, ??, 0.968, 170yb, 171tm, syn, 1.92 y, ??, 0.096, 171yb",1117,"after thule, a mythical region in scandinavia",,9.32,empirical: 176 pm,,poly: 13.3 μm/(m·k) (at r.t.),poly: 676 n?·m (at r.t.),74,30.5,44.5,,470–900 mpa,0.213,470–650 mpa,,,,,,,,per teodor cleve (1879),,,,,,,,,,,
+70,ytterbium,yb,"ytterbium, yb","/??t??rbi?m/, i-tur-bee-?m",silvery white; with a pale yellow tint,70,"group n/a, f-block",6,lanthanide,173.0451,[xe] 4f14 6s2,2,,solid,1097,1469,,6.21,,,,7.66,129,26.74,"vapor pressure, p (pa), 1, 10, 100, 1 k, 10 k, 100 k, at t (k), 736, 813, 910, 1047, (1266), (1465)",3,pauling scale: 1.1 (?),"1st: 603.4 kj/mol, 2nd: 1174.8 kj/mol, 3rd: 2417 kj/mol",187±8 pm,,face-centered cubic (fcc),,38.5,paramagnetic,7440-64-4,jean charles galissard de marignac (1878),,"iso, na, half-life, dm, de (mev), dp, 166yb, syn, 56.7 h, ?, 0.304, 166tm, 168yb, 0.126%, 168yb is stable with 98 neutrons, 169yb, syn, 32.026 d, ?, 0.909, 169tm, 170yb, 3.023%, 170yb is stable with 100 neutrons, 171yb, 14.216%, 171yb is stable with 101 neutrons, 172yb, 21.754%, 172yb is stable with 102 neutrons, 173yb, 16.098%, 173yb is stable with 103 neutrons, 174yb, 31.896%, 174yb is stable with 104 neutrons, 175yb, syn, 4.185 d, ??, 0.470, 175lu, 176yb, 12.887%, 176yb is stable with 106 neutrons, 177yb, syn, 1.911 h, ??, 1.399, 177lu",736,"after ytterby (sweden), where it was mined",georges urbain (1907),6.9,empirical: 176 pm,1590,"?, poly: 26.3 μm/(m·k) (r.t.)","?, poly: 0.250 μ?·m (at r.t.)",? form: 23.9 gpa,? form: 9.9 gpa,? form: 30.5 gpa,,340–440 mpa,? form: 0.207,205–250 mpa,,,,,,,,,,,,,,,,,,,
+71,lutetium,lu,"lutetium, lu","/lju??ti??i?m/, lew-tee-shee-?m",silvery white,71,"group n/a, d-block",6,"lanthanide, sometimes considered a transition metal",174.96681,[xe] 6s2 4f14 5d1,2,,solid,1925,3675,,9.3,,,,ca. 22 kj/mol,414,26.86,"vapor pressure, p (pa), 1, 10, 100, 1 k, 10 k, 100 k, at t (k), 1906, 2103, 2346, (2653), (3072), (3663)",3,pauling scale: 1.27,"1st: 523.5 kj/mol, 2nd: 1340 kj/mol, 3rd: 2022.3 kj/mol",187±8 pm,,hexagonal close-packed (hcp),,16.4,paramagnetic,7439-94-3,,georges urbain (1906),"iso, na, half-life, dm, de (mev), dp, 173lu, syn, 1.37 y, ?, 0.671, 173yb, 174lu, syn, 3.31 y, ?, 1.374, 174yb, 175lu, 97.401%, 175lu is stable with 104 neutrons, 176lu, 2.599%, 3.78×1010 y, ??, 1.193, 176hf",1906,"after lutetia, latin for: paris, in the roman era",,9.841,empirical: 174 pm,,poly: 9.9 μm/(m·k) (at r.t.),poly: 582 n?·m (at r.t.),68.6,27.2,47.6,,890–1300 mpa,0.261,755–1160 mpa,,,,,,,,carl auer von welsbach (1906),,,,,,,,,,,
+72,hafnium,hf,"hafnium, hf","/?hæfni?m/, haf-nee-?m",steel gray,72,"group 4, d-block",6,transition metal,178.492,[xe] 4f14 5d2 6s2,2,,solid,2506,4876,,12,,,,27.2,648,25.73,"vapor pressure, p (pa), 1, 10, 100, 1 k, 10 k, 100 k, at t (k), 2689, 2954, 3277, 3679, 4194, 4876",4,pauling scale: 1.3,"1st: 658.5 kj/mol, 2nd: 1440 kj/mol, 3rd: 2250 kj/mol",175±10 pm,,hexagonal close-packed (hcp),,23,paramagnetic,7440-58-6,,,"iso, na, half-life, dm, de (mev), dp, 172hf, syn, 1.87 y, ?, 0.350, 172lu, 174hf, 0.16%, 2×1015 y, ?, 2.495, 170yb, 176hf, 5.26%, 176hf is stable with 104 neutrons, 177hf, 18.60%, 177hf is stable with 105 neutrons, 178hf, 27.28%, 178hf is stable with 106 neutrons, 178m2hf, syn, 31 y, it, 2.446, 178hf, 179hf, 13.62%, 179hf is stable with 107 neutrons, 180hf, 35.08%, 180hf is stable with 108 neutrons, 182hf, syn, 8.9×106 y, ??, 0.373, 182ta",2689,"after hafnia. latin for: copenhagen, where it was discovered",,13.31,empirical: 159 pm,3010,5.9,331,78,30,110,5.5,1450–2100 mpa,0.37,1520–2060 mpa,,,,,,,dmitri mendeleev (1869),dirk coster and george de hevesy (1922),,,,,,,,,,,
+73,tantalum,ta,"tantalum, ta","/?tænt?l?m/, tan-t?l-?m, previously: /tæn?tæli?m/, tan-tal-ee-?m",gray blue,73,"group 5, d-block",6,transition metal,180.947882,[xe] 4f14 5d3 6s2,2,,solid,3290,5731,,15,,,,36.57,753,25.36,"vapor pressure, p (pa), 1, 10, 100, 1 k, 10 k, 100 k, at t (k), 3297, 3597, 3957, 4395, 4939, 5634",5,pauling scale: 1.5,"1st: 761 kj/mol, 2nd: 1500 kj/mol",170±8 pm,,"tetragonal, ?-ta",,57.5,paramagnetic,7440-25-7,anders gustaf ekeberg (1802),,"iso, na, half-life, dm, de (mev), dp, 177ta, syn, 56.56 h, ?, 1.166, 177hf, 178ta, syn, 2.36 h, ?, 1.910, 178hf, 179ta, syn, 1.82 y, ?, 0.110, 179hf, 180ta, syn, 8.125 h, ?, 0.854, 180hf, ??, 0.708, 180w, 180mta, 0.012%, 180mta is stable with 107 neutrons, 181ta, 99.988%, 181ta is stable with 108 neutrons, 182ta, syn, 114.43 d, ??, 1.814, 182w, 183ta, syn, 5.1 d, ??, 1.070, 183w",3297,,,16.69,empirical: 146 pm,3400,6.3,131,186,69,200,6.5,440–3430 mpa,0.34,870–1200 mpa,,,,,,,,,,,,,,heinrich rose (1844),,,,,
+74,tungsten,w,"tungsten, w","/?t??st?n/; /?w?lfr?m/, tung-st?n; wuul-fr?m","grayish white, lustrous",74,"group 6, d-block",6,transition metal,183.841,[xe] 4f14 5d4 6s2,2,,solid,3695,6203,,17.6,,,,35.3,774,24.27,"vapor pressure, p (pa), 1, 10, 100, 1 k, 10 k, 100 k, at t (k), 3477, 3773, 4137, 4579, 5127, 5823",6,pauling scale: 2.36,"1st: 770 kj/mol, 2nd: 1700 kj/mol",162±7 pm,,body-centered cubic (bcc),,173,paramagnetic,7440-33-7,carl wilhelm scheele (1781),torbern bergman (1781),"iso, na, half-life, dm, de (mev), dp, 180w, 0.12%, 1.8×1018 y, ?, 2.516, 176hf, 181w, syn, 121.2 d, ?, 0.188, 181ta, 182w, 26.50%, 182w is stable with 108 neutrons, 183w, 14.31%, 183w is stable with 110 neutrons, 184w, 30.64%, 184w is stable with 111 neutrons, 185w, syn, 75.1 d, ??, 0.433, 185re, 186w, 28.43%, 186w is stable with 112 neutrons",3477,,juan josé elhuyar and fausto elhuyar (1783),19.25,empirical: 139 pm,4620,4.5,52.8,411,161,310,7.5,2000–4000 mpa,0.28,3430–4600 mpa,,,,,,,,,wolfram,,,,,,,,,,
+75,rhenium,re,"rhenium, re","/?ri?ni?m/, ree-nee-?m",silvery-grayish,75,"group 7, d-block",6,transition metal,186.2071,[xe] 4f14 5d5 6s2,2,,solid,3459,5903,,18.9,,,,60.43,704,25.48,"vapor pressure, p (pa), 1, 10, 100, 1 k, 10 k, 100 k, at t (k), 3303, 3614, 4009, 4500, 5127, 5954",7,pauling scale: 1.9,"1st: 760 kj/mol, 2nd: 1260 kj/mol, 3rd: 2510 kj/mol, (more)",151±7 pm,,hexagonal close-packed (hcp),,48,paramagnetic,7440-15-5,masataka ogawa (1908),"walter noddack, ida noddack, otto berg (1922)","iso, na, half-life, dm, de (mev), dp, 185re, 37.4%, 185re is stable with 110 neutrons, 187re, 62.6%, 4.12×1010 y, ??, 0.0026, 187os",3303,after the river rhine (german: rhein),masataka ogawa (1919),21.02,empirical: 137 pm,4700,6.2,193,463,178,370,7,1320–2500 mpa,0.3,1350–7850 mpa,,,,,,,,,,,,,,,,,,,
+76,osmium,os,"osmium, os","/??zmi?m/, oz-mee-?m","silvery, blue cast",76,"group 8, d-block",6,transition metal,190.233,[xe] 4f14 5d6 6s2,2,,solid,3306,5285,,20,,,,31,378,24.7,"vapor pressure, p (pa), 1, 10, 100, 1 k, 10 k, 100 k, at t (k), 3160, 3423, 3751, 4148, 4638, 5256",8,pauling scale: 2.2,"1st: 840 kj/mol, 2nd: 1600 kj/mol",144±4 pm,,hexagonal close-packed (hcp),,87.6,paramagnetic,7440-04-2,,,"iso, na, half-life, dm, de (mev), dp, 184os, 0.02%, 184os is stable with 108 neutrons, 185os, syn, 93.6 d, ?, 1.013, 185re, 186os, 1.59%, 2.0×1015 y, ?, 2.822, 182w, 187os, 1.96%, 187os is stable with 111 neutrons, 188os, 13.24%, 188os is stable with 112 neutrons, 189os, 16.15%, 189os is stable with 113 neutrons, 190os, 26.26%, 190os is stable with 114 neutrons, 191os, syn, 15.4 d, ??, 0.314, 191ir, 192os, 40.78%, 192os is stable with 116 neutrons, 193os, syn, 30.11 d, ??, 1.141, 193ir, 194os, syn, 6 y, ??, 0.097, 194ir",3160,,,22.59,empirical: 135 pm,4940,5.1,81.2,,222,462,7,3490–4000 mpa,0.25,,,,,,,,,smithson tennant (1803),,,,,,,,,,,
+77,iridium,ir,"iridium, ir","/??r?di?m/, i-rid-ee-?m",silvery white,77,"group 9, d-block",6,transition metal,192.2173,[xe] 4f14 5d7 6s2,2,,solid,2719,4403,,19,,,,41.12,564,25.1,"vapor pressure, p (pa), 1, 10, 100, 1 k, 10 k, 100 k, at t (k), 2713, 2957, 3252, 3614, 4069, 4659","?3, ?1, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9",pauling scale: 2.20,"1st: 880 kj/mol, 2nd: 1600 kj/mol",141±6 pm,,face-centered cubic (fcc),,147,paramagnetic,7439-88-5,,,"iso, na, half-life, dm, de (mev), dp, 188ir, syn, 1.73 d, ?, 1.64, 188os, 189ir, syn, 13.2 d, ?, 0.532, 189os, 190ir, syn, 11.8 d, ?, 2.000, 190os, 191ir, 37.3%, 191ir is stable with 114 neutrons, 192ir, syn, 73.827 d, ??, 1.460, 192pt, ?, 1.046, 192os, 192m2ir, syn, 241 y, it, 0.161, 192ir, 193ir, 62.7%, 193ir is stable with 116 neutrons, 193mir, syn, 10.5 d, it, 0.080, 193ir, 194ir, syn, 19.3 h, ??, 2.247, 194pt, 194m2ir, syn, 171 d, it, –, 194ir",2713,,,22.56,empirical: 136 pm,4825,6.4,47.1,528,210,320,6.5,1670,0.26,1760–2200 mpa,,,,,,,,smithson tennant (1803),,,,,,,,,,,
+78,platinum,pt,"platinum, pt","/?plæt?n?m/, plat-i-n?m",silvery white,78,"group 10, d-block",6,transition metal,195.0849,[xe] 4f14 5d9 6s1,2,,solid,2041.4,4098,,19.77,,,,22.17,510,25.86,"vapor pressure, p (pa), 1, 10, 100, 1 k, 10 k, 100 k, at t (k), 2330, (2550), 2815, 3143, 3556, 4094",6,pauling scale: 2.28,"1st: 870 kj/mol, 2nd: 1791 kj/mol",136±5 pm,175,face-centered cubic (fcc),,71.6,paramagnetic,7440-06-4,,,"iso, na, half-life, dm, de (mev), dp, 190pt, 0.012%, 6.5×1011 y, ?, 3.252, 186os, 192pt, 0.782%, 192pt is stable with 114 neutrons, 193pt, syn, 50 y, ?, –, 193ir, 194pt, 32.864%, 194pt is stable with 116 neutrons, 195pt, 33.775%, 195pt is stable with 117 neutrons, 196pt, 25.211%, 196pt is stable with 118 neutrons, 198pt, 7.356%, 198pt is stable with 120 neutrons",2330,,,21.45,empirical: 139 pm,2800,8.8,105,168,61,230,3.5,300–500 mpa,0.38,400–550 mpa,,,,,,,,antonio de ulloa (1748),,,,,,,,125–240 mpa,,,
+79,gold,au,"gold, au","/??o?ld/, gohld",metallic yellow,79,"group 11, d-block",6,transition metal,196.9665695,[xe] 4f14 5d10 6s1,2,,solid,1337.33,3243,,17.31,,,,12.55,342,25.418,"vapor pressure, p (pa), 1, 10, 100, 1 k, 10 k, 100 k, at t (k), 1646, 1814, 2021, 2281, 2620, 3078",5,pauling scale: 2.54,"1st: 890.1 kj/mol, 2nd: 1980 kj/mol",136±6 pm,166,face-centered cubic (fcc),,318,diamagnetic,7440-57-5,in the middle east (before 6000 bce),,"iso, na, half-life, dm, de (mev), dp, 195au, syn, 186.10 d, ?, 0.227, 195pt, 196au, syn, 6.183 d, ?, 1.506, 196pt, ??, 0.686, 196hg, 197au, 100%, 197au is stable with 118 neutrons, 198au, syn, 2.69517 d, ??, 1.372, 198hg, 199au, syn, 3.169 d, ??, 0.453, 199hg",1646,"from latin aurum, meaning gold",,19.3,empirical: 144 pm,2030,14.2,22.14,79,27,180,2.5,188–245 mpa,0.4,188–216 mpa,,,,,,,,,,,,,,,,120,,,
+80,mercury,hg,"mercury, hg","/?m??rkj?ri/, mer-ky?-ree",silvery,80,"group 12, d-block",6,"transition metal, alternatively considered a post-transition metal",200.5923,[xe] 4f14 5d10 6s2,2,,liquid,234.321,629.88,,,,234.3156,1750,2.29,59.11,27.983,"vapor pressure, p (pa), 1, 10, 100, 1 k, 10 k, 100 k, at t (k), 315, 350, 393, 449, 523, 629",2,pauling scale: 2.00,"1st: 1007.1 kj/mol, 2nd: 1810 kj/mol, 3rd: 3300 kj/mol",132±5 pm,155,rhombohedral,liquid: 1451.4 m/s (at 20 °c),8.3,diamagnetic,7439-97-6,ancient chinese and indians (before 2000 bce),,"iso, na, half-life, dm, de (mev), dp, 194hg, syn, 444 y, ?, 0.040, 194au, 195hg, syn, 9.9 h, ?, 1.510, 195au, 196hg, 0.15%, 196hg is stable with 116 neutrons, 197hg, syn, 64.14 h, ?, 0.600, 197au, 198hg, 10.04%, 198hg is stable with 118 neutrons, 199hg, 16.94%, 199hg is stable with 119 neutrons, 200hg, 23.14%, 200hg is stable with 120 neutrons, 201hg, 13.17%, 201hg is stable with 121 neutrons, 202hg, 29.74%, 202hg is stable with 122 neutrons, 203hg, syn, 46.612 d, ??, 0.492, 203tl, 204hg, 6.82%, 204hg is stable with 124 neutrons",315,,,13.534,empirical: 151 pm,,60.4,961,,,,,,,,,,,,,,,,,,,,,,,,,,
+81,thallium,tl,"thallium, tl","/??æli?m/, thal-ee-?m",silvery white,81,"group 13, p-block",6,post-transition metal,204.38,[xe] 4f14 5d10 6s2 6p1,2,,solid,577,1746,,11.22,,,,4.14,165,26.32,"vapor pressure, p (pa), 1, 10, 100, 1 k, 10 k, 100 k, at t (k), 882, 977, 1097, 1252, 1461, 1758",3,pauling scale: 1.62,"1st: 589.4 kj/mol, 2nd: 1971 kj/mol, 3rd: 2878 kj/mol",145±7 pm,196,hexagonal close-packed (hcp),,46.1,diamagnetic,7440-28-0,william crookes (1861),,"iso, na, half-life, dm, de (mev), dp, 203tl, 29.5%, 203tl is stable with 122 neutrons, 204tl, syn, 3.78 y, ??, 0.764, 204pb, ?, 0.347, 204hg, 205tl, 70.5%, 205tl is stable with 124 neutrons",882,,claude-auguste lamy (1862),11.85,empirical: 170 pm,818,29.9,0.18,8,2.8,43,1.2,26.5–44.7 mpa,0.45,,,,,,,,,,,,,,,,,,,,
+82,lead,pb,"lead, pb","/?l?d/, led",metallic gray,82,"group 14 (carbon group), p-block",6,post-transition metal,207.21,[xe] 4f14 5d10 6s2 6p2,2,,solid,600.61,2022,,10.66,,,,4.77,179.5,26.65,"vapor pressure, p (pa), 1, 10, 100, 1 k, 10 k, 100 k, at t (k), 978, 1088, 1229, 1412, 1660, 2027",4,pauling scale: 1.87,"1st: 715.6 kj/mol, 2nd: 1450.5 kj/mol, 3rd: 3081.5 kj/mol",146±5 pm,202,face-centered cubic (fcc),,35.3,diamagnetic,7439-92-1,middle easterns (7000 bce),,"iso, na, half-life, dm, de (mev), dp, 202pb, syn, 53000 y, ?, 0.0497, 202tl, 204pb, 1.4%, 204pb is stable with 122 neutrons, 205pb, trace, 1.53×107 y, ?, 0.051, 205tl, 206pb, 24.1%, 206pb is stable with 124 neutrons, 207pb, 22.1%, 207pb is stable with 125 neutrons, 208pb, 52.4%, 208pb is stable with 126 neutrons, 210pb, trace, 22.3 y, ??, 0.064, 210bi",978,,,11.34,empirical: 175 pm,1190,28.9,208,16,5.6,46,1.5,38–50 mpa,0.44,,,,,,,,,,,,,,,,,,,,
+83,bismuth,bi,"bismuth, bi","/?b?zm??/, biz-m?th",lustrous brownish silver,83,"group 15 (pnictogens), p-block",6,post-transition metal,208.980401,[xe] 4f14 5d10 6s2 6p3,2,,solid,544.7,1837,,10.05,,,,11.3,179,25.52,"vapor pressure, p (pa), 1, 10, 100, 1 k, 10 k, 100 k, at t (k), 941, 1041, 1165, 1325, 1538, 1835",5,pauling scale: 2.02,"1st: 703 kj/mol, 2nd: 1610 kj/mol, 3rd: 2466 kj/mol, (more)",148±4 pm,207,rhombohedral,,7.97,diamagnetic,7440-69-9,claude françois geoffroy (1753),,"iso, na, half-life, dm, de (mev), dp, 207bi, syn, 31.55 y, ?+, 2.399, 207pb, 208bi, syn, 3.68×105 y, ?+, 2.880, 208pb, 209bi, 100%, 1.9×1019 y, ?, 3.137, 205tl, 210bi, trace, 5.012 d, ??, 1.426, 210po, ?, 5.982, 206tl, 210mbi, syn, 3.04×106 y, it, 0.271, 210bi, ?, 6.253, 206tl",941,,,9.78,empirical: 156 pm,1790,13.4,1.29,32,12,31,2.25,70–95 mpa,0.33,,,,,,,,,,,,,,,,,,,,
+84,polonium,po,"polonium, po","/po??lo?ni?m/, po-loh-nee-?m",silvery,84,"group 16 (chalcogens), p-block",6,"post-transition metal, but this status is disputed",209,[xe] 4f14 5d10 6s2 6p4,2,,solid,527,1235,,,,,,ca. 13 kj/mol,102.91,26.4,"vapor pressure, p (pa), 1, 10, 100, 1 k, 10 k, 100 k, at t (k), (846), 1003, 1236",6,pauling scale: 2.0,1st: 812.1 kj/mol,140±4 pm,197,"rhombohedral, ?-po",,20,nonmagnetic,7440-08-6,pierre and marie curie (1898),,"iso, na, half-life, dm, de (mev), dp, 208po, syn, 2.898 y, ?, 5.215, 204pb, ?+, 1.401, 208bi, 209po, syn, (125.2±3.3) y, ?, 4.979, 205pb, ?+, 1.893, 209bi, 210po, trace, 138.376 d, ?, 5.307, 206pb",,"after polonia, latin for poland, homeland of marie curie",willy marckwald (1902),"alpha: 9.196 g/cm3, beta: 9.398 g/cm3",empirical: 168 pm,,23.5,?: 0.40 μ?·m (at 0 °c),,,,,,,,"?, ?",,,,,,,,,,,,,,,,,,
+85,astatine,at,"astatine, at","/?æst?ti?n/ or /?æst?t?n/, as-t?-teen or as-t?-tin","unknown, probably metallic",85,"group 17 (halogens), p-block",6,"metalloid, sometimes classified as a nonmetal, or a metal",210,[xe] 4f14 5d10 6s2 6p5,2,,solid,575,610,,,,,,,(at2) 54.39 kj/mol,,"vapor pressure, p (pa), 1, 10, 100, 1 k, 10 k, 100 k, at t (k), 361, 392, 429, 475, 531, 607","?1, +1, +3, +5, +7",pauling scale: 2.2,1st: 899.003 kj/mol,150,202,"face-centered cubic (fcc), (predicted)",,1.7,,7440-68-8,"dale r. corson, kenneth ross mackenzie, emilio segrè (1940)",,"iso, na, half-life, dm, de (mev), dp, 209at, syn, 5.41 h, ?+, 3.486, 209po, ?, 5.758, 205bi, 210at, syn, 8.1 h, ?+, 3.981, 210po, ?, 5.632, 206bi, 211at, syn, 7.21 h, ?, 0.786, 211po, ?, 5.983, 207bi",361,"after greek astatos (???????), meaning ""unstable""",,(at2) 6.35±0.15 g/cm3 (predicted),,,,,,,,,,,,,,,,,,,,,,,,,,,,(at2) 32.94 cm3/mol (predicted),,
+86,radon,rn,"radon, rn",/?re?d?n/ ray-don,"colorless gas, occasionally glows green or red in discharge tubes",86,"group 18 (noble gases), p-block",6,noble gas,222,[xe] 4f14 5d10 6s2 6p6,2,,gas,202,211.5,9.73,,4.4,,377,3.247,18.1,5r/2 = 20.786 j/(mol·k),"vapor pressure, p (pa), 1, 10, 100, 1 k, 10 k, 100 k, at t (k), 110, 121, 134, 152, 176, 211",6,pauling scale: 2.2,1st: 1037 kj/mol,150,220,face-centered cubic (fcc),,3.61×10?3  w/(m·k),non-magnetic,10043-92-2,ernest rutherford and robert b. owens (1899),,"iso, na, half-life, dm, de (mev), dp, 210rn, syn, 2.4 h, ?, 6.404, 206po, 211rn, syn, 14.6 h, ?, 2.892, 211at, ?, 5.965, 207po, 222rn, trace, 3.8235 d, ?, 5.590, 218po, 224rn, syn, 1.8 h, ??, 0.8, 224fr",110,,william ramsay and robert whytlaw-gray (1910),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+87,francium,fr,"francium, fr","/?frænsi?m/, fran-see-?m",,87,"group 1 (alkali metals), s-block",7,alkali metal,223,[rn] 7s1,2,,solid presumably,"? 300 k (30 °c, 80 °f)","? 950 k (680 °c, 1300 °f)",,,,,,,,,"vapor pressure (extrapolated), p (pa), 1, 10, 100, 1 k, 10 k, 100 k, at t (k), 404, 454, 519, 608, 738, 946",+1 (a strongly basic oxide),pauling scale: >0.79,1st: 393 kj/mol,260,348,"body-centered cubic (bcc), (extrapolated)",,15,paramagnetic,7440-73-5,,,"iso, na, half-life, dm, de (mev), dp, 221fr, trace, 4.8 min, ?, 6.457, 217at, 222fr, syn, 14.2 min, ??, 2.033, 222ra, 223fr, trace, 22.00 min, ??, 1.149, 223ra, ?, 5.430, 219at",404,"after france, homeland of the discoverer",,2.8–3.0 g/cm3 (extrapolated),,,,3,,,,,,,,,,,,,,,marguerite perey (1939),,,,,,,,,,,
+88,radium,ra,"radium, ra","/?re?di?m/, ray-dee-?m",silvery white metallic,88,"group 2 (alkaline earth metals), s-block",7,alkaline earth metal,226,[rn] 7s2,2,,solid,973,2010,,,,,,8.5,113,,"vapor pressure, p (pa), 1, 10, 100, 1 k, 10 k, 100 k, at t (k), 819, 906, 1037, 1209, 1446, 1799",2,pauling scale: 0.9,"1st: 509.3 kj/mol, 2nd: 979.0 kj/mol",221±2 pm,283,body-centered cubic (bcc),,18.6,nonmagnetic,7440-14-4,pierre and marie curie (1898),,"iso, na, half-life, dm, de (mev), dp, 223ra, trace, 11.43 d, ?, 5.99, 219rn, 224ra, trace, 3.6319 d, ?, 5.789, 220rn, 225ra, trace, 14.9 d, ??, 0.356, 225ac, 226ra, trace, 1600 y, ?, 4.871, 222rn, 228ra, trace, 5.75 y, ??, 0.046, 228ac",819,,marie curie (1910),5.5,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,
+89,actinium,ac,"actinium, ac","/æk?t?ni?m/, ak-tin-nee-?m","silvery-white, glowing with an eerie blue light; sometimes with a golden cast",89,"group n/a, f-block",7,"actinide, sometimes considered a transition metal",227,[rn] 6d1 7s2,2,,solid,1500,"3500±300 k (3200±300 °c, 5800±500 °f) (extrapolated)",,,,,,14,400,27.2,,3,pauling scale: 1.1,"1st: 499 kj/mol, 2nd: 1170 kj/mol, 3rd: 1900 kj/mol, (more)",215,,face-centered cubic (fcc),,12,,7440-34-8,,andré-louis debierne (1899),"iso, na, half-life, dm, de (mev), dp, 225ac, trace, 10 d, ?, 5.935, 221fr, 226ac, syn, 29.37 h, ??, 1.117, 226th, ?, 0.640, 226ra, ?, 5.536, 222fr, 227ac, trace, 21.772 y, ??, 0.045, 227th, ?, 5.042, 223fr",,,,10,,,,,,,,,,,,,,,,,,,friedrich oskar giesel (1902),,,,,,,,,,,
+90,thorium,th,"thorium, th","/????ri?m/, thawr-ee-?m","silvery, often with black tarnish",90,"group n/a, f-block",7,actinide,232.03774,[rn] 6d2 7s2,2,,solid,2023,5061,,,,,,13.81,,26.23,"vapour pressure, p (pa), 1, 10, 100, 1 k, 10 k, 100 k, at t (k), 2633, 2907, 3248, 3683, 4259, 5055",4,pauling scale: 1.3,,206±6 pm,,face-centred cubic (fcc),,54,paramagnetic,7440-29-1,jöns jakob berzelius (1829),,"iso, na, half-life, dm, de (mev), dp, 227th, trace, 18.68 d, ?, 6.038, 5.978, 223ra, 228th, trace, 1.9116 y, ?, 5.520, 224ra, 229th, trace, 7917 y, ?, 5.168, 225ra, 230th, 0.02%, 75400 y, ?, 4.770, 226ra, 231th, trace, 25.5 h, ??, 0.39, 231pa, 232th, 99.98%, 1.405×1010 y, ?, 4.083, 228ra, 234th, trace, 24.1 d, ??, 0.27, 234pa",2633,"after thor, the norse god of thunder",,11.7,empirical: 179.8 pm,2490,11,157,79,31,54,3,390–1500 mpa,0.27,295–685 mpa,,,,,514,"1st: 587 kj/mol, 2nd: 1110 kj/mol, 3rd: 1930 kj/mol",,,,,,,,,,,,,
+91,protactinium,pa,"protactinium, pa","/?pro?tæk?t?ni?m/, proh-tak-tin-ee-?m","bright, silvery metallic luster",91,"group n/a, f-block",7,actinide,231.035882,[rn] 5f2 6d1 7s2,2,,solid,1841,4300,,,,,,12.34,481,,,2,pauling scale: 1.5,1st: 568 kj/mol,200,,tetragonal,,47,paramagnetic,7440-13-3,,otto hahn and lise meitner (1917–8),"iso, na, half-life, dm, de (mev), dp, 229pa, syn, 1.5 d, ?, 0.311, 229th, 230pa, syn, 17.4 d, ?, 1.310, 230th, 231pa, 100%, 3.276×104 y, ?, 5.150, 227ac, 232pa, syn, 1.31 d, ??, 1.337, 232u, 233pa, trace, 26.967 d, ??, 0.5701, 233u, 234pa, trace, 6.75 h, ??, 2.195, 234u, 234mpa, trace, 1.17 min, ??, 2.29, 234u",,,,15.37,empirical: 163 pm,,~9.9 μm/(m·k) (at r.t.),177,,,,,,,,,,,,,,dmitri mendeleev (1869),kasimir fajans and oswald helmuth göhring (1913),,,,,,,,,,,
+92,uranium,u,"uranium, u","/j??re?ni?m/, ew-ray-nee-?m",silvery gray metallic; corrodes to a spalling black oxide coat in air,92,"group n/a, f-block",7,actinide,238.028913,[rn] 5f3 6d1 7s2,2,,solid,1405.3,4404,,17.3,,,,9.14,417.1,27.665,"vapor pressure, p (pa), 1, 10, 100, 1 k, 10 k, 100 k, at t (k), 2325, 2564, 2859, 3234, 3727, 4402",6,pauling scale: 1.38,"1st: 597.6 kj/mol, 2nd: 1420 kj/mol",196±7 pm,186,orthorhombic,,27.5,paramagnetic,7440-61-1,martin heinrich klaproth (1789),,"iso, na, half-life, dm, de (mev), dp, 232u, syn, 68.9 y, sf, –, –, ?, 5.414, 228th, 233u, trace, 1.592×105 y, sf, 197.93, –, ?, 4.909, 229th, 234u, 0.005%, 2.455×105 y, sf, 197.78, –, ?, 4.859, 230th, 235u, 0.720%, 7.04×108 y, sf, 202.48, –, ?, 4.679, 231th, 236u, trace, 2.342×107 y, sf, 201.82, –, ?, 4.572, 232th, 238u, 99.274%, 4.468×109 y, ?, 4.270, 234th, sf, 205.87, –, ????, –, 238pu",2325,"after planet uranus, itself named after greek god of the sky uranus",eugène-melchior péligot (1841),19.1,empirical: 156 pm,3155,13.9,0.28,208,111,100,,2350–3850 mpa,0.23,1960–2500 mpa,,,,,,,,,,,,,,,,,,,
+93,neptunium,np,"neptunium, np","uk /n?p?tju?ni?m/, us /n?p?tu?ni?m/
+nep-tew-nee-?m, nep-too-nee-?m",silvery metallic,93,"group n/a, f-block",7,actinide,237,[rn] 5f4 6d1 7s2,2,,solid,"912±3 k (639±3 °c, 1182±5 °f)",4447,,,,,,5.19,336,29.46,"vapor pressure, p (pa), 1, 10, 100, 1 k, 10 k, 100 k, at t (k), 2194, 2437",7,pauling scale: 1.36,1st: 604.5 kj/mol,190±1 pm,,orthorhombic,,6.3,paramagnetic,7439-99-8,edwin mcmillan and philip h. abelson (1940),,"iso, na, half-life, dm, de (mev), dp, 235np, syn, 396.1 d, ?, 5.192, 231pa, ?, 0.124, 235u, 236np, syn, 1.54×105 y, ?, 0.940, 236u, ??, 0.940, 236pu, ?, 5.020, 232pa, 237np, trace, 2.144×106 y, ?, 4.959, 233pa, 239np, trace, 2.356 d, ??, 0.218, 239pu",2194,"after planet neptune, itself named after roman god of the sea neptune",,"alpha: 20.45 g/cm3, accepted standard value: 19.38 g/cm3",empirical: 155 pm,,,1.22,,,,,,,,,,,,,,,,,,,,,,,,,,
+94,plutonium,pu,"plutonium, pu","/plu??to?ni?m/, ploo-toh-nee-?m","silvery white, tarnishing to dark gray in air",94,"group n/a, f-block",7,actinide,244,[rn] 5f6 7s2,2,,solid,912.5,3505,,16.63,,,,2.82,333.5,35.5,"vapor pressure, p (pa), 1, 10, 100, 1 k, 10 k, 100 k, at t (k), 1756, 1953, 2198, 2511, 2926, 3499",8,pauling scale: 1.28,1st: 584.7 kj/mol,187±1 pm,,monoclinic,2260,6.74,paramagnetic,7440-07-5,"glenn t. seaborg, arthur wahl, joseph w. kennedy, edwin mcmillan (1940–1)",,"iso, na, half-life, dm, de (mev), dp, 238pu, trace, 87.74 y, sf, 204.66, –, ?, 5.5, 234u, 239pu, trace, 2.41×104 y, sf, 207.06, –, ?, 5.157, 235u, 240pu, syn, 6.5×103 y, sf, 205.66, –, ?, 5.256, 236u, 241pu, syn, 14 y, ??, 0.02078, 241am, sf, 210.83, –, 242pu, syn, 3.73×105 y, sf, 209.47, –, ?, 4.984, 238u, 244pu, syn, 8.08×107 y, ?, 4.666, 240u, sf, –",1756,"after dwarf planet pluto, itself named after classical god of the underworld pluto",,19.816,empirical: 159 pm,,46.7,1.46,96,43,,,,0.21,,,,,,,,,,,,,,,,,,,,
+95,americium,am,"americium, am","/?æm??r?si?m/, am-?-ris-ee-?m",silvery white,95,"group n/a, f-block",7,actinide,243,[rn] 5f7 7s2,2,,solid,1449,2880,,,,,,14.39,,62.7,"vapor pressure, p (pa), 1, 10, 100, 1 k, 10 k, 100 k, at t (k), 1239, 1356",8,pauling scale: 1.3,1st: 578 kj/mol,180±6 pm,,double hexagonal close-packed (dhcp),,10,paramagnetic,7440-35-9,"glenn t. seaborg, ralph a. james, leon o. morgan, albert ghiorso (1944)",,"iso, na, half-life, dm, de (mev), dp, 241am, syn, 432.2 y, sf, –, –, ?, 5.486, 237np, 242m1am, syn, 141 y, it, 0.049, 242am, ?, 5.637, 238np, sf, –, –, 243am, syn, 7370 y, sf, –, –, ?, 5.275, 239np",1239,after the americas,,12,empirical: 173 pm,,,0.69,,,,,,,,,,,,,,,,,,,,,,,,,,
+96,curium,cm,"curium, cm","/?kj??ri?m/, kewr-ee-?m","silvery metallic, glows purple in the dark",96,"group n/a, f-block",7,actinide,247,[rn] 5f7 6d1 7s2,2,,solid,1613,3383,,,,,,13.85,,,"vapor pressure, p (pa), 1, 10, 100, 1 k, 10 k, 100 k, at t (k), 1788, 1982",6,pauling scale: 1.3,1st: 581 kj/mol,169±3 pm,,double hexagonal close-packed (dhcp),,,antiferromagnetic-paramagnetic transition at 52 k,7440-51-9,"glenn t. seaborg, ralph a. james, albert ghiorso (1944)",,"iso, na, half-life, dm, de (mev), dp, 242cm, syn, 160 d, sf, –, –, ?, 6.1, 238pu, 243cm, syn, 29.1 y, ?, 6.169, 239pu, ?, 0.009, 243am, sf, –, –, 244cm, syn, 18.1 y, sf, –, –, ?, 5.8048, 240pu, 245cm, syn, 8500 y, sf, –, –, ?, 5.623, 241pu, 246cm, syn, 4730 y, ?, 5.475, 242pu, sf, –, –, 247cm, syn, 1.56×107 y, ?, 5.353, 243pu, 248cm, syn, 3.40×105 y, ?, 5.162, 244pu, sf, –, –, 250cm, syn, 9000 y, sf, –, –, ?, 5.169, 246pu, ??, 0.037, 250bk",1788,named after marie sk?odowska-curie and pierre curie,,13.51,empirical: 174 pm,,,1.25,,,,,,,,,,,,,,,,,,,,,,,,,,
+97,berkelium,bk,"berkelium, bk","/b?r?ki?li.?m/; less commonly: /?b??rkli.?m/, b?r-kee-lee-?m; berk-lee-?m",silvery,97,"group n/a, f-block",7,actinide,247,[rn] 5f9 7s2,2,,solid,"beta: 1259 k (986 °c, 1807 °f)","beta: 2900 k (2627 °c, 4760 °f)",,,,,,7.92,,,,2,pauling scale: 1.3,1st: 601 kj/mol,,,double hexagonal close-packed (dhcp),,10,paramagnetic,7440-40-6,lawrence berkeley national laboratory (1949),,"iso, na, half-life, dm, de (mev), dp, 245bk, syn, 4.94 d, ?, 0.810, 245cm, ?, 6.455, 241am, 246bk, syn, 1.8 d, ?, 6.070, 242am, ?, 1.350, 246cm, 247bk, syn, 1380 y, ?, 5.889, 243am, 248bk, syn, >300 y, ?, 5.803, 244am, 249bk, syn, 330 d, ?, 5.526, 245am, sf, –, –, ??, 0.125, 249cf",,"after berkeley, california, where it was discovered",,"alpha: 14.78 g/cm3, beta: 13.25 g/cm3",empirical: 170 pm,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+98,californium,cf,"californium, cf","/?kæl??f??rni?m/, kal-i-for-nee-?m",silvery,98,"group n/a, f-block",7,actinide,251,[rn] 5f10 7s2,2,,solid,1173,1743,,,,,,,,,,2,pauling scale: 1.3,1st: 608 kj/mol,,,double hexagonal close-packed (dhcp),,,,7440-71-3,lawrence berkeley national laboratory (1950),,"iso, na, half-life, dm, de (mev), dp, 248cf, syn, 333.5 d, ? (100%), 6.369, 244cm, sf (2.9×10?3%), 0.0029, –, 249cf, syn, 351 y, ? (100%), 6.295, 245cm, sf (5.0×10?7%), 4.4×10?7, –, 250cf, syn, 13.08 y, ? (99.92%), 6.129, 246cm, sf (0.08%), 0.077, –, 251cf, syn, 898 y, ?, 6.172, 247cm, 252cf, syn, 2.645 y, ? (96.91%), 6.217, 248cm, sf (3.09%), –, –, 253cf, syn, 17.81 d, ?? (99.69%), 0.29, 253es, ? (0.31%), 6.126, 249cm, 254cf, syn, 60.5 d, sf (99.69%), –, –, ? (0.31%), 5.930, 250cm",,"after california, where it was discovered",,15.1,,,,,,,,3–4,,,,,,,,,,,,,,,,,,,,,,
+99,einsteinium,es,"einsteinium, es","/a?n?sta?ni?m/, eyen-sty-nee-?m",silvery; glows blue in the dark,99,"group n/a, f-block",7,actinide,252,[rn] 5f11 7s2,2,,solid,1133,1269,,,,,,,,,,2,pauling scale: 1.3,1st: 619 kj/mol,,,face-centered cubic (fcc),,,paramagnetic,7429-92-7,lawrence berkeley national laboratory (1952),,"iso, na, half-life, dm, de (mev), dp, 252es, syn, 471.7 d, ?, 6.760, 248bk, ?, 1.260, 252cf, ??, 0.480, 252fm, 253es, syn, 20.47 d, sf, –, –, ?, 6.739, 249bk, 254es, syn, 275.7 d, ?, 0.654, 254cf, ??, 1.090, 254fm, ?, 6.628, 250bk, 255es, syn, 39.8 d, ??, 0.288, 255fm, ?, 6.436, 251bk, sf, –, –",,after albert einstein,,8.84,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+100,fermium,fm,"fermium, fm","/?f??rmi?m/, fer-mee-?m",,100,"group n/a, f-block",7,actinide,257,[rn] 5f12 7s2,2,,solid (predicted),1800,,,,,,,,,,,2,pauling scale: 1.3,1st: 627 kj/mol  (estimated),,,"face-centered cubic (fcc), (predicted)",,,,7440-72-4,lawrence berkeley national laboratory (1952),,"iso, na, half-life, dm, de (mev), dp, 252fm, syn, 25.39 h, sf, –, –, ?, 7.153, 248cf, 253fm, syn, 3 d, ?, 0.333, 253es, ?, 7.197, 249cf, 255fm, syn, 20.07 h, sf, –, –, ?, 7.241, 251cf, 257fm, syn, 100.5 d, ?, 6.864, 253cf, sf, –, –",,after enrico fermi,,9.71,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+101,mendelevium,md,"mendelevium, md",/?m?nd??l?vi?m/ or /?m?nd??li?vi?m/,,101,"group n/a, f-block",7,actinide,258,[rn] 5f13 7s2,2,,solid (predicted),1100,,,,,,,,,,,2,pauling scale: 1.3,1st: 635 kj/mol  (estimated),,,"face-centered cubic (fcc), (predicted)",,,,7440-11-1,lawrence berkeley national laboratory (1955),,"iso, na, half-life, dm, de (mev), dp, 257md, syn, 5.52 h, ?, 0.406, 257fm, ?, 7.558, 253es, sf, –, –, 258md, syn, 51.5 d, ?, 1.230, 258fm, 260md, syn, 31.8 d, sf, –, –, ?, 7.000, 256es, ?, –, 260fm, ??, 1.000, 260no",,after dmitri mendeleev,,10.37,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+102,nobelium,no,"nobelium, no","i/no??b?li?m/ or /no??bi?li?m/, noh-bel-ee-?m or noh-bee-lee-?m",,102,"group n/a, f-block",7,actinide,259,[rn] 5f14 7s2,2,,solid (predicted),1100,,,,,,,,,,,2,pauling scale: 1.3 (predicted),"1st: 641.6 kj/mol, 2nd: 1254.3 kj/mol, 3rd: 2605.1 kj/mol  (all estimated)",,,"face-centered cubic (fcc), (predicted)",,,,10028-14-5,joint institute for nuclear research (1966),,"iso
+na
+half-life
+dm
+de (mev)
+dp
+
+
+253no
+syn
+1.62 min
+80% ?
+8.14, 8.06, 8.04, 8.01
+249fm
+
+
+20% ?+
+
+253md
+
+
+254no
+syn
+51 s
+90% ?
+
+250fm
+
+
+10% ?+
+
+254md
+
+
+255no
+syn
+3.1 min
+61% ?
+8.12, 8.08, 7.93
+251fm
+
+
+39% ?+
+2.012
+255md
+
+
+257no
+syn
+25 s
+99% ?
+8.32, 8.22
+253fm
+
+
+1% ?+
+
+257md
+
+
+259no
+syn
+58 min
+75% ?
+7.69, 7.61, 7.53....
+255fm
+
+
+25% ?
+
+259md
+
+
+10% sf",,after alfred nobel,,9.94,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+103,lawrencium,lr,"lawrencium, lr","i/l??r?nsi?m/, l?-ren-see-?m",silvery (predicted),103,"group n/a, d-block",7,"actinide, sometimes considered a transition metal",266,[rn] 5f14 7s2 7p1,2,,solid (predicted),1900,,,,,,,,,,,3,,"1st: 478.6 kj/mol, 2nd: 1428.0 kj/mol (predicted), 3rd: 2219.1 kj/mol (predicted)",,,"hexagonal close-packed (hcp), (predicted)",,,,22537-19-5,lawrence berkeley national laboratory and joint institute for nuclear research (1961–1971),,"iso, na, half-life, dm, de (mev), dp, 266lr, syn, 11 h, sf, 262lr, syn, 3.6 h, ?, 262no, 261lr, syn, 44 min, sf/??, 260lr, syn, 2.7 min, ?, 8.04, 256md, 259lr, syn, 6.2 s, 78% ?, 8.44, 255md, 22% sf, 256lr, syn, 27 s, ?, 8.62,8.52,8.32..., 252md, 255lr, syn, 21.5 s, ?, 8.43,8.37, 251md, 254lr, syn, 13 s, 78% ?, 8.46,8.41, 250md, 22% ?, 254no",,after ernest lawrence,,~15.6–16.6 g/cm3 (predicted),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+105,dubnium,db,"dubnium, db","i/?du?bni?m/, doob-nee-?m",,105,"group 5, d-block",7,transition metal,268,[rn] 5f14 6d3 7s2 ,2,,solid (predicted),,,,,,,,,,,,5,,"1st: 656.1 kj/mol, 2nd: 1546.7 kj/mol, 3rd: 2378.4 kj/mol, (more) (all but first estimated)",149,,body-centered cubic (bcc) (predicted),,,,53850-35-4,joint institute for nuclear research (1968),,"iso, na, half-life, dm, de (mev), dp, 262db, syn, 34 s, 67% ?, 8.66,, 8.45, 258lr, 33% sf, 263db, syn, 27 s, 56% sf, 41% ?, 8.36, 259lr, 3% ?, 263mrf, 266db, syn, 22 min, sf, ?, 266rf, 267db, syn, 1.2 h, sf, 268db, syn, 29 h, sf, ?, 268rf, 270db, syn, 23.15 h, 17% sf, 83% ?, 266lr",,after the town of dubna in russia,,29.3,empirical: 139 pm (estimated),,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+106,seaborgium,sg,"seaborgium, sg","i/si??b??r?i?m/, see-bor-gee-?m",,106,"group 6, d-block",7,transition metal,269,[rn] 5f14 6d4 7s2 ,2,,solid (predicted),,,,,,,,,,,,6,,"1st: 752.6 kj/mol, 2nd: 1732.9 kj/mol, 3rd: 2483.5 kj/mol, (more) (all but first estimated)",143,,"body-centered cubic (bcc), (predicted)",,,,54038-81-2,lawrence berkeley national laboratory (1974),,"iso
+na
+half-life
+dm
+de (mev)
+dp
+
+
+271sg
+syn
+1.9 min
+67% ?
+8.54
+267rf
+
+
+33% sf
+
+
+
+
+269sg
+syn
+3.1+3.7
+?1.1 min
+?
+8.50(6)
+265rf
+
+
+267sg
+syn
+1.4 min
+17% ?
+8.20
+263rf
+
+
+83% sf
+
+
+
+
+265msg
+syn
+16.2 s
+?
+8.70
+261mrf
+
+
+265sg
+syn
+8.9 s
+?
+8.90, 8.84, 8.76
+261rf",,after glenn t. seaborg,,35,empirical: 132 pm (predicted),,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+107,bohrium,bh,"bohrium, bh",i/?b??ri?m/,,107,"group 7, d-block",7,transition metal,270,[rn] 5f14 6d5 7s2 ,2,,solid (predicted),,,,,,,,,,,,7,,"1st: 742.9 kj/mol, 2nd: 1688.5 kj/mol, 3rd: 2566.5 kj/mol, (more) (all but first estimated)",141,,"hexagonal close-packed (hcp), (predicted)",,,,54037-14-8,gesellschaft für schwerionenforschung (1981),,"iso, na, half-life, dm, de (mev), dp, 274bh, syn, ~54 s, ?, 8.8, 270db, 272bh, syn, 9.8 s, ?, 9.02, 268db, 271bh, syn, 1.2 s, ?, 9.35, 267db, 270bh, syn, 61 s, ?, 8.93, 266db, 267bh, syn, 17 s, ?, 8.83, 263db",,after niels bohr,,37.1,empirical: 128 pm (predicted),,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+108,hassium,hs,"hassium, hs","i/?hæsi?m/, hass-ee-?m",silvery (predicted),108,"group 8, d-block",7,transition metal,269,[rn] 5f14 6d6 7s2 ,2,,solid (predicted),,,,,,,,,,,,8,,"1st: 733.3 kj/mol, 2nd: 1756.0 kj/mol, 3rd: 2827.0 kj/mol, (more) (all but first estimated)",134,,"hexagonal close-packed (hcp), (predicted)",,,,54037-57-9,gesellschaft für schwerionenforschung (1984),,"iso
+na
+half-life
+dm
+de (mev)
+dp
+
+
+277hs
+syn
+2 s
+sf
+
+
+
+
+277mhs ?
+syn
+~130 s?
+sf
+
+
+
+
+271hs
+syn
+~4 s
+?
+9.27, 9.13
+267sg
+
+
+270hs
+syn
+3.6 s
+?
+9.02, 8.88
+266sg
+
+
+269hs
+syn
+9.7 s
+?
+9.21, 9.10, 8.97
+265sg",,"after hassia, latin for hesse, germany, where it was discovered",,41,empirical: 126 pm (estimated),,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+109,meitnerium,mt,"meitnerium, mt","/ma?t?n??ri?m/ or /?ma?tn?ri?m/, myt-neer-ee-?m or myt-n?r-ee-?m",,109,"group 9, d-block",7,"unknown, but probably a transition metal",278,[rn] 5f14 6d7 7s2 (calculated),2,,solid (predicted),,,,,,,,,,,,9,,"1st: 800.8 kj/mol, 2nd: 1823.6 kj/mol, 3rd: 2904.2 kj/mol, (more) (all estimated)",129,,"face-centered cubic (fcc), (predicted)",,,paramagnetic (predicted),54038-01-6,gesellschaft für schwerionenforschung (1982),,"iso, na, half-life, dm, de (mev), dp, 278mt, syn, 7.6 s, ?, 9.6, 274bh, 276mt, syn, 0.72 s, ?, 9.71, 272bh, 274mt, syn, 0.44 s, ?, 9.76, 270bh, 270mmt ?, syn, 1.1 s, ?, 266bh",,after lise meitner,,37.4,empirical: 128 pm (predicted),,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+110,darmstadtium,ds,"darmstadtium, ds","i/d??rm??t??ti?m/, darm-shtaht-ee-?m",,110,"group 10, d-block",7,"unknown, but probably a transition metal",281,"[rn] 5f14 6d8 7s2, (predicted)",2,,solid (predicted),,,,,,,,,,,,8,,"1st: 955.2 kj/mol, 2nd: 1891.1 kj/mol, 3rd: 3029.6 kj/mol, (more) (all estimated)",128,,"body-centered cubic (bcc), (predicted)",,,,54083-77-1,gesellschaft für schwerionenforschung (1994),,"iso, na, half-life, dm, de (mev), dp, 281ds, syn, 11 s, 94% sf, 6% ?, 8.67, 277hs, 279ds, syn, 0.20 s, 10% ?, 9.70, 275hs, 90% sf",,"after darmstadt, germany, where it was discovered",,34.8,empirical: 132 pm (predicted),,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+111,roentgenium,rg,"roentgenium, rg","i/r?nt???ni?m/ or /r?nt???ni?m/, runt-gen-ee-?m or rent-gen-ee-?m",silvery (predicted),111,"group 11, d-block",7,"unknown, but probably a transition metal",282,[rn] 5f14 6d9 7s2 (predicted),2,,solid (predicted),,,,,,,,,,,,5,,"1st: 1022.7 kj/mol, 2nd: 2074.4 kj/mol, 3rd: 3077.9 kj/mol, (more) (all estimated)",121,,"body-centered cubic (bcc), (predicted)",,,,54386-24-2,gesellschaft für schwerionenforschung (1994),,"iso, na, half-life, dm, de (mev), dp, 282rg, syn, 2.1+1.4, ?0.6 min, ?, 9.00, 278mt, 281rg, syn, 17+6, ?3 s, sf (90%), ? (10%), 277mt, 280rg, syn, 3.6 s, ?, 9.75, 276mt, 279rg, syn, 0.17 s, ?, 10.37, 275mt",,after wilhelm röntgen,,28.7,empirical: 138 pm (predicted),,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+112,ununbium,uub,"copernicium, cn","/ko?p?r?n?si?m/, koe-p?r-nis-ee-?m",,112,"group 12, d-block",7,"transition metal, alternatively considered a post-transition metal",285,[rn] 5f14 6d10 7s2 (predicted),2,,gas (predicted),,"357+112
+?108 k (84+112
+?108 °c, 183+202
+?194 °f)",,,,,,,,,,4,,"1st: 1154.9 kj/mol, 2nd: 2170.0 kj/mol, 3rd: 3164.7 kj/mol, (more) (all estimated)",122,,"hexagonal close-packed (hcp), (predicted)",,,,54084-26-3,gesellschaft für schwerionenforschung (1996),,"iso
+na
+half-life
+dm
+de (mev)
+dp
+
+
+285cn
+syn
+29 s
+?
+9.15, 9.03?
+281ds
+
+
+283cn
+syn
+4 s
+90% ?
+9.53, 9.32, 8.94
+279ds
+
+
+10% sf",,after nicolaus copernicus,,23.7,empirical: 147 pm (predicted),,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+113,ununtrium,uut,"ununtrium, uut","i/u?nu?n?tra??m/, oon-oon-try-?m",,113,"group 13, p-block",7,"unknown, but probably a post-transition metal",286,[rn] 5f14 6d10 7s2 7p1 (predicted),2,,solid (predicted),700,1430,,,,,,7.61,130,,,"?1, 1, 3, 5 (predicted)",,"1st: 704.9 kj/mol (predicted), 2nd: 2238.5 kj/mol (predicted), 3rd: 3203.3 kj/mol (predicted), (more)",172–180 pm (extrapolated),,,,,,54084-70-7,"riken (2004, first undisputed)
+joint institute for nuclear research and lawrence livermore national laboratory (2003, first announced)",,"iso
+na
+half-life
+dm
+de (mev)
+dp
+
+
+286uut
+syn
+20 s
+?
+9.63
+282rg
+
+
+285uut
+syn
+5.5 s
+?
+9.74, 9.48
+281rg
+
+
+284uut
+syn
+0.48 s
+?
+10.00
+280rg
+
+
+ec
+
+284cn
+
+
+283uut
+syn
+0.10 s
+?
+10.12
+279rg
+
+
+282uut
+syn
+70 ms
+?
+10.63
+278rg
+
+
+278uut
+syn
+0.24 ms
+?
+11.68
+274rg",,iupac systematic element name,,16,empirical: 170 pm (predicted),,,,,,,,,,,,,,,,,,,,,,,,,,,,"nihonium, nh","element 113, eka-thallium"
+114,ununquadium,uuq,"flerovium, fl","/fl??ro?vi?m/, fli-roh-vee-?m",,114,"group 14 (carbon group), p-block",7,post-transition metal,289,[rn] 5f14 6d10 7s2 7p2 (predicted),2,,solid (predicted),340,420,,,,,,,38,,,0,,"1st: 823.9 kj/mol (predicted), 2nd: 1601.6 kj/mol (predicted), 3rd: 3367.3 kj/mol (predicted), (more)",171–177 pm (extrapolated),,,,,,54085-16-4,joint institute for nuclear research (jinr) and lawrence livermore national laboratory (llnl) (1999),,"iso, na, half-life, dm, de (mev), dp, 289fl, syn, 2.6 s, ?, 9.82,9.48, 285cn, 289mfl ?, syn, 2–23 s, ?, 9.71, 285mcn ?, 288fl, syn, 0.8 s, ?, 9.94, 284cn, 287fl, syn, 0.48 s, ?, 10.02, 283cn, 287mfl ?, syn, 5.5 s, ?, 10.29, 283mcn ?, 286fl, syn, 0.13 s, 40% ?, 10.19, 282cn, 60% sf, 285fl, syn, 125 ms, ?, 10.41(5), 281cn, 284fl, syn, 2.5+1.8, ?0.8 ms, sf",,after flerov laboratory of nuclear reactions (itself named after georgy flyorov),,14,empirical: 180 pm (predicted),,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+115,ununpentium,uup,"ununpentium, uup","i/u?nu?n?p?nti?m/, oon-oon-pen-tee-?m",,115,"group 15 (pnictogens), p-block",7,"unknown, but probably a post-transition metal",289,[rn] 5f14 6d10 7s2 7p3 (predicted),2,,solid (predicted),670,"~1400 k (~1100 °c, ~2000 °f) (predicted)",,,,,,5.90–5.98 kj/mol (extrapolated),138,,,1,,"1st: 538.4 kj/mol (predicted), 2nd: 1756.0 kj/mol (predicted), 3rd: 2653.3 kj/mol (predicted), (more)",156–158 pm (extrapolated),,,,,,54085-64-2,joint institute for nuclear research and lawrence livermore national laboratory (2003),,"iso, na, half-life, dm, de (mev), dp, 290uup, syn, 16 ms, ?, 9.95, 286uut, 289uup, syn, 220 ms, ?, 10.31, 285uut, 288uup, syn, 87 ms, ?, 10.46, 284uut, 287uup, syn, 32 ms, ?, 10.59, 283uut",,iupac systematic element name,,13.5,empirical: 187 pm (predicted),,,,,,,,,,,,,,,,,,,,,,,,,,,,"moscovium, mc","element 115, eka-bismuth"
+116,ununhexium,uuh,"livermorium, lv","/?l?v?r?m??ri?m/, liv-?r-mohr-ee-?m",,116,"group 16 (chalcogens), p-block",7,"unknown, but probably a post-transition metal",293,[rn] 5f14 6d10 7s2 7p4 (predicted),2,,solid (predicted),"637–780 k (364–507 °c, 687–944 °f) (extrapolated)","1035–1135 k (762–862 °c, 1403–1583 °f) (extrapolated)",,,,,,7.61,42,,,"?2, +2, +4 (predicted)",,"1st: 723.6 kj/mol (predicted), 2nd: 1331.5 kj/mol (predicted), 3rd: 2846.3 kj/mol (predicted), (more)",162–166 pm (extrapolated),,,,,,54100-71-9,joint institute for nuclear research and lawrence livermore national laboratory (2000),,"iso, na, half-life, dm, de (mev), dp, 293lv, syn, 61 ms, ?, 10.54, 289fl, 292lv, syn, 18 ms, ?, 10.66, 288fl, 291lv, syn, 18 ms, ?, 10.74, 287fl, 290lv, syn, 7.1 ms, ?, 10.84, 286fl",,"after lawrence livermore national laboratory, itself named partly after livermore, california",,12.9,empirical: 183 pm (predicted),,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+117,ununseptium,uus,"ununseptium, uus","i/u?nu?n?s?pti?m/, oon-oon-sep-tee-?m",semimetallic (predicted),117,"group 17, p-block",7,"unknown, but probably a post-transition metal",294,[rn] 5f14 6d10 7s2 7p5 (predicted),2,,solid (predicted),"623–823 k (350–550 °c, 662–1022 °f) (predicted)",883,,,,,,,,,,"?1, +1, +3, +5 (predicted)",,"1st: 742.9 kj/mol (predicted), 2nd: 1785.0–1920.1 kj/mol (extrapolated)",156–157 pm (extrapolated),,,,,,54101-14-3,joint institute for nuclear research and lawrence livermore national laboratory (2010),,"iso
+na
+half-life
+dm
+de (mev)
+dp
+
+
+294uus
+syn
+51+41
+?16 ms
+?
+10.81
+290uup
+
+
+293uus
+syn
+22+8
+?4 ms
+?
+11.11, 11.00, 10.91
+289uup",,iupac systematic element name,,7.1–7.3 g/cm3 (extrapolated),empirical: 138 pm (predicted),,,,,,,,,,,,,,,,,,,,,,,,,,,,"tennessine, ts","element 117, eka-astatine"
+118,ununoctium,uuo,"ununoctium, uuo","i/u?n.u?n??kti?m/, oon-oon-ok-tee-?m",,118,"group 18, p-block",7,"unknown, but predicted to be a noble gas",294,[rn] 5f14 6d10 7s2 7p6 (predicted),2,,solid (predicted),,"350±30 k (80±30 °c, 170±50 °f) (extrapolated)",,,,,439,23.5,19.4,,,"?1, 0, +1, +2, +4, +6 (predicted)",,"1st: 839.4 kj/mol (predicted), 2nd: 1563.1 kj/mol (predicted)",157,,,,,,54144-19-3,joint institute for nuclear research and lawrence livermore national laboratory (2002),,"iso, na, half-life, dm, de (mev), dp, 294uuo, syn, ~0.89 ms, ?, 11.65±0.06, 290lv, sf",,iupac systematic element name,,,,,,,,,,,,,,,4.9–5.1 g/cm3 (predicted),,,,,niels bohr (1922),,,,,,,,,,,"oganesson, og","element 118, eka-radon"
+

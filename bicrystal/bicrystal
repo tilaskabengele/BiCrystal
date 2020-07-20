@@ -1,0 +1,50 @@
+#!/bin/bash
+
+rm -f number_of_atoms unitcell body outfile heading heading_nat atoms sorted_atoms k_points
+
+t1=$(whereis program.py | awk '{print $2}')
+t2=$(whereis program.py | awk '{print $2}' | sed -r 's/.{10}$//')
+echo $t2 > workspace
+python $t1 2>&1 | tee outfile
+rm -f workspace
+
+echo "Would you like to write Espresso file?[Y/n]"
+
+read reply
+
+if [[ "$reply" == "y" ]]
+	 then
+		echo "Save as:"
+		read filename
+elif [[ "$reply" == "Y" ]]
+	then
+		echo "Save as"
+		read filename
+elif [[ "$reply" == "n" ]]
+         then
+                exit
+elif [[ "$reply" == "N" ]]
+        then
+                exit
+else 
+	echo "Invalid"
+	echo "Stop"
+	exit
+fi
+tail -n -4 outfile | head -n 1 > number_of_atoms
+uc=$(sed -n '/CELL_PARAMETERS/,+3p' outfile | column -t | tail -n 3 | sed -e "s/^/     /")
+echo "$uc" > unitcell
+sed -n '/control/,/ATOMIC_POSITIONS/p' outfile > heading
+sed "s/= atoms/$(cat number_of_atoms)/g" heading > heading_nat
+sed -n '/ATOMIC_POSITIONS/,/K_POINTS/p' outfile | tail -n +2 | head -n -2 > atoms
+sort -k 4n atoms > sorted_atoms
+echo >> sorted_atoms
+sed -n '/K_POINTS/,+1p' outfile > k_points
+echo >> k_points
+sed -n '/CELL_PARAMETERS/,+0p' outfile > cell_par
+cat heading_nat sorted_atoms k_points cell_par unitcell > $filename
+
+rm -f number_of_atoms cell_par unitcell body outfile heading heading_nat atoms sorted_atoms k_points
+
+rm -f outfile
+
