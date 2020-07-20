@@ -156,9 +156,11 @@ All the examples in the examples folder can be summarized in the table below:
    
  # References
  For a detailed analysis of Moire patterns and angles:
+ 
  **Density functional calculations on the intricacies of Moiré patterns on graphite**, J. M. Campanera, G. Savini, I. Suarez-Martinez, and M. I. Heggie, _Phys. Rev. B 75, 235449 – Published 28 June 2007_
    
  Crystals package authors:
+ 
  L. P. René de Cotret, M. R. Otto, M. J. Stern. and B. J. Siwick, An open-source software ecosystem for the interactive exploration of ultrafast electron scattering data, Advanced Structural and Chemical Imaging 4:11 (2018) DOI:10.1186/s40679-018-0060-y.
  
  For further reading and related projects, visit **Johnson Group wiki**: http://schooner.chem.dal.ca/wiki/Johnson_Group_Wiki 
@@ -166,7 +168,7 @@ All the examples in the examples folder can be summarized in the table below:
  # License
  Copyright (c) 2020 Tilas Kabengele, Johnson Chemistry Group, Dalhousie University.
 
-BiCrystal is free program: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+BiCrystal is a free program: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
 
 BiCrystal is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
 
