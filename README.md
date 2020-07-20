@@ -21,4 +21,4 @@ The latest version of ``BiCrystal`` can be found on github:
 https://github.com/tilaskabengele/BiCrystal/
 
 
-Contact: Tilas Kabengele tilas.kabengele@dal.ca
+**Contact**: Tilas Kabengele tilas.kabengele@dal.ca
