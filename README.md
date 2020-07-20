@@ -127,7 +127,7 @@ After that, you will be required to pick a zeroeth atom from the top and bottom 
    
        xcrysden --pwi graphite28.scf.in
        
-   ![moire28](https:///user-images.githubusercontent.com/661672229.PNG)
+  ![ccmoire28](https://user-images.githubusercontent.com/62076249/87929694-377e1300-ca5d-11ea-80e3-76417f34a5e4.PNG)
    
    
    
