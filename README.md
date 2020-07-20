@@ -7,6 +7,7 @@ Contents
 **Download** \
 **Packages** \
 **Files** \
+**Installation** \
 **Usage** \
 **Examples** \
 **References** \
@@ -44,6 +45,23 @@ For more information on crystals and shapely, visit: https://pypi.org/project/cr
 **periodic_table.csv** - Periodic table of elements \
 **program.py** - Python program to be called from bicrystal script
 
+# Installation
+After downloading the files from the github repository to the directory of your choice (_recommended: /usr/bin/_), make `bicrystal` and `program.py` into executables:
+
+    chmod u+x bicrystal program.py
+
+Next, add this directory to your $PATH variable. In Bash, adding the following lines to your `.bashrc file`:
+
+    vi ~/.bashrc
+
+Add:
+
+    export PATH="$/path/to/your/directory/with/bicrysal/:$PATH"
+    export PYTHONPATH="${PYTHONPATH}:/path/to/your/directory/with/bicrysal/"
+
+Save, close then source your `.bashrc` file to activate the changes:
+    
+    source ~/.bashrc
 
 
 
