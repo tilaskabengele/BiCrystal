@@ -65,7 +65,7 @@ Save, close then source your `.bashrc` file to activate the changes:
 
 Restart your terminal window to start using `bicrystal`.
 
-# usage
+# Usage
 BiCrystal is an interactive program that instructs the user every step of the way. To start BiCrystal, in the terminal type:
 
     bicrystal
@@ -107,6 +107,29 @@ After that, you will be required to pick a zeroeth atom from the top and bottom 
  
  ![cc28](https://user-images.githubusercontent.com/62076249/87927879-48795500-ca5a-11ea-98c1-b2949bb672e3.PNG)
  
+ Finally, you can save your output as a QUANTUM ESPRESSO file and visualize with Xcrysden for a more sophisticated look.
  
+     ********************* SUMMARY REPORT ***********************
 
+    Top atoms(rotated) =  14
+    Bottom atoms  =  14
 
+    Total atoms
+    = 28
+
+    *************************** Done! **************************
+
+    Would you like to write Espresso file?[Y/n]
+
+   # Examples
+   
+   Let's say we saved our output in the example given above as graphite28.scf.in, we can visualize this with Xcrysden.
+   
+       xcrysden --pwi graphite28.scf.in
+       
+   https://github.com/tilaskabengele/BiCrystal/issues/2
+   
+   
+   
+   
+   
