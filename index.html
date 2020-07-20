@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="Bicrystal : BiCrystal is a Python program that builds commensurate and incommensurate crystal structures of layered materials. The current version reads CIF files and writes the new structure to a QUANTUM ESPRESSO input file. ">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Bicrystal</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/tilaskabengele/BiCrystal">View on GitHub</a>
+
+          <h1 id="project_title">Bicrystal</h1>
+          <h2 id="project_tagline">BiCrystal is a Python program that builds commensurate and incommensurate crystal structures of layered materials. The current version reads CIF files and writes the new structure to a QUANTUM ESPRESSO input file. </h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/tilaskabengele/BiCrystal/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/tilaskabengele/BiCrystal/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1>
+<a id="bicrystal" class="anchor" href="#bicrystal" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>BiCrystal</h1>
+<p><code>BiCrystal</code> is a Python program that builds commensurate and incommensurate crystal structures of layered materials. The current version reads CIF files and writes the new structure to a QUANTUM ESPRESSO input file. The program also provides additional information such as the bond distance between atoms, lattice vectors in Bohr and Angstrom, and a simple 3D plot of each layer.</p>
+<h1>
+<a id="contents" class="anchor" href="#contents" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Contents</h1>
+<p><strong>Overview</strong> <br>
+<strong>Download</strong> <br>
+<strong>Packages</strong> <br>
+<strong>Files</strong> <br>
+<strong>Installation</strong> <br>
+<strong>Usage</strong> <br>
+<strong>Examples</strong> <br>
+<strong>Summary Table</strong> <br>
+<strong>References</strong> <br>
+<strong>License</strong></p>
+<h1>
+<a id="overview" class="anchor" href="#overview" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Overview</h1>
+<p>Building unit cells of arbitrary size is often an inevitable task when studying the physical and mechanical properties of layered materials such as graphene, hexagonal Boron Nitride, transition metal dichalcogenides. Although most visualzation software such as Xcrysden, VESTA or Avogadro provide very powerful tools for analysing and manipulating periodic crystal structures, constructing large unit cells in bilayers with one of the layers perturbed can be very daunting. <code>BiCrystal</code> provides a convinient and easy way of creating new crystal structures of arbitrary size from CIF files.</p>
+<h1>
+<a id="download" class="anchor" href="#download" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Download</h1>
+<p>The latest version of <code>BiCrystal</code> can be found on github:</p>
+<p><a href="https://github.com/tilaskabengele/BiCrystal">https://github.com/tilaskabengele/BiCrystal</a></p>
+<p><strong>Contact</strong>: Tilas Kabengele <a href="mailto:tilas.kabengele@dal.ca">tilas.kabengele@dal.ca</a></p>
+<h1>
+<a id="packages" class="anchor" href="#packages" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Packages</h1>
+<p><code>BiCrystal</code> is a python-based program that uses Scipy and Shapely libraries. Additionally, the Crystal package, which is not part of the standard Python packages, should be installed. i.e Install via pip or conda:</p>
+<pre><code> pip install crystals
+</code></pre>
+<p>or</p>
+<pre><code>conda install -c conda-forge crystals
+</code></pre>
+<p>and</p>
+<pre><code>pip install shapely
+</code></pre>
+<p>For more information on crystals and shapely, visit: <a href="https://pypi.org/project/crystals/">https://pypi.org/project/crystals/</a> and <a href="https://pypi.org/project/Shapely/">https://pypi.org/project/Shapely/</a> respectively.</p>
+<h1>
+<a id="files" class="anchor" href="#files" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Files</h1>
+<p><strong>bicrystal</strong> - Bash script which runs the python program <br>
+<strong>cifs/</strong> - Directory with sample cif files <br>
+<strong>examples/</strong> - Directory with 33 examples of QUANTUM ESPRESSO input files generated by BiCrystal <br>
+<strong>periodic_table.csv</strong> - Periodic table of elements <br>
+<strong>program.py</strong> - Python program to be called from bicrystal script</p>
+<h1>
+<a id="installation" class="anchor" href="#installation" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Installation</h1>
+<p>After downloading the files from the github repository to the directory of your choice (<em>recommended: /usr/bin/</em>), make <code>bicrystal</code> and <code>program.py</code> into executables:</p>
+<pre><code>chmod u+x bicrystal program.py
+</code></pre>
+<p>Next, add this directory to your $PATH variable. In Bash, adding the following lines to your <code>.bashrc file</code>:</p>
+<pre><code>vi ~/.bashrc
+</code></pre>
+<p>Add:</p>
+<pre><code>export PATH="$/path/to/your/directory/with/bicrysal/:$PATH"
+export PYTHONPATH="${PYTHONPATH}:/path/to/your/directory/with/bicrysal/"
+</code></pre>
+<p>Save, close then source your <code>.bashrc</code> file to activate the changes:</p>
+<pre><code>source ~/.bashrc
+</code></pre>
+<p>Restart your terminal window to start using <code>bicrystal</code>.</p>
+<h1>
+<a id="usage" class="anchor" href="#usage" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Usage</h1>
+<p>BiCrystal is an interactive program that instructs the user every step of the way. To start BiCrystal, in the terminal type:</p>
+<pre><code>bicrystal
+</code></pre>
+<p>The first thing you will be required to do is input your cif file, e.g. graphite.cif:</p>
+<pre><code>***Input cif file***
+graphite.cif
+</code></pre>
+<p>Next, enter input parameters m and n, and rotation angle in degrees (<em>zero if you want both layers unperturbed</em>).
+Parameter m and n correspond to the scale of the lattice vectors along the x and y directions, respectively. As an example, let's take m = 2, n = 1 and rotation angle 21.79 degrees.</p>
+<pre><code>***Rotation parameters***
+Enter m 2
+Enter n 1
+Enter rotation_angle 0
+</code></pre>
+<p>After that, you will be required to pick a zeroeth atom from the top and bottom layer. If we were picking the atoms by hand using a visualization software such as Xcrysden, this would be the atom we start from when creating the new cell vectors.</p>
+<pre><code>Intializing atoms...
+
+
+Initial TOP atoms..
+Atom No. 1   c   [0.  0.  0.5]
+Atom No. 2   c   [0.66667 0.33334 0.505  ]
+
+Initial BOTTOM atoms..
+Atom No. 3   c   [0. 0. 0.]
+Atom No. 4   c   [0.33333 0.66667 0.005  ]
+</code></pre>
+<p>For a good symmetrical structure, always pick atoms such that the zeroeth TOP and BOTTOM atoms align. In this example, that would be Atom No. 1 and Atom No. 3. After picking your zeroeth atoms, a window with a simple 3D will then open.</p>
+<pre><code>Select zeroeth TOP atom
+Enter Atom No. 1
+
+Select zeroeth BOTTOM atom
+Enter Atom No. 3
+</code></pre>
+<p><img src="https://user-images.githubusercontent.com/62076249/87927879-48795500-ca5a-11ea-98c1-b2949bb672e3.PNG" alt="cc28"></p>
+<p>Finally, you can save your output as a QUANTUM ESPRESSO file and visualize with Xcrysden for a more sophisticated look.</p>
+<pre><code> ********************* SUMMARY REPORT ***********************
+
+Top atoms(rotated) =  14
+Bottom atoms  =  14
+
+Total atoms
+= 28
+
+*************************** Done! **************************
+
+Would you like to write Espresso file?[Y/n]
+</code></pre>
+<h1>
+<a id="examples" class="anchor" href="#examples" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Examples</h1>
+<p>Let's say we saved our output in the example given above as graphite28.scf.in, we can visualize this with Xcrysden.</p>
+<pre><code>   xcrysden --pwi graphite28.scf.in
+</code></pre>
+<p><img src="https://user-images.githubusercontent.com/62076249/87929694-377e1300-ca5d-11ea-80e3-76417f34a5e4.PNG" alt="ccmoire28"></p>
+<p>Looking from the top view, we can see that for this rotation, a Moire pattern was created. Really neat! This was not apparent from the simple 3D plot because BiCrystal plots cartesian coordinates of the atoms where the top and bottom layer do not necessarily align. Before writing the QUANTUM ESPRESSO file, <code>BiCrystal</code> removes symmetrically equivalent atoms and maps back those atoms that fell outside the unit cell due to rotation.</p>
+<p>The <strong>examples/</strong> folder has over 30 examples of Moire patterns graphite, Molebdenum Disulfide and blue Phosphorene generated from <code>bicrystal</code>. Below are some examples.</p>
+<h1>
+<a id="graphite-364-atom-unit-cell" class="anchor" href="#graphite-364-atom-unit-cell" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Graphite 364-atom unit cell</h1>
+<p>The unit cell of graphite with 364 atoms can be generated by using parameters: m = 6, n = 5, and rotation angle of 6.01 degrees. Shown below is the top view.</p>
+<p><img src="https://user-images.githubusercontent.com/62076249/87933970-98f5b000-ca64-11ea-906b-15a1036989a1.PNG" alt="cc364"></p>
+<h1>
+<a id="blue-phosphorene-172-atom-unit-cell" class="anchor" href="#blue-phosphorene-172-atom-unit-cell" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Blue phosphorene 172-atom unit cell</h1>
+<p>The unit cell of blue phosphorene with 172 atoms can be generated by using parameters: m = 6, n = 1, and rotation angle of 44.82 degrees. Shown below is the top view.</p>
+<p><img src="https://user-images.githubusercontent.com/62076249/87934152-e245ff80-ca64-11ea-8f36-b69b5799e3fa.PNG" alt="bluep172"></p>
+<h1>
+<a id="molybdenun-disulfide-546-atom-unit-cell" class="anchor" href="#molybdenun-disulfide-546-atom-unit-cell" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Molybdenun Disulfide 546-atom unit cell</h1>
+<p>The unit cell of MoS<sub>2</sub> with 546 atoms atoms can be generated by using parameters: m = 6, n = 5, and rotation angle of 6.01 degrees. Shown below is the top view.</p>
+<p><img src="https://user-images.githubusercontent.com/62076249/87934312-2fc26c80-ca65-11ea-97a2-c9cdb3068a9d.PNG" alt="mos546"></p>
+<h1>
+<a id="summary-table" class="anchor" href="#summary-table" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Summary Table</h1>
+<p>All the examples in the examples folder can be summarized in the table below:</p>
+<p><img src="https://user-images.githubusercontent.com/62076249/87934662-dc045300-ca65-11ea-8f54-818b7183d6e1.PNG" alt="example_table"></p>
+<h1>
+<a id="references" class="anchor" href="#references" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>References</h1>
+<p>For a detailed analysis of Moire patterns and angles:</p>
+<p><strong>Density functional calculations on the intricacies of Moiré patterns on graphite</strong>, J. M. Campanera, G. Savini, I. Suarez-Martinez, and M. I. Heggie, <em>Phys. Rev. B 75, 235449 – Published 28 June 2007</em></p>
+<p>Crystals package authors:</p>
+<p>L. P. René de Cotret, M. R. Otto, M. J. Stern. and B. J. Siwick, An open-source software ecosystem for the interactive exploration of ultrafast electron scattering data, Advanced Structural and Chemical Imaging 4:11 (2018) DOI:10.1186/s40679-018-0060-y.</p>
+<p>For further reading and related projects, visit <strong>Johnson Group wiki</strong>: <a href="http://schooner.chem.dal.ca/wiki/Johnson_Group_Wiki">http://schooner.chem.dal.ca/wiki/Johnson_Group_Wiki</a></p>
+<h1>
+<a id="license" class="anchor" href="#license" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>License</h1>
+<p>Copyright (c) 2020 Tilas Kabengele, Johnson Chemistry Group, Dalhousie University.</p>
+<p>BiCrystal is a free program: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.</p>
+<p>BiCrystal is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.</p>
+<p>You should have received a copy of the GNU General Public License along with this program. If not, see <a href="http://www.gnu.org/licenses/">http://www.gnu.org/licenses/</a>.</p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Bicrystal maintained by <a href="https://github.com/tilaskabengele">tilaskabengele</a></p>
+        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
