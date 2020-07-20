@@ -24,12 +24,15 @@ https://github.com/tilaskabengele/BiCrystal/
 **Contact**: Tilas Kabengele tilas.kabengele@dal.ca
 
 # Packages
-`BiCrystal` is a python-based program that uses the Scipy packages. Additionally, the Crystal package, which is not part of the standard Python packages, should be installed. i.e Install via:
+`BiCrystal` is a python-based program that uses Scipy and Shapely libraries. Additionally, the Crystal package, which is not part of the standard Python packages, should be installed. i.e Install via pip or conda:
 
      pip install crystals
 or
 
-    conda install crystals
+    conda install -c conda-forge crystals
+and
+
+    pip install shapely
  
-    
+ # Files
 
