@@ -63,8 +63,43 @@ Save, close then source your `.bashrc` file to activate the changes:
     
     source ~/.bashrc
 
+Restart your terminal window to start using `bicrystal`.
+
+# usage
+BiCrystal is an interactive program that instructs the user every step of the way. To start BiCrystal, in the terminal type:
+
+    bicrystal
+    
+The first thing you will be required to do is input your cif file, e.g. graphite.cif:
+
+    ***Input cif file***
+    graphite.cif
+
+Next, enter input parameters m and n, and rotation angle in degrees (_zero if you want both layers unperturbed_).
+Parameter m and n correspond to the scale of the lattice vectors along the x and y directions, respectively. As an example, let's take m = 2, n = 1 and rotation angle 21.79 degrees.
+    
+    ***Rotation parameters***
+    Enter m 2
+    Enter n 1
+    Enter rotation_angle 0
+
+After that, you will be required to pick a zeroeth atom from the top and bottom layer. If we were picking the atoms by hand using a visualization software such as Xcrysden, this would be the atom we start from when creating the new cell vectors. 
+
+    Intializing atoms...
 
 
+    Initial TOP atoms..
+    Atom No. 1   c   [0.  0.  0.5]
+    Atom No. 2   c   [0.66667 0.33334 0.505  ]
 
+    Initial BOTTOM atoms..
+    Atom No. 3   c   [0. 0. 0.]
+    Atom No. 4   c   [0.33333 0.66667 0.005  ]
+    
+ For a good symmetrical structure, always pick atoms such that the zeroeth TOP and BOTTOM atoms align. In this example, that would be Atom No. 1 and Atom No. 3. After picking your zeroeth atoms, a window with a simple 3D will then open. 
+ 
+ 
+ 
+ 
 
 
