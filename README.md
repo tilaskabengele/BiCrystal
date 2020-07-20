@@ -19,3 +19,6 @@ Building unit cells of arbitrary size is often an inevitable task when studying 
 The latest version of ``BiCrystal`` can be found on github:
 
 https://github.com/tilaskabengele/BiCrystal/
+
+
+Contact: Tilas Kabengele tilas.kabengele@dal.ca
