@@ -2,7 +2,7 @@ title: BiCrystal
 description: BiCrystal is a Python program that builds commensurate and incommensurate unit cells of bilayer materials.
 google_analytics: 
 show_downloads: true
-theme: jekyll-theme-slate
+theme: jekyll-theme-dinky
 
 gems:
   - jekyll-mentions
