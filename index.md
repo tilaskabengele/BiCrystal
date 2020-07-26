@@ -15,17 +15,17 @@ Contents
 **License** 
 
 # Overview
-Building unit cells of arbitrary size is often an inevitable task when studying the physical and mechanical properties of layered materials such as graphene, hexagonal Boron Nitride, transition metal dichalcogenides. Although most visualization software such as Xcrysden, VESTA, or Avogadro provide very powerful tools for analyzing and manipulating periodic crystal structures, constructing large unit cells in bilayers with one of the layers perturbed can be very daunting. ``BiCrystal`` provides a convenient and easy way of creating new crystal structures of arbitrary size from CIF files.
+Building unit cells of arbitrary size is often an inevitable task when studying the physical and mechanical properties of layered materials such as graphene, hexagonal Boron Nitride, transition metal dichalcogenides. Although most visualzation software such as Xcrysden, VESTA or Avogadro provide very powerful tools for analysing and manipulating periodic crystal structures, constructing large unit cells in bilayers with one of the layers perturbed can be very daunting. ``BiCrystal`` provides a convinient and easy way of creating new crystal structures of arbitrary size from CIF files.
 
 # Download
-The latest version of ``BiCrystal`` can be found on GitHub:
+The latest version of ``BiCrystal`` can be found on github:
 
 https://github.com/tilaskabengele/BiCrystal/tree/stable
 
 **Contact**: Tilas Kabengele tilas.kabengele@dal.ca
 
 # Packages
-`BiCrystal` is a python-based program that uses Scipy and Shapely libraries. Additionally, the Crystal package, which is not part of the standard Python packages, should be installed. i.e Install via pip or conda:
+`BiCrystal` is a **python 3** program that uses Scipy and Shapely libraries. Additionally, the Crystal and shapely packages, which are not part of the standard Python packages, should be installed. i.e Install via pip or conda:
 
      pip install crystals
 or
@@ -35,7 +35,7 @@ and
 
     pip install shapely
     
-For more information on crystals and shapely, visit https://pypi.org/project/crystals/ and https://pypi.org/project/Shapely/ respectively.
+For more information on crystals and shapely, visit: https://pypi.org/project/crystals/ and https://pypi.org/project/Shapely/ respectively.
  
  # Files
 
@@ -46,11 +46,11 @@ For more information on crystals and shapely, visit https://pypi.org/project/cry
 **program.py** - Python program to be called from bicrystal script
 
 # Installation
-After downloading the files from the Github repository to the directory of your choice (_recommended: /usr/bin/_), make `bicrystal` and `program.py` into executables:
+After downloading the files from the github repository to the directory of your choice (_recommended: /usr/bin/_), make `bicrystal` and `program.py` into executables:
 
     chmod u+x bicrystal program.py
 
-Next, add this directory to your $PATH variable. In Bash, adding the following lines to your `.bashrc file`:
+Next, add this directory to your $PATH variable. In Bash, this is done by adding the following lines to your `.bashrc file`:
 
     vi ~/.bashrc
 
@@ -76,16 +76,16 @@ The first thing you will be required to do is input your cif file, e.g. graphite
     graphite.cif
 
 Next, enter input parameters m and n, and rotation angle in degrees (_zero if you want both layers unperturbed_).
-Parameter m and n correspond to the scale of the lattice vectors along the x and y directions, respectively. As an example, let's take m = 2, n = 1, and rotation angle 21.79 degrees.
+Parameter m and n correspond to the scale of the lattice vectors along the x and y directions, respectively. As an example, let's take m = 2, n = 1 and rotation angle 21.79 degrees.
     
     ***Rotation parameters***
     Enter m 2
     Enter n 1
-    Enter rotation_angle 21.29
+    Enter rotation_angle 0
 
-After that, you will be required to pick a zeroeth atom from the top and bottom layers. If we were picking the atoms by hand using a visualization software such as Xcrysden, this would be the atom we start from when creating the new cell vectors. 
+After that, you will be required to pick a zeroeth atom from the top and bottom layer. If we were picking the atoms by hand using a visualization software such as Xcrysden, this would be the atom we start from when creating the new cell vectors. 
 
-    Initializing atoms...
+    Intializing atoms...
 
 
     Initial TOP atoms..
@@ -129,9 +129,9 @@ After that, you will be required to pick a zeroeth atom from the top and bottom 
        
   ![ccmoire28](https://user-images.githubusercontent.com/62076249/87929694-377e1300-ca5d-11ea-80e3-76417f34a5e4.PNG)
    
-Looking from the top view, we can see that for this rotation, a Moire pattern was created. Really neat! This was not apparent from the simple 3D plot because BiCrystal plots cartesian coordinates of the atoms where the top and bottom layers do not necessarily align. Before writing the QUANTUM ESPRESSO file, `BiCrystal` removes symmetrically equivalent atoms and maps back those atoms that fell outside the unit cell due to rotation. 
+Looking from the top view, we can see that for this rotation, a Moire pattern was created. Really neat! This was not apparent from the simple 3D plot because BiCrystal plots cartesian coordinates of the atoms where the top and bottom layer do not necessarily align. Before writing the QUANTUM ESPRESSO file, `BiCrystal` removes symmetrically equivalent atoms and maps back those atoms that fell outside the unit cell due to rotation. 
 
-The **examples/** folder has over 30 examples of Moire patterns graphite, Molybdenum Disulfide, and blue Phosphorene generated from `bicrystal`. Below are some examples.
+The **examples/** folder has over 30 examples of Moire patterns graphite, Molebdenum Disulfide and blue Phosphorene generated from `bicrystal`. Below are some examples.
 
 # Graphite 364-atom unit cell
 The unit cell of graphite with 364 atoms can be generated by using parameters: m = 6, n = 5, and rotation angle of 6.01 degrees. Shown below is the top view.
