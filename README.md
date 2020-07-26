@@ -1,8 +1,7 @@
 # BiCrystal
 ``BiCrystal`` is a **Python 3** program that builds commensurate and incommensurate crystal structures of layered materials. The current version reads CIF files and writes the new structure to a QUANTUM ESPRESSO input file. The program also provides additional information such as the bond distance between atoms, lattice vectors in Bohr and Angstrom, and a simple 3D plot of each layer.
 
-Contents
-==========
+# Contents
 **Overview** \
 **Download** \
 **Packages** \
@@ -82,7 +81,7 @@ Parameter m and n correspond to the scale of the lattice vectors along the x and
     ***Rotation parameters***
     Enter m 2
     Enter n 1
-    Enter rotation_angle 0
+    Enter rotation_angle 21.79
 
 After that, you will be required to pick a zeroeth atom from the top and bottom layer. If we were picking the atoms by hand using a visualization software such as Xcrysden, this would be the atom we start from when creating the new cell vectors. 
 
