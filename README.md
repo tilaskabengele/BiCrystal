@@ -25,7 +25,7 @@ https://github.com/tilaskabengele/BiCrystal/tree/stable
 **Contact**: Tilas Kabengele tilas.kabengele@dal.ca
 
 # Packages
-`BiCrystal` is a **python 3** program that uses Scipy and Shapely libraries. Additionally, the Crystal and shapely packages, which are not part of the standard Python packages, should be installed as well. i.e Install via pip or conda:
+`BiCrystal` is a **python 3** program that uses Scipy and Shapely libraries. Additionally, the Crystal and shapely packages, which are not part of the standard Python packages, should be installed. i.e Install via pip or conda:
 
      pip install crystals
 or
