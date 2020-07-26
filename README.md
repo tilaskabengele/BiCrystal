@@ -25,7 +25,7 @@ https://github.com/tilaskabengele/BiCrystal/tree/stable
 **Contact**: Tilas Kabengele tilas.kabengele@dal.ca
 
 # Packages
-`BiCrystal` is a python-based program that uses Scipy and Shapely libraries. Additionally, the Crystal package, which is not part of the standard Python packages, should be installed. i.e Install via pip or conda:
+`BiCrystal` is a **python 3** program that uses Scipy and Shapely libraries. Additionally, the Crystal and shapely packages, which are not part of the standard Python packages, should be installed as well. i.e Install via pip or conda:
 
      pip install crystals
 or
@@ -50,7 +50,7 @@ After downloading the files from the github repository to the directory of your 
 
     chmod u+x bicrystal program.py
 
-Next, add this directory to your $PATH variable. In Bash, adding the following lines to your `.bashrc file`:
+Next, add this directory to your $PATH variable. In Bash, this is done by adding the following lines to your `.bashrc file`:
 
     vi ~/.bashrc
 
