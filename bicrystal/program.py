@@ -1,4 +1,4 @@
-#!/bin/python
+#!/bin/python3
 
 # PROGRAM: BiCRYSTAL
 
@@ -31,7 +31,6 @@ from sklearn import neighbors
 from sklearn.neighbors import KNeighborsRegressor
 import numpy as np
 import decimal
-from mpl_toolkits.mplot3d import Axes3D
 import matplotlib.pyplot as plt
 from matplotlib import colors as mcolors
 from matplotlib.collections import PolyCollection
@@ -316,8 +315,7 @@ my_crystal = Crystal.from_cif(input('***Input cif file*** \n'))
 print ('\n***Rotation parameters*** ')
 m = int(input('Enter m '))
 n = int(input('Enter n '))
-rotation_angle = float(input('Enter rotation_angle '))
-#rotation_angle = -180 + rotation_angle 
+rotation_angle = float(input('Enter rotation angle '))
 
 #### Initializing top and bottom layers ####
 tt_top,tt_bot,elt_top,elt_bot = bulk(my_crystal)
