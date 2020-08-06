@@ -1,5 +1,5 @@
 # BiCrystal
-``BiCrystal`` is a Python program that builds incommensurate crystal structures of layered materials. The current version reads CIF files and writes the new structure to a QUANTUM ESPRESSO input file. The program also provides additional information such as the bond distance between atoms, lattice vectors in Bohr and Angstrom, and a simple 3D plot of each layer.
+``BiCrystal`` is a **Python 3** program that builds incommensurate crystal structures of layered materials. The current version reads CIF files and writes the new structure to a QUANTUM ESPRESSO input file. The program also provides additional information such as the bond distance between atoms, lattice vectors in Bohr and Angstrom, and a simple 3D plot of each layer.
 
 Contents
 ==========
@@ -20,7 +20,7 @@ Building unit cells of arbitrary size is often an inevitable task when studying 
 # Download
 The latest version of ``BiCrystal`` can be found on github:
 
-https://github.com/tilaskabengele/BiCrystal/tree/stable
+https://github.com/tilaskabengele/BiCrystal/
 
 
 **Contact**: Tilas Kabengele tilas.kabengele@dal.ca
