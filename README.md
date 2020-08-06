@@ -46,15 +46,15 @@ For more information on crystals and shapely, visit: https://pypi.org/project/cr
 **program.py** - Python program to be called from bicrystal script
 
 # Installation
-After downloading the files from the github repository to the directory of your choice (_recommended: /usr/bin/_), make `bicrystal` and `program.py` into executables:
+After downloading the files from the github repository and unzip to the directory of your choice. Next, make `bicrystal` and `program.py` into executables:
 
-    chmod r+x bicrystal program.py
+    chmod u+x bicrystal program.py
 
-Next, add this directory to your $PATH variable. In Bash, adding the following lines to your `.bashrc file`:
+then add this directory to your $PATH variable. In Bash, this can be done by adding the following lines to your `.bashrc file` (open your ./bashrc file with any text editor of your choosing, e.g. vi, nano, gedit, etc.):
 
     vi ~/.bashrc
 
-Add:
+Then add:
 
     export PATH="$/path/to/your/directory/with/bicrysal/:$PATH"
     export PYTHONPATH="${PYTHONPATH}:/path/to/your/directory/with/bicrysal/"
