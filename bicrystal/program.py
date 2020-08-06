@@ -1,8 +1,8 @@
-#!/bin/python
+#!/bin/python3
 
 # PROGRAM: BiCRYSTAL
 
-# VERSION: 1.0.6
+# VERSION: 1.0.7
 
 # DESCRIPTION: This program buildscommensurate and incommensurate crystal structures of layered materials. Current version reads CIF files and writes the new structure to a QUANTUM ESPRESSO input file.
 
@@ -31,7 +31,6 @@ from sklearn import neighbors
 from sklearn.neighbors import KNeighborsRegressor
 import numpy as np
 import decimal
-from mpl_toolkits.mplot3d import Axes3D
 import matplotlib.pyplot as plt
 from matplotlib import colors as mcolors
 from matplotlib.collections import PolyCollection
@@ -47,21 +46,21 @@ from datetime import date, datetime
 # Description: Isolates the z-coordinates (fractional) from CRYSTAL and stores them in an array
 # Inputs: Python CRYSTAL structure. i.e. don't use a supercell in SEPERATE
 # Output: Array with z-coordinates of bottom layer atoms
- 
+
 def seperate(my_crystal):
 
-	nat = 0
-	z_frac = []
+        nat = 0
+        z_frac = []
 
-	for atm in my_crystal:
-		nat = nat + 1
-		z_frac.append(atm.coords_fractional[2])
+        for atm in my_crystal:
+                nat = nat + 1
+                z_frac.append(atm.coords_fractional[2])
 
-	z_sorted = sorted(z_frac)
-	bottom_z = round(nat/2)
-	answer = z_sorted[0:bottom_z]
-	
-	return answer
+        z_sorted = sorted(z_frac)
+        bottom_z = round(nat/2)
+        answer = z_sorted[0:bottom_z]
+
+        return answer
 
 
 # ***********************************
@@ -109,21 +108,21 @@ def highest(my_crystal):
 # Output: True if atom is from bottom layer; false if it isn't
 
 def locate(test_atm,z_bot):
-	
-	z = []
-	
-	test_atm = round(test_atm,2)
 
-	for atm in z_bot:
-		z.append(round(atm,2))
+        z = []
 
-	if test_atm in z:
-		answer = True
-	else:
-		answer = False
+        test_atm = round(test_atm,2)
 
-	return answer
-	
+        for atm in z_bot:
+                z.append(round(atm,2))
+
+        if test_atm in z:
+                answer = True
+        else:
+                answer = False
+
+        return answer
+
 #***********************************
 # Function name: NEWCELL(MY_CRYSTAL,M,N)
 # Description: This function creates lattice vectors of a rotated layer
@@ -131,19 +130,19 @@ def locate(test_atm,z_bot):
 # Outputs: supercell lattice vectors new_a; new_b .i.e the c-vector remains unchanged
 
 def newcell(my_crystal,atoms,m,n):
-	
-	a, b, c = my_crystal.lattice_vectors
-	v1 = atoms[0] + (m+n)*a + (m+n)*b
-	v2 = np.add(np.add(v1,(m+n)*a),n*b)
-	v3 = np.add(np.add(v2,(m+n)*b),m*a)
-	v4 = np.subtract(np.subtract(v3,(m+n)*a),n*b)
-	
-	new_a = v2 - v1
-	new_b = v3 - v2
- 	
+
+        a, b, c = my_crystal.lattice_vectors
+        v1 = atoms[0] + (m+n)*a + (m+n)*b
+        v2 = np.add(np.add(v1,(m+n)*a),n*b)
+        v3 = np.add(np.add(v2,(m+n)*b),m*a)
+        v4 = np.subtract(np.subtract(v3,(m+n)*a),n*b)
+
+        new_a = v2 - v1
+        new_b = v3 - v2
+
         # ang to bohr mytiply by 1.8897259886
 
-	return new_a, new_b, v1, v2, v3, v4
+        return new_a, new_b, v1, v2, v3, v4
 
 
 
@@ -183,7 +182,7 @@ def poly(v1,v2,v3,v4):
 
         coords = [(p1), (p2), (p3), (p4)]
         ply = Polygon(coords)
-        
+
         return ply, p1, p2, p3, p4
 
 
@@ -214,9 +213,9 @@ def inpoly(atz,ply):
 
 def central(ply):
 
-	center = ply.centroid
+        center = ply.centroid
 
-	return center
+        return center
 
 
 #***************************************
@@ -226,17 +225,17 @@ def central(ply):
 # Output: True if the rotation is correct, False if it isn't
 
 def swaped(layer):
-	pos_count = 0
-	neg_count = 0
-	for atm in layer:
-		if atm >= 0:
-			pos_count += 1
-		else:
-			neg_count += 1
-	if pos_count > neg_count:
-		return True
-	else:
-		return False
+        pos_count = 0
+        neg_count = 0
+        for atm in layer:
+                if atm >= 0:
+                        pos_count += 1
+                else:
+                        neg_count += 1
+        if pos_count > neg_count:
+                return True
+        else:
+                return False
 
 
 #***************************************
@@ -246,10 +245,10 @@ def swaped(layer):
 # Output: Number of atoms ---> Integer
 
 def ntype(my_crystal):
-	nat = 0
-	for atm in my_crystal.chemical_composition:
-		nat+=1
-	return nat
+        nat = 0
+        for atm in my_crystal.chemical_composition:
+                nat+=1
+        return nat
 
 
 
@@ -260,26 +259,26 @@ def ntype(my_crystal):
 # Output: top and bottom atoms ---> np arrays; chemical symbols for top and bottom  atoms ---> lists
 
 def bulk(my_crystal):
-	
-	atoms_bot = []
-	atoms_top = []
-	atmxyz = []
-	ele_bot = []
-	ele_top = []
-	z_bot = seperate(my_crystal)
-	for atm in my_crystal:
-		atm_frac = atm.coords_fractional
-		atm_cart = atm.coords_cartesian
-		atmxyz = atm_cart[0], atm_cart[1], atm_cart[2]
-		if locate(atm_frac[2],z_bot) == True:
-			atoms_bot.append(atmxyz)
-			ELE = str(atm).lower()
-			ele_bot.append(ELE)
-		else:
-			atoms_top.append(atmxyz)
-			ELE = str(atm).lower()
-			ele_top.append(ELE)
-	return np.array(atoms_top), np.array(atoms_bot), ele_top, ele_bot
+
+        atoms_bot = []
+        atoms_top = []
+        atmxyz = []
+        ele_bot = []
+        ele_top = []
+        z_bot = seperate(my_crystal)
+        for atm in my_crystal:
+                atm_frac = atm.coords_fractional
+                atm_cart = atm.coords_cartesian
+                atmxyz = atm_cart[0], atm_cart[1], atm_cart[2]
+                if locate(atm_frac[2],z_bot) == True:
+                        atoms_bot.append(atmxyz)
+                        ELE = str(atm).lower()
+                        ele_bot.append(ELE)
+                else:
+                        atoms_top.append(atmxyz)
+                        ELE = str(atm).lower()
+                        ele_top.append(ELE)
+        return np.array(atoms_top), np.array(atoms_bot), ele_top, ele_bot
 
 
 
@@ -297,7 +296,7 @@ now = datetime.now()
 print ('* BiCRYSTAL--', now,'\n\n')
 print ('**************************************************************************\n \n')
 
-# reading csv with elements from workspace 
+# reading csv with elements from workspace
 # i.e. directory where you installed bicrystal
 with open('workspace') as f:
     line = f.readline()
@@ -316,18 +315,20 @@ my_crystal = Crystal.from_cif(input('***Input cif file*** \n'))
 print ('\n***Rotation parameters*** ')
 m = int(input('Enter m '))
 n = int(input('Enter n '))
-rotation_angle = float(input('Enter rotation_angle '))
-#rotation_angle = -180 + rotation_angle 
+#rotation_angle = float(input('Enter rotation angle '))
+
+# lattice parameters
+a, b, c, alpha, beta, gamma = my_crystal.lattice_parameters
 
 #### Initializing top and bottom layers ####
 tt_top,tt_bot,elt_top,elt_bot = bulk(my_crystal)
-
-print ('\n\nIntializing atoms...\n\n')
 
 # lattice vectors
 a1, a2, a3 = my_crystal.lattice_vectors
 uc = a1,a2,a3
 uc = np.array(uc)
+
+print ('\n\nIntializing atoms...\n\n')
 
 print ('Initial TOP atoms..')
 for i in range(0,len(elt_top)):
@@ -350,32 +351,13 @@ zeroeth2 = int(input('Enter Atom No. '))
 # correct array indices for zeroeth atoms
 idx1 = zeroeth1-1
 idx2 = (zeroeth2-1)-len(elt_top)
-print ('\nZeroeth TOP (angstrom)', elt_top[idx1], tt_top[idx1]) 
+print ('\nZeroeth TOP (angstrom)', elt_top[idx1], tt_top[idx1])
 print ('\nZeroeth BOTTOM (angstrom)', elt_bot[idx2], tt_bot[idx2])
-
-#idx1 = min(tt_top, key=lambda x: (x[0], -x[1]))
-#idx2 = min(tt_bot, key=lambda x: (x[0], -x[1]))
-#print ('\nZeroeth TOP (angstrom)', elt_top[idx1], tt_top[idx1])
-#print ('\nZeroeth BOTTOM (angstrom)', elt_bot[idx2], tt_bot[idx2])
-
 
 # finding the bond length
 lengths = pdist(tt_bot, 'euclidean')
 bond_distance = round(min(lengths),3)
 print ('\nBond distance = ', bond_distance)
-
-# Rotation matrix
-phi = np.deg2rad(rotation_angle)
-print ('\nRotation angle (radians) = ', phi)
-print ('\nRotation matrix')
-R = np.array([[np.cos(phi), -np.sin(phi), 0], [np.sin(phi), np.cos(phi), 0], [0, 0, 1]])
-#print (' ','{:12.6f}'.format(R[0]))
-#print (' ','{:12.6f}'.format(R[1]))
-#print (' ','{:12.6f}'.format(R[2]))
-print(R[0])
-print(R[1])
-print(R[2])
-
 
 # lattice parameters
 print ('\nLattice Vectors (Angstrom)')
@@ -388,11 +370,24 @@ print (' ','{:12.6f} {:12.6f} {:12.6f}'.format(a1[0]*a2b,a1[1]*a2b,a1[2]*a2b))
 print (' ','{:12.6f} {:12.6f} {:12.6f}'.format(a2[0]*a2b,a2[1]*a2b,a2[2]*a2b))
 print (' ','{:12.6f} {:12.6f} {:12.6f}'.format(a3[0]*a2b,a3[1]*a2b,a3[2]*a2b))
 
+# rotation angle
+A = np.array([1,0,0])
+B = np.array([np.cos(np.deg2rad(60)),np.sin(np.deg2rad(60)),0])
+V = m*A + n*B
+rotation_angle = np.arccos((np.dot(A,V.T))/(np.linalg.norm(A)*np.linalg.norm(V)))
+rotation_angle = np.rad2deg(rotation_angle)
+
+# Rotation matrix
+theta = np.deg2rad(rotation_angle)
+phi = np.deg2rad(60) - 2*theta
+R = np.array([[np.cos(phi), -np.sin(phi), 0], [np.sin(phi), np.cos(phi), 0], [0, 0, 1]])
+print ('\nRotation angle theta (degrees) = ', rotation_angle)
+print ('\nMoire angle gamma (degrees) = ',np.rad2deg(phi))
 
 print ("\n\nCALCULATING ATOMIC POSITIONS...")
 for i in range(1,2):
-	print ('\n\nPlease wait...\n\n')
-	sys.stdout.flush()
+        print ('\n\nPlease wait...\n\n')
+        sys.stdout.flush()
 
 print ("&control")
 print ( " title='crystal',")
@@ -443,12 +438,12 @@ for atm in tt_bot:
 k = 0
 for atm in tt1:
     u = symb1[k]
-    k = k + 1    
+    k = k + 1
     for i in range(1,(n+m)*15):
         tty = atm + i*a2
         tt2.append(tty)
         symb2.append(u)
-symb_bot = symb1 + symb2        
+symb_bot = symb1 + symb2
 atoms_bot = list(tt1) + list (tt2)
 #atoms_bot = np.array(atoms_bot)
 
@@ -538,7 +533,7 @@ if len(sim) >= 1:
 i = 0
 nat_bot=0
 for atm in bot_frac:
-    print ('{} {:12.6f} {:12.6f} {:12.6f}'.format(symbot[i], atm[0], atm[1], atm[2]))
+    print ('{:2} {:12.6f} {:12.6f} {:12.6f}'.format(symbot[i], atm[0], atm[1], atm[2]))
     i+=1
     nat_bot+=1
 
@@ -563,12 +558,12 @@ for atm in tt_top:
 k = 0
 for atm in tt1:
     u = symb1[k]
-    k = k + 1    
+    k = k + 1
     for i in range(1,(n+m)*15):
         tty = atm + i*a2
         tt2.append(tty)
         symb2.append(u)
-symb_top = symb1 + symb2        
+symb_top = symb1 + symb2
 atoms_top = list(tt1) + list (tt2)
 #atoms_top = np.array(atoms_top)
 
@@ -659,7 +654,7 @@ if len(sim) >= 1:
 i = 0
 nat_top=0
 for atm in top_frac:
-    print ('{} {:12.6f} {:12.6f} {:12.6f}'.format(symtop[i], atm[0], atm[1], atm[2]))
+    print ('{:2} {:12.6f} {:12.6f} {:12.6f}'.format(symtop[i], atm[0], atm[1], atm[2]))
     i+=1
     nat_top+=1
 
@@ -767,8 +762,10 @@ plt.show()
 ########################## SUMMARY REPORT ###############################
 
 print ("\n********************* SUMMARY REPORT ***********************")
+print ('\nRotation angle (deg) = ', np.round(rotation_angle,3))
+print ('Relative Rotation (deg) = ',np.round(np.rad2deg(phi),3))
 print ('\nTop atoms(rotated) = ',len(top_frac))
-print ('Bottom atoms  = ',len(bot_frac)) 
+print ('Bottom atoms  = ',len(bot_frac))
 print ('\nTotal atoms \n=', len(bot_frac)+len(top_frac))
 print ('\n*************************** Done! **************************\n')
 
