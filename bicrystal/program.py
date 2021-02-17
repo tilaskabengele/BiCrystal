@@ -2,7 +2,7 @@
 
 # PROGRAM: BiCRYSTAL
 
-# VERSION: 1.0.7
+# VERSION: 1.0.8
 
 # DESCRIPTION: This program buildscommensurate and incommensurate crystal structures of layered materials. Current version reads CIF files and writes the new structure to a QUANTUM ESPRESSO input file.
 
