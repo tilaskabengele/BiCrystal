@@ -37,6 +37,7 @@ from matplotlib.collections import PolyCollection
 from mpl_toolkits.mplot3d.art3d import Poly3DCollection
 from matplotlib import path
 from datetime import date, datetime
+import time
 
 
 # FUNCTIONS:
@@ -100,7 +101,6 @@ def highest(my_crystal):
         return max(z_cart)
 
 
-
 #**************************************
 # Function name: LOCATE(TEST_ATM,Z_BOT)
 # Description: Checks if a given atom is from the bottom or top layer
@@ -123,6 +123,28 @@ def locate(test_atm,z_bot):
 
         return answer
 
+
+# ***********************************
+# Function Name: INTERLAYER(atm_top,atm_bottom)
+# Description: Finds the interlayer seperation bettwen the layers
+# Inputs: Python crystal
+# Output: Interlayer seperation in bohr
+
+def interlayer(my_crystal):
+
+        atmz = []
+        for atm in my_crystal:
+            atmz.append(atm.coords_cartesian[2])
+
+        z = sorted(atmz)
+        z_bot = z[:len(z)//2]
+        z_top = z[len(z)//2:]
+        seperation = min(z_top) - max(z_bot)
+
+        return seperation*0.529177249
+
+
+
 #***********************************
 # Function name: NEWCELL(MY_CRYSTAL,M,N)
 # Description: This function creates lattice vectors of a rotated layer
@@ -131,14 +153,30 @@ def locate(test_atm,z_bot):
 
 def newcell(my_crystal,atoms,m,n):
 
-        a, b, c = my_crystal.lattice_vectors
-        v1 = atoms[0] + (m+n)*a + (m+n)*b
-        v2 = np.add(np.add(v1,(m+n)*a),n*b)
-        v3 = np.add(np.add(v2,(m+n)*b),m*a)
-        v4 = np.subtract(np.subtract(v3,(m+n)*a),n*b)
+#        a, b, c = my_crystal.lattice_vectors
+        a1, a2, a3, alpha, beta, gamma = my_crystal.lattice_parameters
+#        v1 = atoms[0] + (m+n)*a + (m+n)*b
+#        v2 = np.add(np.add(v1,(m+n)*a),n*b)
+#        v3 = np.add(np.add(v2,(m+n)*b),m*a)
+#        v4 = np.subtract(np.subtract(v3,(m+n)*a),n*b)
 
-        new_a = v2 - v1
-        new_b = v3 - v2
+        old_a = np.array([0.5*a1*np.sqrt(3), -0.5*a2, 0])
+        old_b = np.array([0, a2, 0])
+
+        v1 = atoms[0] + (m+n)*old_a + (m+n)*old_b
+        v2 = np.add(np.add(v1,(m+n)*old_a),n*old_b)
+        v3 = np.add(np.add(v2,(m+n)*old_b),m*old_a)
+        v4 = np.subtract(np.subtract(v3,(m+n)*old_a),n*old_b)
+
+#        old_a = np.array([a1*0.5*np.sqrt(3), -0.5*a2, 0])
+#        old_b = np.array([0, a2, 0])
+#        old_c = np.array([0, 0, a3])
+
+#        new_a = n*old_b - m*old_a
+#        new_b = m*old_b - n*old_a
+
+        new_a = v3 - v2
+        new_b = v2 - v1
 
         # ang to bohr mytiply by 1.8897259886
 
@@ -320,8 +358,16 @@ n = int(input('Enter n '))
 # lattice parameters
 a, b, c, alpha, beta, gamma = my_crystal.lattice_parameters
 
+# specify vacuum size in bohr
+#print('\n***Specify z-coordinate in cell parameter***')
+#print ('(Default = ', c*1.8897259886,' Bohr)')
+#vacuum = float(input('Enter z value [Bohr] '))
+
 #### Initializing top and bottom layers ####
 tt_top,tt_bot,elt_top,elt_bot = bulk(my_crystal)
+
+# Interlayer seperation #
+#d = interlayer(my_crystal)
 
 # lattice vectors
 a1, a2, a3 = my_crystal.lattice_vectors
@@ -422,6 +468,10 @@ print('\nATOMIC_POSITIONS crystal')
 ################### loops for bottom layer ##################
 #############################################################
 
+bt0 = time.time()
+bt1 = time.time()
+
+
 tt1 = []
 tt2 = []
 atoms_bot = []
@@ -447,6 +497,7 @@ symb_bot = symb1 + symb2
 atoms_bot = list(tt1) + list (tt2)
 #atoms_bot = np.array(atoms_bot)
 
+elbt1 = time.time() - bt1
 
 ### Initializing new unit cell ###
 
@@ -537,10 +588,13 @@ for atm in bot_frac:
     i+=1
     nat_bot+=1
 
+elbt = time.time() - bt0
 
+#0.5-(atm[2]*c*1.8897259886)/vacuum
 
 ####################### loops for top layer ##################
 ##############################################################
+tp0 = time.time()
 
 tt1 = []
 tt2 = []
@@ -658,7 +712,8 @@ for atm in top_frac:
     i+=1
     nat_top+=1
 
-
+#0.5+(atm[2]*c*1.8897259886)/vacuum
+eltp = time.time() - tp0
 ########################################################
 ############## closing part of scf.in file #############
 
@@ -667,46 +722,62 @@ for atm in top_frac:
 print ('\nK_POINTS automatic')
 print ('8 8 1 1 1 1')
 
+#new_a = np.linalg.norm(newa1b)
+old_a = np.array([a*0.5*np.sqrt(3), -0.5*b, 0])
+old_b = np.array([0, b, 0])
+old_c = np.array([0, 0, c])
+
+newa1 = -m*old_a + n*old_b
+newa2 = -m*old_b + n*old_a
+
 # cell parameters in bohr
-uc1 = np.around(newa1b*1.8897259886, decimals=8)
-uc2 = np.around(newa2b*1.8897259886, decimals=8)
-uc3 = np.around(a3*1.8897259886, decimals=8)
+uc1 = np.around(newa1b*1.8897259886, decimals=12)
+uc2 = np.around(newa2b*1.8897259886, decimals=12)
+uc3 = np.around(a3*1.8897259886, decimals=12)
 uc1 = list(uc1)
 uc2 = list(uc2)
 uc3 = list(uc3)
 
 #unit_cell = ' '.join([str(elem) for elem in uc])
 print ('\nCELL_PARAMETERS bohr')
-print (' ','{:12.6f} {:12.6f} {:12.6f}'.format(uc1[0],uc1[1],uc1[2]))
-print (' ','{:12.6f} {:12.6f} {:12.6f}'.format(uc2[0],uc2[1],uc2[2]))
-print (' ','{:12.6f} {:12.6f} {:12.6f}'.format(uc3[0],uc3[1],uc3[2]))
-
+print ('   ','{:17.12f} {:17.12f} {:17.12f}'.format(uc1[0],uc1[1],uc1[2]))
+print ('   ','{:17.12f} {:17.12f} {:17.12f}'.format(uc2[0],uc2[1],uc2[2]))
+print ('   ','{:17.12f} {:17.12f} {:17.12f}'.format(uc3[0],uc3[1],uc3[2]))
 
 #############################################################
 ##################### PLOTTING RESULTS ######################
 
+pt1 = time.time()
 
 ## figure settings ##
 fig = plt.figure(figsize = (8, 8))
 ax = fig.add_subplot(111, projection='3d')
-fig.set_facecolor('black')
-ax.set_facecolor('black')
+fig.set_facecolor('white')
+ax.set_facecolor('white')
 ax.grid(False)
-ax.w_xaxis.set_pane_color((0.0, 0.0, 0.0, 0.0))
-ax.w_yaxis.set_pane_color((0.0, 0.0, 0.0, 0.0))
-ax.w_zaxis.set_pane_color((0.0, 0.0, 0.0, 0.0))
+ax.set_xticks([])
+ax.set_yticks([])
+ax.set_zticks([])
+plt.axis('off')
+plt.grid(b=None)
+#ax.w_xaxis.set_pane_color((0.0, 0.0, 0.0, 0.0))
+#ax.w_yaxis.set_pane_color((0.0, 0.0, 0.0, 0.0))
+#ax.w_zaxis.set_pane_color((0.0, 0.0, 0.0, 0.0))
 
 
 # Initializing bottom coordinates for new unitcell plotting
 coord = [p1b, p2b, p3b, p4b]
 coord.append(coord[0])
 xb, yb = zip(*coord)
-plt.plot(xb,yb)
+
+# plotting boundary at lowest z position
+zb = lowest(my_crystal)
+plt.plot(xb,yb,zb)
 
 # plotting bottom layer atoms
 bot = bot.T
 supx,supy,supz = list(bot)
-ax.scatter(supx, supy, supz, s=10*num, c='tab:green', alpha=0.4)
+ax.scatter(supx, supy, supz, s=5*num, c='tab:green', alpha=0.4)
 ax.scatter(supx, supy, supz, c='tab:blue')
 
 # Adding bonds to bottom layer
@@ -727,15 +798,18 @@ for atm in botl:
 
 
 # Initializing TOP coordinates for new unitcell plotting
-#coord = [p1t, p2t, p3t, p4t]
-#coord.append(coord[0])
-#xt, yt = zip(*coord)
-#plt.plot(xt,yt)
+coord = [p1t, p2t, p3t, p4t]
+coord.append(coord[0])
+xt, yt = zip(*coord)
+
+# plotting the boundary at hiest z position
+zt = highest(my_crystal)
+plt.plot(xt,yt,zt)
 
 # plotting TOP layer atoms
 top = top.T
 supx,supy,supz = list(top)
-ax.scatter(supx, supy, supz, s=10*num, c='tab:red', alpha=0.4)
+ax.scatter(supx, supy, supz, s=5*num, c='tab:red', alpha=0.4)
 ax.scatter(supx, supy, supz, c='tab:blue')
 
 # Adding bonds to TOP layer
@@ -758,23 +832,26 @@ for atm in topl:
 
 plt.show()
 
+elplt = time.time() - pt1
 
+
+j2 = 90 + np.rad2deg(phi/2)
+mk = 1/(2*(np.abs(np.sin((phi/2)))))
 ########################## SUMMARY REPORT ###############################
 
 print ("\n********************* SUMMARY REPORT ***********************")
-print ('\nRotation angle (deg) = ', np.round(rotation_angle,3))
-print ('Relative Rotation (deg) = ',np.round(np.rad2deg(phi),3))
+#print ('\nRotation angle (deg) = ', np.round(rotation_angle,3))
+#print ('Relative Rotation (deg) = ',np.round(np.rad2deg(phi),3))
+print ('\nHermann moire rotation = ', j2)
+print ('Hermann moire constant = ', mk)
 print ('\nTop atoms(rotated) = ',len(top_frac))
 print ('Bottom atoms  = ',len(bot_frac))
 print ('\nTotal atoms \n=', len(bot_frac)+len(top_frac))
-print ('\n*************************** Done! **************************\n')
-
-
-
-
-
-
-
-
-
-
+#print ('\n Gamma = ', j2 + np.round(rotation_angle,3))
+#print ( '\n lattice vectors = ',1.8897259886*a, 1.8897259886*b, 1.8897259886*c)
+#print ('\n Erin method lattice vectors = ',1.8897259886*old_a,1.8897259886*old_b)
+#print ('time for replication', elbt1)
+#print ('time for plotting', elplt)
+#print ('\ntotal time top layer',eltp)
+#print ('total time bottom layer',elbt)
+print ('\n*************************** Done!! **************************\n')
