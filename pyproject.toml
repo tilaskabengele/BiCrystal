@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "bicrystal"
+version = "0.1.0"
+description = ""
+authors = ["Tilas Kabengele <tilas_kabengele@brown.edu>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pycifrw = "4.4.2"
+crystals = "^1.6.0"
+shapely = "^1.8.5.post1"
+pandas = "^1.5.0"
+scipy = "^1.9.2"
+scikit-learn = "^1.1.2"
+matplotlib = "^3.6.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
