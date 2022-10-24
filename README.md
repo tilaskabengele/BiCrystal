@@ -26,7 +26,7 @@ https://github.com/tilaskabengele/BiCrystal/releases/tag/v1.0.7
 **Contact**: Tilas Kabengele tilas.kabengele@dal.ca
 
 # Packages
-`BiCrystal` is a python-based program that uses Scipy and Shapely libraries. Additionally, the Crystal and shapely packages, which is not part of the standard Python packages, should be installed. i.e Install via pip or conda:
+`BiCrystal` is a python 3 program that uses Scipy and Shapely libraries. We recommend running BiCrystal in python 3.8.x, where it has been thoroughly tested. BiCrystal uses the Crystal and shapely packages, which is not part of the standard Python packages. Although these can be installed via pip or conda as follows:
 
      pip install crystals
 or
@@ -36,7 +36,7 @@ and
 
     pip install shapely
     
-For more information on crystals and shapely, visit: https://pypi.org/project/crystals/ and https://pypi.org/project/Shapely/ respectively.
+We recommend installing BiCrystal and all its dependencies via poetry using the .lock and .toml files provided. These files contain all the dependencies of BiCrsytal with the appropriate versions used. You can learn more about poetry from the official website: https://python-poetry.org/. For more information on crystals and shapely, visit: https://pypi.org/project/crystals/ and https://pypi.org/project/Shapely/ respectively.
  
 # Files
 **bicrystal** - Bash script which runs the python program \
@@ -64,6 +64,8 @@ Save, close then source your `.bashrc` file to activate the changes:
     source ~/.bashrc
 
 Restart your terminal window to start using `bicrystal`.
+
+Alternatively, with poetry, you can simply dwonload the repository by cloning it to your local machine. Then, create a python virtual environment using the .lock and .toml files provided. This will ensure that the correct versions of packages are installed.
 
 # Usage
 BiCrystal is an interactive program that instructs the user every step of the way. To start BiCrystal, in the terminal type:
