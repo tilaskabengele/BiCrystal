@@ -65,7 +65,7 @@ Save, close then source your `.bashrc` file to activate the changes:
 
 Restart your terminal window to start using `bicrystal`.
 
-Alternatively, with poetry, you can simply dwonload the repository by cloning it to your local machine. Then, create a python virtual environment using the .lock and .toml files provided. This will ensure that the correct versions of packages are installed.
+Alternatively, with poetry, you can simply dwonload the repository by cloning it to your local machine. Then, create a python virtual environment using the .lock and .toml files provided. This will ensure that the correct versions of packages are installed. Note, if you are installing via poetry, you do not need to seperately install the Sharpely or Crystals packages. Poetry does all that for you. 
 
 # Usage
 BiCrystal is an interactive program that instructs the user every step of the way. To start BiCrystal, in the terminal type:
