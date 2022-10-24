@@ -26,7 +26,7 @@ https://github.com/tilaskabengele/BiCrystal/releases/tag/v1.0.7
 **Contact**: Tilas Kabengele tilas.kabengele@dal.ca
 
 # Packages
-`BiCrystal` is a python 3 program that uses Scipy and Shapely libraries. We recommend running BiCrystal in python 3.8.x, where it has been thoroughly tested. BiCrystal uses the Crystal and shapely packages, which is not part of the standard Python packages. Although these can be installed via pip or conda as follows:
+We recommend running BiCrystal in python 3.8.x, where it has been thoroughly tested. BiCrystal uses the crystals and shapely packages, which are not part of the standard Python library. Although these can be installed via pip or conda as follows:
 
      pip install crystals
 or
