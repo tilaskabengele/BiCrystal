@@ -14,7 +14,7 @@ Contents
 **License** 
 
 # Overview
-Building unit cells of arbitrary size is often an inevitable task when studying the physical and mechanical properties of layered materials such as graphene, hexagonal Boron Nitride, transition metal dichalcogenides. Although most visualzation software such as Xcrysden, VESTA or Avogadro provide very powerful tools for analysing and manipulating periodic crystal structures, constructing large unit cells in bilayers with one of the layers perturbed can be very daunting. ``BiCrystal`` provides a convinient and easy way of creating new crystal structures of arbitrary size from CIF files.
+Building unit cells of arbitrary size is often an inevitable task when studying the physical and mechanical properties of layered materials such as graphene, hexagonal Boron Nitride, transition metal dichalcogenides. Although most visualzation software such as Xcrysden, VESTA or Avogadro provide very powerful tools for analysing and manipulating periodic crystal structures, constructing large unit cells in bilayers with one of the layers perturbed can be very daunting. ``BiCrystal`` provides a convenient and easy way of creating new crystal structures of arbitrary size from CIF files.
 
 # Download and Installation
 The latest version of ``BiCrystal`` can be found on github:
