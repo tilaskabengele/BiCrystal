@@ -1,5 +1,3 @@
-#!/bin/python3
-
 # PROGRAM: BiCRYSTAL
 
 # VERSION: 1.0.8
@@ -7,11 +5,6 @@
 # DESCRIPTION: This program buildscommensurate and incommensurate crystal structures of layered materials. Current version reads CIF files and writes the new structure to a QUANTUM ESPRESSO input file.
 
 # AUTHOR: T. Kabengele, Johnson Chemistry Group, Dalhousie University
-
-# REQUIREMENTS:
-# Python "crystals" package must be installed on your system
-# Install via: pip install crystals
-# Alternative install: conda install -c conda-forge crystals
 
 #********************************************************************************************************
 
@@ -336,12 +329,11 @@ print ('************************************************************************
 
 # reading csv with elements from workspace
 # i.e. directory where you installed bicrystal
-with open('workspace') as f:
+with open('program.py') as f:
     line = f.readline()
 program_directory = str(line).rstrip("\n")
-dir1 = os.path.join("" +program_directory+"", 'periodic_table.csv')
 colnames = ['number', 'symbol']
-periodic_table = pandas.read_csv(dir1, usecols=colnames)
+periodic_table = pandas.read_csv('periodic_table.csv', usecols=colnames)
 number = periodic_table.number.tolist()
 symbol = periodic_table.symbol.tolist()
 

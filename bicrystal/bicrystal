@@ -2,12 +2,10 @@
 
 rm -f number_of_atoms unitcell body outfile heading heading_nat atoms sorted_atoms k_points
 
-t1=$(whereis program.py | awk '{print $2}')
-t2=$(whereis program.py | awk '{print $2}' | sed -r 's/.{10}$//')
-echo $t2 > workspace
-python $t1 2>&1 | tee outfile
-rm -f workspace
+# execute python script for bicrystal
+python program.py 2>&1 | tee outfile
 
+# postprocess the results and prepare output file
 echo "Would you like to write Espresso file?[Y/n]"
 
 read reply
