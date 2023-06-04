@@ -19,7 +19,7 @@ Building unit cells of arbitrary size is often an inevitable task when studying 
 # Download and Installation
 The latest version of ``BiCrystal`` can be found on github:
 
-https://github.com/tilaskabengele/BiCrystal/releases/tag/v1.0.7
+https://github.com/tilaskabengele/BiCrystal
 
 
 **Contact**: Tilas Kabengele at tilas.kabengele@dal.ca or tilas_kabengele@brown.edu
@@ -85,7 +85,7 @@ After that, you will be required to pick a zeroeth atom from the top and bottom 
  
  ![cc28](https://user-images.githubusercontent.com/62076249/87927879-48795500-ca5a-11ea-98c1-b2949bb672e3.PNG)
  
- Finally, you can save your output as a QUANTUM ESPRESSO file and visualize with Xcrysden for a more sophisticated look.
+ Finally, you can save your output as a QUANTUM ESPRESSO file and visualize with VESTA or Xcrysden for a more sophisticated look.
  
      ********************* SUMMARY REPORT ***********************
     

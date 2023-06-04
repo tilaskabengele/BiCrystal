@@ -1,0 +1,98 @@
+# Importing required packages
+import numpy as np
+import matplotlib.pyplot as plt
+from mpl_toolkits.mplot3d import Axes3D
+from matplotlib import colors as mcolors
+from sklearn.neighbors import NearestNeighbors
+import json
+
+# Helper functions
+from helpers_bicrystal import *
+
+# Read variables from file
+with open('atomic_plotting_data.json', 'r') as file:
+    data = json.load(file)
+    v1rb = np.array(data['v1rb'])
+    v2rb = np.array(data['v2rb'])
+    v3rb = np.array(data['v3rb'])
+    v4rb = np.array(data['v4rb'])
+    v1rt = np.array(data['v1rt'])
+    v2rt = np.array(data['v2rt'])
+    v3rt = np.array(data['v3rt'])
+    v4rt = np.array(data['v4rt'])
+    atm = np.array(data['atm'])
+    zb = np.array(data['zb'])
+    zt = np.array(data['zt'])
+    bond_distance = data['bond_distance']
+    bot = np.array(data['bot'])
+    symb_num_bot = data['symb_num_bot']
+    symb_num_top = data['symb_num_top']
+    botl = data['botl']
+    top = np.array(data['top'])
+    topl = data['topl']
+    coord_b = data['coord_b']
+    coord_t = data['coord_t']
+
+# Figure settings
+fig = plt.figure(figsize=(8, 8))
+ax = fig.add_subplot(111, projection='3d')
+ax.set_facecolor('white')
+ax.grid(False)
+ax.axis('off')
+
+# Extracting x and y coordinates for bottom layer
+xb, yb = zip(*coord_b)
+
+# Plotting boundary at lowest z position
+plt.plot(xb, yb, zb, color='black')
+
+# Plotting bottom layer atoms
+ax.scatter(bot[:, 0], bot[:, 1], bot[:, 2], s=10, c='tab:green', alpha=0.4)
+ax.scatter(bot[:, 0], bot[:, 1], bot[:, 2], c='tab:blue')
+
+# Polygon boundaries
+boundary_bot, _, _, _, _ = poly(v1rb, v2rb, v3rb, v4rb)
+boundary_top, _, _, _, _ = poly(v1rt, v2rt, v3rt, v4rt)
+
+# Adding bonds to bottom layer
+neigh = NearestNeighbors(radius=bond_distance + 0.1).fit(botl)
+for i, atm in enumerate(botl):
+    rng = neigh.radius_neighbors([list(atm)])
+    dis = np.asarray(rng[0][0])
+    idx = np.asarray(rng[1][0])
+    if inpoly(atm, boundary_bot):
+        for j in idx:
+            atz = [atm, list(botl[j])]
+            xb, yb, zb = zip(*atz)
+            num = symb_num_bot[j]
+            ax.plot(xb, yb, zb, '-bo', alpha=1)
+
+# Extracting x and y coordinates for top layer
+xt, yt = zip(*coord_t)
+
+# Plotting the boundary at highest z position
+plt.plot(xt, yt, zt, color='black')
+
+# Plotting top layer atoms
+ax.scatter(top[:, 0], top[:, 1], top[:, 2], s=5, c='tab:red', alpha=0.4)
+ax.scatter(top[:, 0], top[:, 1], top[:, 2], c='tab:blue')
+
+# Adding bonds to top layer
+neigh = NearestNeighbors(radius=bond_distance + 0.1).fit(topl)
+for i, atm in enumerate(topl):
+    rng = neigh.radius_neighbors([list(atm)])
+    dis = np.asarray(rng[0][0])
+    idx = np.asarray(rng[1][0])
+    if inpoly(atm, boundary_top):
+        for j in idx:
+            atz = [atm, list(topl[j])]
+            xt, yt, zt = zip(*atz)
+            num = symb_num_top[j]
+            ax.plot(xt, yt, zt, '-ro', alpha=1)
+
+# Set axis labels
+ax.set_xlabel('X')
+ax.set_ylabel('Y')
+ax.set_zlabel('Z')
+
+plt.show()

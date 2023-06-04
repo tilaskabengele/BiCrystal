@@ -1,48 +1,49 @@
 #!/bin/bash
 
+# Remove unnecessary files
 rm -f number_of_atoms unitcell body outfile heading heading_nat atoms sorted_atoms k_points
 
-# execute python script for bicrystal
+# Execute python script for bicrystal
 python program.py 2>&1 | tee outfile
 
-# postprocess the results and prepare output file
-echo "Would you like to write Espresso file?[Y/n]"
-
+# Post-process the results and prepare output file
+echo -e "\nWould you like to write an Espresso file? [Y/n]"
 read reply
 
-if [[ "$reply" == "y" ]]
-	 then
-		echo "Save as:"
-		read filename
-elif [[ "$reply" == "Y" ]]
-	then
-		echo "Save as"
-		read filename
-elif [[ "$reply" == "n" ]]
-         then
-                exit
-elif [[ "$reply" == "N" ]]
-        then
-                exit
-else 
-	echo "Invalid"
-	echo "Stop"
-	exit
+if [[ "$reply" == "y" || "$reply" == "Y" ]]; then
+  echo "Save as:"
+  read -r filename
+elif [[ "$reply" == "n" || "$reply" == "N" ]]; then
+  echo -e "\n\n\nGoodbye!\n\n***\n\n"
+  rm -f outfile
+  exit
+else
+  echo "Invalid input. Stop."
+  rm -f outfile
+  exit
 fi
-tail -n -4 outfile | head -n 1 > number_of_atoms
-uc=$(sed -n '/CELL_PARAMETERS/,+3p' outfile | column -t | tail -n 3 | sed -e "s/^/     /")
+
+# Extract relevant data from the output file
+number_of_atoms=$(grep -m 1 -A 1 "Total atoms" outfile | tail -n 1 | awk '{print $NF}')
+uc=$(sed -n '/CELL_PARAMETERS/,+3p' outfile)
 echo "$uc" > unitcell
 sed -n '/control/,/ATOMIC_POSITIONS/p' outfile > heading
-sed "s/= atoms/$(cat number_of_atoms)/g" heading > heading_nat
+sed "s/nat[[:space:]]*=[[:space:]]*atoms/nat = $number_of_atoms/" heading > heading_nat
 sed -n '/ATOMIC_POSITIONS/,/K_POINTS/p' outfile | tail -n +2 | head -n -2 > atoms
-sort -k 4n atoms > sorted_atoms
+sort -k 4n -o sorted_atoms atoms
 echo >> sorted_atoms
 sed -n '/K_POINTS/,+1p' outfile > k_points
 echo >> k_points
-sed -n '/CELL_PARAMETERS/,+0p' outfile > cell_par
-cat heading_nat sorted_atoms k_points cell_par unitcell > $filename
+sed -n '/CELL_PARAMETERS/,-1p' outfile | tail -n 3  > cell_par
 
+# Combine the extracted data into the final output file
+cat heading_nat sorted_atoms k_points cell_par unitcell > "$filename"
+
+# Replace the number of atoms in the output file
+sed -i "s/nat = atoms/nat = $number_of_atoms/" "$filename"
+
+# Remove unnecessary files
 rm -f number_of_atoms cell_par unitcell body outfile heading heading_nat atoms sorted_atoms k_points
 
-rm -f outfile
+echo -e "\n\n\nGoodbye!\n\n***\n\n"
 
