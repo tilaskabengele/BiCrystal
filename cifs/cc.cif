@@ -1,0 +1,85 @@
+####################################################################### 
+# 
+# This file contains crystal structure data downloaded from the 
+# Cambridge Structural Database (CSD) hosted by the Cambridge 
+# Crystallographic Data Centre (CCDC).
+# 
+# Full information about CCDC data access policies and citation 
+# guidelines are available at http://www.ccdc.cam.ac.uk/access/V1 
+# 
+# Audit and citation data items may have been added by the CCDC. 
+# Please retain this information to preserve the provenance of 
+# this file and to allow appropriate attribution of the data. 
+# 
+#######################################################################
+
+data_global
+_audit_block_doi                 10.5517/cczttm6
+_database_code_depnum_ccdc_archive 'CCDC 918549'
+loop_
+_citation_id
+_citation_doi
+_citation_year
+1 10.1007/BF01327534 1924
+_audit_update_record             
+;
+2014-08-04 deposited with the CCDC.	2019-10-04 downloaded from the CCDC.
+;
+_chemical_name_mineral           Graphite
+_database_code_amcsd             0017960
+_chemical_formula_sum            C
+_symmetry_cell_setting           Hexagonal
+_cell_measurement_reflns_used    3047
+_cell_measurement_theta_min      4.99
+_cell_measurement_theta_max      45
+_cell_formula_units_Z            4
+_exptl_crystal_description       'Two directions equivalent to grow'
+_exptl_crystal_size_max          0.0000598
+_exptl_crystal_size_mid          0.0000537
+_exptl_crystal_size_min          0.0000497
+_atom_site_aniso_label           unknown
+_chemical_formula_weight         12.01
+_diffrn_measurement_device_type  'Shimadzu XRD-6000'
+_diffrn_measurement_method       'profile data from \q/2\q scans'
+_diffrn_radiation_wavelength     0.76
+_geom_bond_distance              1.4265
+_diffrn_measured_fraction_theta_full 1.0
+_exptl_crystal_density_meas      ?
+_cell_measurement_temperature    298
+_diffrn_ambient_temperature      298
+_cell_length_a                   2.47
+_cell_length_b                   2.47
+_cell_length_c                   6.79
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                120
+_cell_volume                     35.875
+_exptl_crystal_density_diffrn    2.224
+_symmetry_space_group_name_H-M   'P 63 m c'
+loop_
+_geom_bond_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+'c c 1.4265(6).y' 'c c 149.972(4).y' 'c c 90(2).y'
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+-x,-x+y,1/2+z
+x-y,x,1/2+z
+-y,-x,z
+-y,x-y,z
+x-y,-y,1/2+z
+-x,-y,1/2+z
+x,x-y,z
+-x+y,-x,z
+y,x,1/2+z
+y,-x+y,1/2+z
+-x+y,y,z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+C1 0.00000 0.00000 0.00000
+C2 0.33333 0.66667 0.00500
+

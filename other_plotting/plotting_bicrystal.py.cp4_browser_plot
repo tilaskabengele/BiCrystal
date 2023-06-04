@@ -1,0 +1,127 @@
+import json
+import plotly.graph_objects as go
+import numpy as np
+
+import json
+
+# Importing NearestNeighbors
+from sklearn.neighbors import NearestNeighbors
+
+# Helper functions
+from helpers_bicrystal import *
+
+# Read variables from file
+with open('atomic_plotting_data.json', 'r') as file:
+    data = json.load(file)
+    v1rb = np.array(data['v1rb'])
+    v2rb = np.array(data['v2rb'])
+    v3rb = np.array(data['v3rb'])
+    v4rb = np.array(data['v4rb'])
+    v1rt = np.array(data['v1rt'])
+    v2rt = np.array(data['v2rt'])
+    v3rt = np.array(data['v3rt'])
+    v4rt = np.array(data['v4rt'])
+    atm = np.array(data['atm'])
+    zb = np.array(data['zb'])
+    zt = np.array(data['zt'])
+    bond_distance = data['bond_distance']
+    bot = np.array(data['bot'])
+    symb_num_bot = data['symb_num_bot']
+    symb_num_top = data['symb_num_top']
+    botl = np.array(data['botl'])
+    top = np.array(data['top'])
+    topl = np.array(data['topl'])
+    coord_b = data['coord_b']
+    coord_t = data['coord_t']
+
+# Calculate boundary points for the bottom layer
+boundary_bot, _, _, _, _ = poly(v1rb, v2rb, v3rb, v4rb)
+boundary_top, _, _, _, _ = poly(v1rt, v2rt, v3rt, v4rt)
+
+# Create a 3D scatter plot figure
+fig = go.Figure()
+
+# Plotting bottom layer atoms as spheres
+fig.add_trace(go.Scatter3d(
+    x=botl[:, 0],
+    y=botl[:, 1],
+    z=botl[:, 2],
+    mode='markers',
+    marker=dict(
+    size=2,
+    color='rgb(0, 128, 0)',  # Green color
+    opacity=0.4
+)
+))
+
+# Adding bonds to bottom layer
+neigh = NearestNeighbors(radius=bond_distance + 0.1).fit(botl)
+for i, atom in enumerate(botl):
+    rng = neigh.radius_neighbors([list(atom)])
+    dis = np.asarray(rng[0][0])
+    idx = np.asarray(rng[1][0])
+    if inpoly(atom, boundary_bot):
+        for j in idx:
+            x_bond = [atom[0], botl[j][0]]
+            y_bond = [atom[1], botl[j][1]]
+            z_bond = [atom[2], botl[j][2]]
+            fig.add_trace(go.Scatter3d(
+                x=x_bond,
+                y=y_bond,
+                z=z_bond,
+                mode='lines',
+                line=dict(
+                    color='black',
+                    width=0.5
+                )
+            ))
+
+# Plotting top layer atoms as spheres
+fig.add_trace(go.Scatter3d(
+    x=topl[:, 0],
+    y=topl[:, 1],
+    z=topl[:, 2],
+    mode='markers',
+    marker=dict(
+    size=2,
+    color='rgb(255, 0, 0)',  # Red color
+    opacity=0.4
+)
+))
+
+# Adding bonds to top layer
+neigh = NearestNeighbors(radius=bond_distance + 0.1).fit(topl)
+for i, atom in enumerate(topl):
+    rng = neigh.radius_neighbors([list(atom)])
+    dis = np.asarray(rng[0][0])
+    idx = np.asarray(rng[1][0])
+    if inpoly(atom, boundary_top):
+        for j in idx:
+            x_bond = [atom[0], topl[j][0]]
+            y_bond = [atom[1], topl[j][1]]
+            z_bond = [atom[2], topl[j][2]]
+            fig.add_trace(go.Scatter3d(
+                x=x_bond,
+                y=y_bond,
+                z=z_bond,
+                mode='lines',
+                line=dict(
+                    color='black',
+                    width=0.5
+                )
+            ))
+
+# Set the layout of the plot
+fig.update_layout(
+    scene=dict(
+        xaxis=dict(showticklabels=False),
+        yaxis=dict(showticklabels=False),
+        zaxis=dict(showticklabels=False),
+        aspectmode='cube'
+    ),
+    showlegend=False
+)
+
+# Display the plot
+fig.show()
+
