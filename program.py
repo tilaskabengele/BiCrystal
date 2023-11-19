@@ -191,7 +191,6 @@ symb_bot = symb1 + symb2
 atoms_bot = list(tt1) + list (tt2)
 #atoms_bot = np.array(atoms_bot)
 
-elbt1 = time.time() - bt1
 
 ### Initializing new unit cell ###
 
